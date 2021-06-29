@@ -1,0 +1,548 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.w3.org/1998/Math/MathML" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.w3.org/1999/xlink"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="abs" type="d2p1:Arith.type"/>
+	<property name="and"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="annotation" type="d2p1:annotation.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="annotation_xml" type="d2p1:annotation-xml.type" localName="annotation-xml"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="apply" type="d2p1:apply.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="approx" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arccos" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arccosh" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arccot" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arccoth" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arccsc" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arccsch" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arcsec" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arcsech" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arcsin" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arcsinh" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arctan" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arctanh" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="arg" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="bvar" type="d2p1:bvar.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="card" type="d2p1:card.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="cartesianproduct" type="d2p1:cartesianproduct.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="ceiling" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="ci" type="d2p1:ci.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="cn" type="d2p1:cn.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="codomain" type="d2p1:Functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="complexes" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="compose" type="d2p1:Functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="condition" type="d2p1:condition.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="conjugate" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="cos" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="cosh" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="cot" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="coth" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="csc" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="csch" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="csymbol" type="d2p1:csymbol.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="curl" type="d2p1:curl.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="declare" type="d2p1:declare.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="degree" type="d2p1:degree.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="determinant" type="d2p1:determinant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="diff" type="d2p1:diff.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="divergence" type="d2p1:divergence.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="divide" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="domain" type="d2p1:Functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="domainofapplication" type="d2p1:domainofapplication.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="emptyset" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="eq" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="equivalent" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="eulergamma" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="exists" type="d2p1:Logic.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="exp" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="exponentiale" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="factorial" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="factorof" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="false" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="floor" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="forall" type="d2p1:Logic.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="gcd" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="geq" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="grad" type="d2p1:grad.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="gt" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="ident" type="d2p1:Functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="image" type="d2p1:Functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="imaginary" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="imaginaryi" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="implies" type="d2p1:Logic.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="in" type="d2p1:in.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="infinity" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="int" type="d2p1:int.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="integers" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="intersect" type="d2p1:intersect.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="interval" type="d2p1:interval.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="inverse" type="d2p1:inverse.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="lambda" type="d2p1:lambda.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="laplacian" type="d2p1:laplacian.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="lcm" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="leq" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="limit" type="d2p1:limit.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="list" type="d2p1:list.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="ln" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="log" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="logbase" type="d2p1:logbase.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="lowlimit" type="d2p1:lowlimit.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="lt" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="maction" type="d2p1:maction.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="maligngroup" type="d2p1:maligngroup.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="malignmark" type="d2p1:malignmark.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="math" type="d2p1:math.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="matrix" type="d2p1:matrix.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="matrixrow" type="d2p1:matrixrow.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="max" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mean" type="d2p1:mean.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="median" type="d2p1:median.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="menclose" type="d2p1:menclose.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="merror" type="d2p1:merror.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mfenced" type="d2p1:mfenced.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mfrac" type="d2p1:mfrac.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mglyph" type="d2p1:mglyph.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mi" type="d2p1:mi.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="min" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="minus" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mlabeledtr" type="d2p1:mlabeledtr.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mmultiscripts" type="d2p1:mmultiscripts.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mn" type="d2p1:mn.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mo" type="d2p1:mo.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mode" type="d2p1:mode.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="moment" type="d2p1:moment.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="momentabout" type="d2p1:momentabout.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mover" type="d2p1:mover.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mpadded" type="d2p1:mpadded.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mphantom" type="d2p1:mphantom.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mprescripts" type="d2p1:mprescripts.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mroot" type="d2p1:mroot.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mrow" type="d2p1:mrow.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="ms" type="d2p1:ms.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mspace" type="d2p1:mspace.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="msqrt" type="d2p1:msqrt.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mstyle" type="d2p1:mstyle.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="msub" type="d2p1:msub.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="msubsup" type="d2p1:msubsup.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="msup" type="d2p1:msup.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mtable" type="d2p1:mtable.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mtd" type="d2p1:mtd.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mtext" type="d2p1:mtext.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="mtr" type="d2p1:mtr.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="munder" type="d2p1:munder.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="munderover" type="d2p1:munderover.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="naturalnumbers" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="neq" type="d2p1:Relations.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="none" type="d2p1:none.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="not" type="d2p1:Logic.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="notanumber" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="notin" type="d2p1:notin.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="notprsubset" type="d2p1:notprsubset.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="notsubset" type="d2p1:notsubset.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="or" type="d2p1:Logic.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="otherwise" type="d2p1:otherwise.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="outerproduct" type="d2p1:outerproduct.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="partialdiff" type="d2p1:partialdiff.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="pi" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="piece" type="d2p1:piece.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="piecewise" type="d2p1:piecewise.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="plus" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="power" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="primes" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="product" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="prsubset" type="d2p1:prsubset.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="quotient" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="rationals" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="real" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="reals" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="rem" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="root" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="scalarproduct" type="d2p1:scalarproduct.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sdev" type="d2p1:sdev.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sec" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sech" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="selector" type="d2p1:selector.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="semantics" type="d2p1:semantics.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sep" type="d2p1:sep.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="set" type="d2p1:set.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="setdiff" type="d2p1:setdiff.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sin" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sinh" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="subset" type="d2p1:subset.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="sum" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="tan" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="tanh" type="d2p1:Elementary-functions.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="tendsto" type="d2p1:tendsto.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="times" type="d2p1:Arith.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="transpose" type="d2p1:transpose.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="true" type="d2p1:Constant.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="union" type="d2p1:union.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="uplimit" type="d2p1:uplimit.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="variance" type="d2p1:variance.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="vector" type="d2p1:vector.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="vectorproduct" type="d2p1:vectorproduct.type"/>
+	<property xmlns:d2p1="http://www.w3.org/1998/Math/MathML" name="xor" type="d2p1:Logic.type"/>
+	<valueType name="RGB-color" base="xs:string" variety="Atomic">
+		<pattern>#(([0-9]|[a-f]){3}|([0-9]|[a-f]){6})</pattern>
+	</valueType>
+	<valueType name="centering" base="xs:string" variety="Atomic">
+		<enumeration>left</enumeration>
+		<enumeration>center</enumeration>
+		<enumeration>right</enumeration>
+	</valueType>
+	<valueType name="infinity" base="xs:string" variety="Atomic">
+		<enumeration>infinity</enumeration>
+	</valueType>
+	<valueType name="length-with-optional-unit" base="xs:string" variety="Atomic">
+		<pattern>-?([0-9]+|[0-9]*\.[0-9]+)*(em|ex|px|in|cm|mm|pt|pc|%)?</pattern>
+	</valueType>
+	<valueType name="length-with-unit" base="xs:string" variety="Atomic">
+		<pattern>(-?([0-9]+|[0-9]*\.[0-9]+)*(em|ex|px|in|cm|mm|pt|pc|%))|0</pattern>
+	</valueType>
+	<valueType name="mpadded-space" base="xs:string" variety="Atomic">
+		<pattern>(\+|-)?([0-9]+|[0-9]*\.[0-9]+)(((%?) *(width|lspace|height|depth))|(em|ex|px|in|cm|mm|pt|pc))</pattern>
+	</valueType>
+	<valueType name="mpadded-width-space" base="xs:string" variety="Atomic">
+		<pattern>((\+|-)?([0-9]+|[0-9]*\.[0-9]+)(((%?) *(width|lspace|height|depth)?)|(width|lspace|height|depth)|(em|ex|px|in|cm|mm|pt|pc)))|((veryverythin|verythin|thin|medium|thick|verythick|veryverythick)mathspace)|0</pattern>
+	</valueType>
+	<valueType name="named-space" base="xs:string" variety="Atomic">
+		<enumeration>veryverythinmathspace</enumeration>
+		<enumeration>verythinmathspace</enumeration>
+		<enumeration>thinmathspace</enumeration>
+		<enumeration>mediummathspace</enumeration>
+		<enumeration>thickmathspace</enumeration>
+		<enumeration>verythickmathspace</enumeration>
+		<enumeration>veryverythickmathspace</enumeration>
+	</valueType>
+	<valueType name="simple-size" base="xs:string" variety="Atomic">
+		<enumeration>small</enumeration>
+		<enumeration>normal</enumeration>
+		<enumeration>big</enumeration>
+	</valueType>
+	<valueType name="thickness" base="xs:string" variety="Atomic">
+		<enumeration>thin</enumeration>
+		<enumeration>medium</enumeration>
+		<enumeration>thick</enumeration>
+	</valueType>
+	<objectType name="Arith.type"/>
+	<objectType name="Constant.type"/>
+	<objectType name="Elementary-functions.type"/>
+	<objectType name="Functions.type"/>
+	<objectType name="Logic.type"/>
+	<objectType name="Relations.type"/>
+	<objectType name="annotation-xml.type" open="true" sequenced="true">
+		<property name="encoding" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="annotation.type" mixed="true" sequenced="true">
+		<property name="encoding" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="apply.type"/>
+	<objectType name="bvar.type"/>
+	<objectType name="card.type"/>
+	<objectType name="cartesianproduct.type"/>
+	<objectType name="ci.type" mixed="true" sequenced="true">
+		<property name="type" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="cn.type" mixed="true" ordered="false" sequenced="true">
+		<property name="base" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:positiveInteger" variety="Atomic" minInclusive="2" maxInclusive="36"/>
+		</property>
+		<property name="type" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:NMTOKEN" variety="Atomic">
+				<enumeration>e-notation</enumeration>
+				<enumeration>integer</enumeration>
+				<enumeration>rational</enumeration>
+				<enumeration>real</enumeration>
+				<enumeration>complex-cartesian</enumeration>
+				<enumeration>complex-polar</enumeration>
+				<enumeration>constant</enumeration>
+			</typeDef>
+		</property>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:sep" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="condition.type"/>
+	<objectType name="csymbol.type" mixed="true" sequenced="true"/>
+	<objectType name="curl.type"/>
+	<objectType name="declare.type">
+		<property name="type" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="scope" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="nargs" type="xs:nonNegativeInteger" lowerBound="0" form="Attribute"/>
+		<property name="occurrence" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>prefix</enumeration>
+				<enumeration>infix</enumeration>
+				<enumeration>function-model</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="degree.type"/>
+	<objectType name="determinant.type"/>
+	<objectType name="diff.type"/>
+	<objectType name="divergence.type"/>
+	<objectType name="domainofapplication.type"/>
+	<objectType name="grad.type"/>
+	<objectType name="in.type"/>
+	<objectType name="int.type"/>
+	<objectType name="intersect.type"/>
+	<objectType name="interval.type">
+		<property name="closure" lowerBound="0" fixed="false" default="closed" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>closed</enumeration>
+				<enumeration>open</enumeration>
+				<enumeration>open-closed</enumeration>
+				<enumeration>closed-open</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="inverse.type"/>
+	<objectType name="lambda.type"/>
+	<objectType name="laplacian.type"/>
+	<objectType name="limit.type"/>
+	<objectType name="list.type">
+		<property name="order" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>lexicographic</enumeration>
+				<enumeration>numeric</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="logbase.type"/>
+	<objectType name="lowlimit.type"/>
+	<objectType name="maction.type">
+		<property name="actiontype" type="xs:string" lowerBound="1" form="Attribute"/>
+		<property name="selection" type="xs:positiveInteger" lowerBound="0" fixed="false" default="1" form="Attribute"/>
+	</objectType>
+	<objectType name="maligngroup.type">
+		<property name="groupalign" lowerBound="0" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>left</enumeration>
+				<enumeration>center</enumeration>
+				<enumeration>right</enumeration>
+				<enumeration>decimalpoint</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="malignmark.type">
+		<property name="edge" lowerBound="0" fixed="false" default="left" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>left</enumeration>
+				<enumeration>right</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="math.type">
+		<property name="macros" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="display" lowerBound="0" fixed="false" default="inline" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>block</enumeration>
+				<enumeration>inline</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="matrix.type" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:matrixrow" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="matrixrow.type"/>
+	<objectType name="mean.type"/>
+	<objectType name="median.type"/>
+	<objectType name="menclose.type">
+		<property name="notation" lowerBound="0" fixed="false" default="longdiv" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>actuarial</enumeration>
+				<enumeration>longdiv</enumeration>
+				<enumeration>radical</enumeration>
+				<enumeration>box</enumeration>
+				<enumeration>roundedbox</enumeration>
+				<enumeration>circle</enumeration>
+				<enumeration>left</enumeration>
+				<enumeration>right</enumeration>
+				<enumeration>top</enumeration>
+				<enumeration>bottom</enumeration>
+				<enumeration>updiagonalstrike</enumeration>
+				<enumeration>downdiagonalstrike</enumeration>
+				<enumeration>verticalstrike</enumeration>
+				<enumeration>horizontalstrike</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="merror.type"/>
+	<objectType name="mfenced.type">
+		<property name="open" type="xs:string" lowerBound="0" fixed="false" default="(" form="Attribute"/>
+		<property name="close" type="xs:string" lowerBound="0" fixed="false" default=")" form="Attribute"/>
+		<property name="separators" type="xs:string" lowerBound="0" fixed="false" default="," form="Attribute"/>
+	</objectType>
+	<objectType name="mfrac.type">
+		<property name="bevelled" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="denomalign" lowerBound="0" fixed="false" default="center" form="Attribute"/>
+		<property name="numalign" lowerBound="0" fixed="false" default="center" form="Attribute"/>
+		<property name="linethickness" lowerBound="0" fixed="false" default="1" form="Attribute">
+			<typeDef xsi:type="ValueType" variety="Union" memberTypes="{http://www.w3.org/1998/Math/MathML}length-with-optional-unit {http://www.w3.org/1998/Math/MathML}thickness"/>
+		</property>
+	</objectType>
+	<objectType name="mglyph.type">
+		<property name="alt" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="fontfamily" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="index" type="xs:positiveInteger" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="mi.type" mixed="true" sequenced="true"/>
+	<objectType name="mlabeledtr.type" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:mtd" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="mmultiscripts.type" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:none" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:mprescripts" lowerBound="0"/>
+	</objectType>
+	<objectType name="mn.type" mixed="true" sequenced="true"/>
+	<objectType name="mo.type" mixed="true" sequenced="true"/>
+	<objectType name="mode.type"/>
+	<objectType name="moment.type"/>
+	<objectType name="momentabout.type"/>
+	<objectType name="mover.type">
+		<property name="accent" type="xs:boolean" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="mpadded.type">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" name="width" type="d3p1:mpadded-width-space" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" name="lspace" type="d3p1:mpadded-space" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" name="height" type="d3p1:mpadded-space" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" name="depth" type="d3p1:mpadded-space" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="mphantom.type"/>
+	<objectType name="mprescripts.type"/>
+	<objectType name="mroot.type"/>
+	<objectType name="mrow.type"/>
+	<objectType name="ms.type" mixed="true" sequenced="true">
+		<property name="lquote" type="xs:string" lowerBound="0" fixed="false" default="&quot;" form="Attribute"/>
+		<property name="rquote" type="xs:string" lowerBound="0" fixed="false" default="&quot;" form="Attribute"/>
+	</objectType>
+	<objectType name="mspace.type">
+		<property name="width" lowerBound="0" fixed="false" default="0em" form="Attribute">
+			<typeDef xsi:type="ValueType" variety="Union" memberTypes="{http://www.w3.org/1998/Math/MathML}length-with-unit {http://www.w3.org/1998/Math/MathML}named-space"/>
+		</property>
+		<property name="height" lowerBound="0" fixed="false" default="0ex" form="Attribute"/>
+		<property name="depth" lowerBound="0" fixed="false" default="0ex" form="Attribute"/>
+		<property name="linebreak" lowerBound="0" fixed="false" default="auto" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>auto</enumeration>
+				<enumeration>newline</enumeration>
+				<enumeration>indentingnewline</enumeration>
+				<enumeration>nobreak</enumeration>
+				<enumeration>goodbreak</enumeration>
+				<enumeration>badbreak</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="msqrt.type"/>
+	<objectType name="mstyle.type">
+		<property name="scriptlevel" type="xs:integer" lowerBound="0" form="Attribute"/>
+		<property name="displaystyle" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="scriptsizemultiplier" type="xs:decimal" lowerBound="0" fixed="false" default="0.71" form="Attribute"/>
+		<property name="scriptminsize" lowerBound="0" fixed="false" default="8pt" form="Attribute"/>
+		<property name="color" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="background" type="xs:string" lowerBound="0" fixed="false" default="transparent" form="Attribute"/>
+		<property name="veryverythinmathspace" lowerBound="0" fixed="false" default="0.0555556em" form="Attribute"/>
+		<property name="verythinmathspace" lowerBound="0" fixed="false" default="0.111111em" form="Attribute"/>
+		<property name="thinmathspace" lowerBound="0" fixed="false" default="0.166667em" form="Attribute"/>
+		<property name="mediummathspace" lowerBound="0" fixed="false" default="0.222222em" form="Attribute"/>
+		<property name="thickmathspace" lowerBound="0" fixed="false" default="0.277778em" form="Attribute"/>
+		<property name="verythickmathspace" lowerBound="0" fixed="false" default="0.333333em" form="Attribute"/>
+		<property name="veryverythickmathspace" lowerBound="0" fixed="false" default="0.388889em" form="Attribute"/>
+		<property name="linethickness" lowerBound="0" fixed="false" default="1" form="Attribute">
+			<typeDef xsi:type="ValueType" variety="Union" memberTypes="{http://www.w3.org/1998/Math/MathML}length-with-optional-unit {http://www.w3.org/1998/Math/MathML}thickness"/>
+		</property>
+	</objectType>
+	<objectType name="msub.type">
+		<property name="subscriptshift" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="msubsup.type">
+		<property name="subscriptshift" lowerBound="0" form="Attribute"/>
+		<property name="superscriptshift" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="msup.type">
+		<property name="superscriptshift" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="mtable.type" ordered="false" sequenced="true">
+		<property name="align" type="xs:string" lowerBound="0" fixed="false" default="axis" form="Attribute"/>
+		<property name="alignmentscope" lowerBound="0" fixed="false" default="true" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<pattern>(true|false)( true| false)*</pattern>
+			</typeDef>
+		</property>
+		<property name="columnwidth" type="xs:string" lowerBound="0" fixed="false" default="auto" form="Attribute"/>
+		<property name="width" type="xs:string" lowerBound="0" fixed="false" default="auto" form="Attribute"/>
+		<property name="rowspacing" type="xs:string" lowerBound="0" fixed="false" default="1.0ex" form="Attribute"/>
+		<property name="columnspacing" type="xs:string" lowerBound="0" fixed="false" default="0.8em" form="Attribute"/>
+		<property name="rowlines" type="xs:string" lowerBound="0" fixed="false" default="none" form="Attribute"/>
+		<property name="columnlines" type="xs:string" lowerBound="0" fixed="false" default="none" form="Attribute"/>
+		<property name="frame" lowerBound="0" fixed="false" default="none" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>none</enumeration>
+				<enumeration>solid</enumeration>
+				<enumeration>dashed</enumeration>
+			</typeDef>
+		</property>
+		<property name="framespacing" type="xs:string" lowerBound="0" fixed="false" default="0.4em 0.5ex" form="Attribute"/>
+		<property name="equalrows" type="xs:boolean" lowerBound="0" fixed="false" default="false" form="Attribute"/>
+		<property name="equalcolumns" type="xs:boolean" lowerBound="0" fixed="false" default="false" form="Attribute"/>
+		<property name="displaystyle" type="xs:boolean" lowerBound="0" fixed="false" default="false" form="Attribute"/>
+		<property name="side" lowerBound="0" fixed="false" default="right" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+				<enumeration>left</enumeration>
+				<enumeration>right</enumeration>
+				<enumeration>leftoverlap</enumeration>
+				<enumeration>rightoverlap</enumeration>
+			</typeDef>
+		</property>
+		<property name="minlabelspacing" lowerBound="0" fixed="false" default="0.8em" form="Attribute"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:mtr" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:mlabeledtr" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="mtd.type">
+		<property name="columnspan" type="xs:positiveInteger" lowerBound="0" fixed="false" default="1" form="Attribute"/>
+		<property name="rowspan" type="xs:positiveInteger" lowerBound="0" fixed="false" default="1" form="Attribute"/>
+	</objectType>
+	<objectType name="mtext.type" mixed="true" sequenced="true"/>
+	<objectType name="mtr.type" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:mtd" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="munder.type">
+		<property name="accentunder" type="xs:boolean" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="munderover.type">
+		<property name="accent" type="xs:boolean" lowerBound="0" form="Attribute"/>
+		<property name="accentunder" type="xs:boolean" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="none.type"/>
+	<objectType name="notin.type"/>
+	<objectType name="notprsubset.type"/>
+	<objectType name="notsubset.type"/>
+	<objectType name="otherwise.type"/>
+	<objectType name="outerproduct.type"/>
+	<objectType name="partialdiff.type"/>
+	<objectType name="piece.type"/>
+	<objectType name="piecewise.type">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:piece" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:otherwise" lowerBound="0"/>
+	</objectType>
+	<objectType name="prsubset.type"/>
+	<objectType name="scalarproduct.type"/>
+	<objectType name="sdev.type"/>
+	<objectType name="selector.type"/>
+	<objectType name="semantics.type" ordered="false" sequenced="true">
+		<property name="encoding" type="xs:string" lowerBound="0" form="Attribute"/>
+		<property name="definitionURL" type="xs:anyURI" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:annotation" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:annotation_xml" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="sep.type"/>
+	<objectType name="set.type">
+		<property name="type" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="setdiff.type"/>
+	<objectType name="subset.type"/>
+	<objectType name="tendsto.type">
+		<property name="type" type="xs:string" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType name="transpose.type"/>
+	<objectType name="union.type"/>
+	<objectType name="uplimit.type"/>
+	<objectType name="variance.type"/>
+	<objectType name="vector.type"/>
+	<objectType name="vectorproduct.type"/>
+</package>

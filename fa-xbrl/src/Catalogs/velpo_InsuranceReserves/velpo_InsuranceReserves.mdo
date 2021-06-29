@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abc3f084-197d-4507-a4de-a17593506c8d">
+  <producedTypes>
+    <objectType typeId="48a62a98-301c-4ba3-ba80-f6b0197f942d" valueTypeId="2a66f6a3-38b7-4730-805c-023c4c4d3b02"/>
+    <refType typeId="60412d92-c430-441d-9564-95bf3d6ae43b" valueTypeId="7566a3ab-5714-4982-a529-c503c14388e0"/>
+    <selectionType typeId="68a05a9d-0e17-4a26-8c35-779b25a1a340" valueTypeId="aa308c71-deb1-48c4-bab3-df282f20ce0f"/>
+    <listType typeId="4b874be2-658e-45eb-ac9f-e7f1d0217d4d" valueTypeId="05c94d08-c650-4559-8322-3f80a39e7208"/>
+    <managerType typeId="957b5270-a98c-4178-9ca1-6ceaaf4c9f22" valueTypeId="c0dd5ef4-1bda-473d-9cfe-9f12c9c7ba3a"/>
+  </producedTypes>
+  <name>velpo_InsuranceReserves</name>
+  <synonym>
+    <key>ru</key>
+    <value>Страховые резервы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Insurance reserves</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.velpo_InsuranceReserves.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.velpo_InsuranceReserves.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>4</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="6d276bcf-4b5a-4e2c-b01c-dad45c272670">
+      <name>LifeReserves</name>
+      <description>Страховые резервы по страхованию жизни</description>
+      <code xsi:type="core:StringValue">
+        <value>38</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4b79141d-12e7-4920-aa3b-fe8cb8a22fbf">
+        <name>EqualizingReserve</name>
+        <description>Выравнивающий резерв</description>
+        <code xsi:type="core:StringValue">
+          <value>44</value>
+        </code>
+      </content>
+      <content id="d59ff0e9-516b-44e4-bbcf-8c55ae0eb6dd">
+        <name>MathematicalReserve</name>
+        <description>Математический резерв</description>
+        <code xsi:type="core:StringValue">
+          <value>39</value>
+        </code>
+      </content>
+      <content id="f878e070-9ad9-4ec7-bb98-cd7cb205a5b0">
+        <name>СlaimPaymentReserve</name>
+        <description>Резерв выплат по заявленным, но не урегулированным страховым случаям</description>
+        <code xsi:type="core:StringValue">
+          <value>40</value>
+        </code>
+      </content>
+      <content id="b5d95703-c386-41d3-b863-1bb92da2407b">
+        <name>AccidentalPaymentsReserve</name>
+        <description>Резерв выплат по произошедшим, но не заявленным страховым случаям</description>
+        <code xsi:type="core:StringValue">
+          <value>41</value>
+        </code>
+      </content>
+      <content id="79564fde-1cec-4f31-81a7-2c18d13dd081">
+        <name>AdditionalPaymentsReserve</name>
+        <description>Резерв дополнительных выплат (страховых бонусов)</description>
+        <code xsi:type="core:StringValue">
+          <value>43</value>
+        </code>
+      </content>
+      <content id="14f60ef0-4280-4df3-b666-708d63ff8457">
+        <name>OptionsGuaranteesReserve</name>
+        <description>Резерв опций и гарантий</description>
+        <code xsi:type="core:StringValue">
+          <value>45</value>
+        </code>
+      </content>
+      <content id="e8191747-cb62-4801-9545-9c46d43aadf5">
+        <name>InsranceLiabilitiesExpenseReserve</name>
+        <description>Резерв расходов на обслуживание страховых обязательств</description>
+        <code xsi:type="core:StringValue">
+          <value>42</value>
+        </code>
+      </content>
+    </items>
+    <items id="3b299d1a-3c9d-4a2b-8446-7058d0b40856">
+      <name>NonLifeReserves</name>
+      <description>Страховые резервы по страхованию иному, чем страхование жизни</description>
+      <code xsi:type="core:StringValue">
+        <value>46</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="4f8b8b21-bb69-4e6a-a42b-0659adab6c41">
+        <name>UnearnedPremiumReserve</name>
+        <description>Резерв незаработанной премии</description>
+        <code xsi:type="core:StringValue">
+          <value>47</value>
+        </code>
+        <isFolder>true</isFolder>
+        <content id="b7dc15b5-2e59-4518-97c9-2e31b047ac78">
+          <name>BasePartUnearnedPremiumReserve</name>
+          <description>Базовая часть резерва незаработанной премии</description>
+          <code xsi:type="core:StringValue">
+            <value>48</value>
+          </code>
+        </content>
+        <content id="4796395b-bb81-41ff-98a4-1447d2be1a4e">
+          <name>AdditionalPartUnearnedPremiumReserve</name>
+          <description>Дополнительная часть резерва незаработанной премии</description>
+          <code xsi:type="core:StringValue">
+            <value>49</value>
+          </code>
+        </content>
+        <content id="2e7cfbce-ff0e-4535-90bd-49c167327c13">
+          <name>UnearnedPremiumReserveTotal</name>
+          <description>РПН (общий)</description>
+          <code xsi:type="core:StringValue">
+            <value>62</value>
+          </code>
+        </content>
+      </content>
+      <content id="0fc6f810-7c6f-4c9b-a2c2-1e964b3218ec">
+        <name>LossReserves</name>
+        <description>Резервы убытков</description>
+        <code xsi:type="core:StringValue">
+          <value>50</value>
+        </code>
+        <isFolder>true</isFolder>
+        <content id="ac3d5949-ff3f-473f-8be8-8dfd6a863b03">
+          <name>ExpenseReserve</name>
+          <description>Резерв расходов на урегулирование убытков</description>
+          <code xsi:type="core:StringValue">
+            <value>53</value>
+          </code>
+          <isFolder>true</isFolder>
+          <content id="b1b39082-4327-4e43-b0e7-20a96ba94814">
+            <name>ExpenseReserveTotal</name>
+            <description>РРУУ (общий)</description>
+            <code xsi:type="core:StringValue">
+              <value>63</value>
+            </code>
+          </content>
+          <content id="f3aa0616-95a6-4f29-9b66-6708083564a4">
+            <name>IndirectCostsReserve</name>
+            <description>РРУУ в части косвенных расходов</description>
+            <code xsi:type="core:StringValue">
+              <value>55</value>
+            </code>
+          </content>
+          <content id="35fa78fc-b024-4892-92d3-d3e63516005a">
+            <name>DirectCostsReserve</name>
+            <description>РРУУ в части прямых расходов</description>
+            <code xsi:type="core:StringValue">
+              <value>54</value>
+            </code>
+          </content>
+        </content>
+        <content id="bee39b71-6aa2-40a6-9140-4c1ac79ba7fa">
+          <name>OutstandingClaimsReserve</name>
+          <description>Резерв заявленных, но не урегулированных убытков</description>
+          <code xsi:type="core:StringValue">
+            <value>51</value>
+          </code>
+        </content>
+        <content id="2d802b34-4db0-40bf-8531-95b521efeaae">
+          <name>IncurredButNotReportedReserve</name>
+          <description>Резерв произошедших, но не заявленных убытков</description>
+          <code xsi:type="core:StringValue">
+            <value>52</value>
+          </code>
+        </content>
+      </content>
+      <content id="e376eb22-4f87-42e0-92fa-6145e6b415de">
+        <name>UnexpiredRiskReserve</name>
+        <description>Резерв неистекшего риска</description>
+        <code xsi:type="core:StringValue">
+          <value>61</value>
+        </code>
+      </content>
+      <content id="5bb925d1-bc29-4bc8-a29b-45c32fb495f5">
+        <name>StabilizationReserve</name>
+        <description>Стабилизационный резерв</description>
+        <code xsi:type="core:StringValue">
+          <value>57</value>
+        </code>
+      </content>
+      <content id="f5668eb6-81ed-46b9-90d2-1e246fa01b46">
+        <name>StabilizationReserveOSAGO</name>
+        <description>Стабилизационный резерв по ОСАГО</description>
+        <code xsi:type="core:StringValue">
+          <value>56</value>
+        </code>
+      </content>
+      <content id="f7967669-be56-4cf4-b6a7-a91f1229637b">
+        <name>StabilizationReserveAdequacy</name>
+        <description>Стабилизационный резерв с учетом показателя достаточности страховых резервов</description>
+        <code xsi:type="core:StringValue">
+          <value>58</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

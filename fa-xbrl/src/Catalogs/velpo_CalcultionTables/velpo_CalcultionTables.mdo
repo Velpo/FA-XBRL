@@ -1,0 +1,506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9871c02-58f0-406a-9bac-26a003061332">
+  <producedTypes>
+    <objectType typeId="3acb9bae-c69a-48c0-9696-268e1ce4084f" valueTypeId="557003c0-48dd-412d-831c-41e94f2285e8"/>
+    <refType typeId="3fd533b9-9dc6-47a2-98d7-0da4c2da58a5" valueTypeId="178872e8-af0a-4b54-9b7b-3c7000040101"/>
+    <selectionType typeId="dadd0352-49cd-4975-ae6c-174870919a73" valueTypeId="1c4f0b88-45f7-47ee-8092-6d7c60e2b10c"/>
+    <listType typeId="eff97b27-7719-461b-a9a8-98c6e013c219" valueTypeId="bc440e4d-a897-47ac-892d-485ca0a45201"/>
+    <managerType typeId="a5ecb1bd-fa4b-4f2d-809a-140f9483cfaf" valueTypeId="6080e9ac-1322-4868-b527-ead9774521db"/>
+  </producedTypes>
+  <name>velpo_CalcultionTables</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расчетные таблицы рисков</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Calcultion tables</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.velpo_CalcultionTables.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.velpo_CalcultionTables.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>11</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="a7e07a8e-0f16-473d-894b-77024b3cad33">
+      <name>Assets</name>
+      <description>Активы</description>
+      <code xsi:type="core:StringValue">
+        <value>154.2</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="81f9fd6f-85ab-46e8-8b1c-f97124b7cb4e">
+        <name>SharesOfFIF</name>
+        <description>Акции и паи иностранных инвестиционных фондов</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.007</value>
+        </code>
+      </content>
+      <content id="d279f582-70bc-45fd-b69e-a9918aba4efe">
+        <name>Shares_NotClause_3_1_2_ExceptFIF</name>
+        <description>Акции, не попадающие под исключение подпункта 3.1.2 пункта 3.1 Положения Банка России № 710-П, кроме ценных бумаг иностранных инвестиционных фондов</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.005</value>
+        </code>
+      </content>
+      <content id="48bd03e9-2c7e-4810-853e-08c0dd10643f">
+        <name>Shares_Clause_3_1_2_ExceptFIF</name>
+        <description>Акции, попадающие под исключение подпункта 3.1.2 пункта 3.1 Положения Банка России № 710-П, кроме ценных бумаг иностранных инвестиционных фондов</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.004</value>
+        </code>
+      </content>
+      <content id="2eb390d8-db43-4ed9-8f59-819f765d50eb">
+        <name>DepositAccounts</name>
+        <description>Банковские вклады (депозиты)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.003</value>
+        </code>
+      </content>
+      <content id="2552fac8-02d6-43e0-a8fc-995bc81ea70d">
+        <name>PromissoryNotes</name>
+        <description>Векселя</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.012</value>
+        </code>
+      </content>
+      <content id="b9c2873f-be03-451a-a788-f611329e760e">
+        <name>ThingsExceptGoods_Clause_3_1_2_RealEstates_Clause_3_6</name>
+        <description>Вещи, кроме недвижимого имущества, указанного в пункте 3.6, и товаров, попадающих под исключение 3.1.2</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.037</value>
+        </code>
+      </content>
+      <content id="105bcec0-506a-4b0c-be66-edf5096d0f47">
+        <name>СashEquivalets</name>
+        <description>Денежные средства, кроме наличных денежных средств в кассе, в пути</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.002</value>
+        </code>
+      </content>
+      <content id="304d4937-acd8-4d25-b6ff-7f96651c72b2">
+        <name>DepositaryReceipts</name>
+        <description>Депозитарные расписки</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.010</value>
+        </code>
+      </content>
+      <content id="7e5f08ae-0f3e-44f8-90d0-5a3051a27cc2">
+        <name>ParticipationInShareCapitalNotStockCompanies</name>
+        <description>Доли, иное участие в уставных капиталах юридических лиц, не являющихся акционерными обществами</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.006</value>
+        </code>
+      </content>
+      <content id="71ba2701-0d88-4a12-8ef7-55be26b165e0">
+        <name>ReinsuranceQuotaReserve</name>
+        <description>Доля перестраховщиков в страховых резервах</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.033</value>
+        </code>
+      </content>
+      <content id="298d7ec8-4b59-4e1d-befe-a97197581932">
+        <name>LoansIssuedExceptLifeInsurancePolicies</name>
+        <description>Займы выданные, кроме прав требования по обязательствам страхователя–физ. лица по возврату займа, полученного при осуществлении страхования жиз</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.014</value>
+        </code>
+      </content>
+      <content id="2b56e9fd-d9f7-4f49-b93a-8661897fb064">
+        <name>MortgageParticipationCertificates</name>
+        <description>Ипотечные сертификаты участия</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.011</value>
+        </code>
+      </content>
+      <content id="b8befd8c-a0a8-42a2-a748-69ea4e874c88">
+        <name>СashValuablesInTransit</name>
+        <description>Наличные денежные средства в кассе, в пути</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.001</value>
+        </code>
+      </content>
+      <content id="b2b73283-2fd9-4802-9457-d66a7b223683">
+        <name>RealEstates_Clause_3_6</name>
+        <description>Недвижимое имущество, удовлетворяющее требованиям пункта 3.6 Положения Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.036</value>
+        </code>
+      </content>
+      <content id="39dfc16a-9188-4c3f-991e-09753cf3782f">
+        <name>Bonds</name>
+        <description>Облигации</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.009</value>
+        </code>
+      </content>
+      <content id="38b1f561-f928-44cc-a4fe-eaf3950bbd98">
+        <name>BondsUnderlyingAssets</name>
+        <description>Облигации (базисные активы)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.009.1</value>
+        </code>
+      </content>
+      <content id="45273632-3d91-4446-b657-5f2767006573">
+        <name>SharesOfRIF</name>
+        <description>Паи российских инвестиционных фондов</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.008</value>
+        </code>
+      </content>
+      <content id="19dc6ff5-debf-442d-9028-ef9b06da3d0c">
+        <name>ClaimRightsLeaseContracts</name>
+        <description>Права пользования по договору аренды</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.038</value>
+        </code>
+      </content>
+      <content id="b1f51259-ee86-43b6-a9b3-93ab5f0e0896">
+        <name>ClaimRightsDirectLosses</name>
+        <description>Права требования в рамках расчетов по прямому возмещению убытков</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.025</value>
+        </code>
+      </content>
+      <content id="72812e00-01a7-437c-a19a-7ed5629004bf">
+        <name>ClaimRightsInfrastructureOrganizationsExceptDepository</name>
+        <description>Права требования к инфраструктурным организациям, признаваемым системно значимыми, кроме центрального депозитария и центрального контрагента</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.015  </value>
+        </code>
+      </content>
+      <content id="57d916a9-5daa-4db9-ba5b-eb4e431ba147">
+        <name>ClaimRightsMedicalOrganizations</name>
+        <description>Права требования к медицинским организациям и учреждениям санаторно-курортного профиля</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.027</value>
+        </code>
+      </content>
+      <content id="31921115-69fb-4bda-b8f4-cd004e08eaea">
+        <name>ClaimRightsReInsurerClaims</name>
+        <description>Права требования к перестраховщикам по урегулированию убытков</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.024</value>
+        </code>
+      </content>
+      <content id="7078fd6b-483a-4442-956a-eebeb7b76948">
+        <name>ClaimRightsSpecializedDepositories</name>
+        <description>Права требования к специализированным депозитариям</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.019  </value>
+        </code>
+      </content>
+      <content id="da8be7a7-d7d5-4260-a963-5e869676f056">
+        <name>ClaimRightsInsuranceAgents</name>
+        <description>Права требования к страховым агентам и страховым брокерам по перечислению страховых премий</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.021</value>
+        </code>
+      </content>
+      <content id="e061c87d-f98f-4a75-b7cb-28d1865ded83">
+        <name>ClaimRightsCentralDepository</name>
+        <description>Права требования к центральному депозитарию</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.016  </value>
+        </code>
+      </content>
+      <content id="ef71e40e-8fe1-433d-a532-7af29ac5ecaf">
+        <name>ClaimRightsCentralContractors</name>
+        <description>Права требования к центральному контрагенту</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.017</value>
+        </code>
+      </content>
+      <content id="da58d9bd-0316-45a2-959c-b31ed8e20d00">
+        <name>ClaimRightsTaxAdvancePayments</name>
+        <description>Права требования по авансовым платежам по налогам, задолженности бюджетов по налогам и сборам</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.029  </value>
+        </code>
+      </content>
+      <content id="f6f54232-078e-4b6e-85e6-715d58787c2b">
+        <name>ClaimRightsSocialInsuranceOverpaids</name>
+        <description>Права требования по возврату излишне уплаченных (взысканных) страховых взносов по обязательному социальному страхованию</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.028  </value>
+        </code>
+      </content>
+      <content id="109f4c4f-fb17-4623-8a6a-914eb6a2f1e8">
+        <name>ClaimRightsBrokerages</name>
+        <description>Права требования по денежным обязательствам к брокерам из договоров о брокерском обслуживании</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.018</value>
+        </code>
+      </content>
+      <content id="da263277-c3a4-4a5d-91f4-4087bc4eeb8e">
+        <name>ClaimRightsRepoAgreements</name>
+        <description>Права требования по договорам репо</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.020</value>
+        </code>
+      </content>
+      <content id="37286e44-3762-4b47-9ea0-8a7f8c28dd3d">
+        <name>ClaimRightsInsurersAndReInsurers</name>
+        <description>Права требования по обязательствам страхователей, перестрахователей по уплате страховых премий.</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.022 </value>
+        </code>
+      </content>
+      <content id="5caf5842-8308-4cec-9a32-245af4da0d31">
+        <name>ClaimRightsInsurerLoanReturns</name>
+        <description>Права требования по обязательствам страхователя – физического лица по возврату займа, полученного при осуществлении страхования жизни</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.023</value>
+        </code>
+      </content>
+      <content id="b78162d6-81b3-498e-8478-80035ad64b30">
+        <name>ClaimRightsInsuranceOrganizationOwnershipTransfers</name>
+        <description>Права требования по сделке, направленной на последующий переход от страховой организации права собственности на объект недвижимости</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.030  </value>
+        </code>
+      </content>
+      <content id="ca329671-0383-4384-ab5d-36ae4648d4a5">
+        <name>ClaimRightsRegressions</name>
+        <description>Права требования по суброгациям и регрессам</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.026  </value>
+        </code>
+      </content>
+      <content id="a6a82cd5-90de-4c44-a387-b6682a36f3c8">
+        <name>ClaimRightsAdvancePaymentReinsuranceContracts</name>
+        <description>Права требования, возникшие в связи с авансовыми платежами страховой организации по договорам перестрахования</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.031</value>
+        </code>
+      </content>
+      <content id="24173edd-0ff3-43e3-a997-5c4df5e8fc3b">
+        <name>OtherAssets</name>
+        <description>Прочие активы</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.039</value>
+        </code>
+      </content>
+      <content id="0d12eff5-29ff-4d04-bfb3-8b291e5cddeb">
+        <name>OtherClaimRights</name>
+        <description>Прочие права требования</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.032</value>
+        </code>
+      </content>
+      <content id="8f34e95b-f378-446d-9fb4-66c79f8323df">
+        <name>CompulsoryHealthInsuranceFunds_Clause_1_2_1</name>
+        <description>Средства обязательного медицинского страхования, удовлетворяющие подпункту 1.2.1 пункта 1.2 Положения Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.034</value>
+        </code>
+      </content>
+      <content id="feb68c81-23a2-4a84-a0c5-384c41dd1fbe">
+        <name>DerivativesAssets</name>
+        <description>Срочная cделка (актив) по Положению Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.013</value>
+        </code>
+      </content>
+      <content id="f05e9002-a472-4393-9774-f41c46c17451">
+        <name>DerivativesUnderlyingAssets</name>
+        <description>Срочная cделка (актив) по Положению Банка России № 710-П (базисные активы)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.013.1</value>
+        </code>
+      </content>
+      <content id="0e49e115-3b86-4aa0-9e45-89edd29e3161">
+        <name>Goods_Clause_3_1_2</name>
+        <description>Товары, попадающие под исключение подпункта 3.1.2 пункта 3.1 Положения Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.2.035  </value>
+        </code>
+      </content>
+    </items>
+    <items id="a2cd8ab4-93a8-4872-ac91-1d27bc8cfaea">
+      <name>Liabilities</name>
+      <description>Обязательства</description>
+      <code xsi:type="core:StringValue">
+        <value>154.3</value>
+      </code>
+      <isFolder>true</isFolder>
+      <content id="cc358be5-5c10-4922-aa73-3685f6b99967">
+        <name>IssuedSuretiesAndIndependentGuarantees</name>
+        <description>Выданные поручительства и независимые гарантии</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.014  </value>
+        </code>
+      </content>
+      <content id="dcd0402f-7660-47a2-ab22-da1ca3de9e96">
+        <name>EquitySecurities</name>
+        <description>Выпущенные долговые ценные бумаги</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.003  </value>
+        </code>
+      </content>
+      <content id="5886c43c-2179-4354-a7d6-1cdadb3638b7">
+        <name>AdditionalPartUnearnedPremiumReserve</name>
+        <description>Дополнительная часть резерва незаработанной премии (регуляторного)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.008.1</value>
+        </code>
+      </content>
+      <content id="3c32117d-15bc-4405-97e7-f6e454eb3d1e">
+        <name>LoansAndOtherBorrowedFunds</name>
+        <description>Займы и прочие привлеченные средства (кроме субординированных займов, выпущенных долговых ценных бумаг)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.004  </value>
+        </code>
+      </content>
+      <content id="f05b2936-a865-4593-93c3-90efb99138d3">
+        <name>InvestmentFundLiabilities</name>
+        <description>Обязательства инвестиционного фонда</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.010  </value>
+        </code>
+      </content>
+      <content id="ff97bc55-5777-4bd6-b4d8-87a90ebfffde">
+        <name>LeaseLiabilities</name>
+        <description>Обязательства по договору аренды</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.012  </value>
+        </code>
+      </content>
+      <content id="bf365fd9-e33b-434d-a15f-a416a56666ed">
+        <name>CompulsoryHealthInsuranceLiabilities_Clause_1_3_2</name>
+        <description>Обязательства по обязательному медицинскому страхованию, удовлетворяющие подпункту 1.3.1 пункта 1.3 Положения Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.009  </value>
+        </code>
+      </content>
+      <content id="1d1b31bb-dac5-4764-93a8-9e3808cd9169">
+        <name>Liabilities_Clause_1_3_2</name>
+        <description>Обязательства, удовлетворяющие подпункту 1.3.2 пункта 1.3 Положения Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.006  </value>
+        </code>
+      </content>
+      <content id="43abc532-5909-4535-9b16-f5412940b567">
+        <name>DeferredTaxLiabilities</name>
+        <description>Отложенные налоговые обязательства</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.011  </value>
+        </code>
+      </content>
+      <content id="90f2e7c2-4eed-45dc-b4ac-f135621f82b6">
+        <name>OtherOffBalanceLiabilities</name>
+        <description>Прочие внебалансовые обязательства</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.015  </value>
+        </code>
+      </content>
+      <content id="d47a18c5-8b9a-4f45-a04b-118112e2e15b">
+        <name>OtherLiabilities</name>
+        <description>Прочие обязательства</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.013  </value>
+        </code>
+      </content>
+      <content id="120a3e5f-6c34-402d-93ed-8806870d007a">
+        <name>OptionsAndQuaranteesReserve</name>
+        <description>Резерв опций и гарантий (регуляторный)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.007.1</value>
+        </code>
+      </content>
+      <content id="9dfdc3b7-221b-42d0-99d0-19ff10f9ae9f">
+        <name>DerivativesLiabilities</name>
+        <description>Срочная cделка (обязательство) по Положению Банка России № 710-П</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.001  </value>
+        </code>
+      </content>
+      <content id="2574e22d-6976-4088-a98a-0711684a5930">
+        <name>DerivativesLiabilitiesUnderlyingAssets</name>
+        <description>Срочная cделка (обязательство) по Положению Банка России № 710-П (базисные активы)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.001.1</value>
+        </code>
+      </content>
+      <content id="9dcc9b5f-707f-4511-9fab-b603c9cc3cae">
+        <name>DerivativesAssetsBecomeLiabilities</name>
+        <description>Срочная сделка, признанная в соответствии с отраслевыми стандартами бухгалтерского учета как актив</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.002</value>
+        </code>
+      </content>
+      <content id="28c56344-8fc1-4eb5-b0b2-90f8b88d701e">
+        <name>DerivativesAssetsBecomeLiabilitiesUnderlyingAssets</name>
+        <description>Срочная сделка, признанная в соответствии с отраслевыми стандартами бухгалтерского учета как актив (базисные активы)</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.002.1</value>
+        </code>
+      </content>
+      <content id="db2616a8-7a7b-4529-9ff6-e9fc7b71e879">
+        <name>LifeInsuranceReserves</name>
+        <description>Страховые резервы по страхованию жизни</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.007</value>
+        </code>
+      </content>
+      <content id="34d9a706-b4a6-4424-b85e-0adee17a40af">
+        <name>OtherThanInsuranceReserves</name>
+        <description>Страховые резервы по страхованию иному, чем страхование жизни</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.008  </value>
+        </code>
+      </content>
+      <content id="5681b6bd-1f5b-470b-8e8a-4df99efcefda">
+        <name>SubordinatedLoans</name>
+        <description>Субординированные займы</description>
+        <code xsi:type="core:StringValue">
+          <value>154.3.005</value>
+        </code>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="a1bf8100-859d-4bf9-ad00-c7af485d25d2">
+    <producedTypes>
+      <objectType typeId="88407c7d-6eab-4331-8f20-45d9cdc93382" valueTypeId="9d7abc20-273e-4177-9c04-669a35d93215"/>
+      <rowType typeId="7e54eba8-9de8-4476-a3d1-d78541a7aae9" valueTypeId="07094f5c-b2c3-4515-b4fb-b551c2ee99a8"/>
+    </producedTypes>
+    <name>Fields</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля статей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fields</value>
+    </synonym>
+    <attributes uuid="93e4b7c6-6378-40d1-9b99-1286192bfa3c">
+      <name>Item</name>
+      <synonym>
+        <key>en</key>
+        <value>Item</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_ObjectAttributes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ecb515ff-0a67-4e4b-9bfa-24fde811e7b8">
+  <producedTypes>
+    <refType typeId="d7f5d77c-b899-4427-a8bb-e063134a6072" valueTypeId="0794b961-57bd-4a1f-aecd-364f2bbc2240"/>
+    <listType typeId="384c2bb9-79c8-4a9a-8e00-99ef09ea40bc" valueTypeId="238d383e-5fce-40b9-bf17-f6b030e42c3e"/>
+    <managerType typeId="86a6ff47-648d-4281-b1a8-f2d968eff2f3" valueTypeId="bcedcfe4-36e7-4708-9de5-51d18bf3b83c"/>
+  </producedTypes>
+  <name>velpo_PaymentTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы выплат</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Payment types</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="1a62c317-e364-4833-ad5b-a8f0f8600d33">
+    <name>Capitalization</name>
+    <synonym>
+      <key>ru</key>
+      <value>Капитализация</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Capitalization</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f94a4847-3832-4084-99ea-a22d0b6ebe5c">
+    <name>Annuity</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аннуитет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Annuity</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1327f10-9c38-4650-baad-09405f878911">
+    <name>Differentiated</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дифференцированный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Differentiated</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d7185582-b9f4-472c-ac92-a9b3a02263e3">
+    <name>Installment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рассрочка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Installment</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

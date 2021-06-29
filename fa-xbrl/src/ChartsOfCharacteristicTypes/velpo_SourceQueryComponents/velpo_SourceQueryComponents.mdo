@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cbd68dda-b6b2-44bc-9a57-49b3e49e2220">
+  <producedTypes>
+    <objectType typeId="cd07aa76-28a2-4f9b-a0ca-1a267fc8a313" valueTypeId="ae91c69e-f567-49d3-876c-95992b69d302"/>
+    <refType typeId="08b98939-0290-406e-83b4-4e222439099a" valueTypeId="ef7766ca-29a8-4765-b98e-85a3b57eb843"/>
+    <selectionType typeId="d2d80846-9a66-46b8-870a-e50c81cf51f2" valueTypeId="128ffe25-c911-4640-b5f3-a9135f9c0b75"/>
+    <listType typeId="9afe83ca-35e9-463a-b294-a8fbc8c0b96c" valueTypeId="aa56d970-cb56-41e2-bf70-24882f61483f"/>
+    <managerType typeId="08fc724d-797b-4f70-87e5-71617e14e1f9" valueTypeId="15807676-96e3-40c0-8094-15208361555e"/>
+    <containerType typeId="8f3da3f6-e8e2-4d80-9c5d-e75e72bbd785" valueTypeId="d9ab734b-f9bc-4199-b6ea-c23f472c5593"/>
+  </producedTypes>
+  <name>velpo_SourceQueryComponents</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компоненты запроса источника</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Source query components</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>ChartOfCharacteristicTypesRef.velpo_SourceQueryComponents</types>
+    <types>CatalogRef.velpo_BusinessUnits</types>
+    <types>Boolean</types>
+    <types>String</types>
+    <types>Date</types>
+    <types>CatalogRef.velpo_MemberValues</types>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>32</precision>
+      <scale>10</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>500</length>
+    </stringQualifiers>
+    <dateQualifiers/>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>50</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.Form.ItemForm</defaultObjectForm>
+  <defaultFolderForm>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.Form.GroupForm</defaultFolderForm>
+  <defaultListForm>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.Form.ListForm</defaultListForm>
+  <attributes uuid="cd97145d-e93e-447c-b6a1-f6317ada7f6b">
+    <name>ComponentType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Component</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_ComponetQueryTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="699da9ad-f9eb-4625-a01e-ed73617893dd">
+    <name>SourceText</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст источника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Source text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d21f6c70-5c32-4f9a-8686-5f7adcd91fdf">
+    <name>IndexNum</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индекс результата</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Index num</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="233e688e-7059-4733-93b5-105946a2d7e4">
+    <name>IsScript</name>
+    <synonym>
+      <key>ru</key>
+      <value>Программный расчет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is script</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolderAndItem</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4ba89952-1ebe-4542-9ca5-c6f874aa66d4">
+    <name>ConstantValue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Константа</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_SourceQueryComponents</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.StandardAttribute.ValueType</field>
+    </linkByType>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ecbd2e61-7be4-490d-80d9-3f161b201fa6">
+    <name>UseDefaults</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать по умолчанию</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f44db7e5-6547-4834-911f-f49ad7d2f2e1">
+    <name>Defaults</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компонент по умолчанию</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_SourceQueryComponents</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d2a427dc-399a-4350-8e08-be5e9232e918">
+    <name>Quarterly</name>
+    <synonym>
+      <key>ru</key>
+      <value>Quarterly</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="ee3f1c0b-f57f-43c9-aea4-036d26718394">
+    <producedTypes>
+      <objectType typeId="baaeeed8-fa6c-4ae2-8924-623b5edec7ec" valueTypeId="7c3ed2e7-41e2-44d9-920f-c75192ad8858"/>
+      <rowType typeId="5ec7bc0c-1935-424c-b0c0-ebb60449f749" valueTypeId="00686039-9822-4264-86c3-39f2c36ff313"/>
+    </producedTypes>
+    <name>FunctionFields</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поля функции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Functins fields</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2a680d8b-bc80-4ee2-bd5d-4b7d991bbc53">
+      <name>Field</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поле</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Field</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_SourceQueryComponents</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <choiceParameterLinks>
+        <name>Filter.Parent</name>
+        <field>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.StandardAttribute.Parent</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b646d19f-60ad-443b-acbe-cf2a7877ec83">
+    <producedTypes>
+      <objectType typeId="14d946bc-3a39-436d-ad9c-100543c64908" valueTypeId="1e4597e6-de8b-4ba2-a524-7f19b8f4a075"/>
+      <rowType typeId="ef31f29c-37ce-4762-8a8d-f63d44b2f120" valueTypeId="f76ddcfb-8991-489c-b74a-c77fa93ff75d"/>
+    </producedTypes>
+    <name>SourceParameters</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры запроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Source parameters</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2f906d5f-6ca7-4a39-8c28-7e326387ce9a">
+      <name>Parameter</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметр</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Parameter</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_UserDefinedParameters</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolder</use>
+  </tabularSections>
+  <tabularSections uuid="9aa0f671-b758-4727-aec2-5961fede3251">
+    <producedTypes>
+      <objectType typeId="76ad1671-cf8c-42a4-8d00-b045e304198b" valueTypeId="9f5f3cc5-62a9-446e-a419-4c8ebae93490"/>
+      <rowType typeId="a25c8aaf-bbef-45f5-97ef-c70143913aff" valueTypeId="c3f532ac-1c3f-4b8b-84e8-32d627689f0d"/>
+    </producedTypes>
+    <name>SourceResults</name>
+    <synonym>
+      <key>ru</key>
+      <value>Source results</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b8c86409-674d-4945-ba14-46d800ba8cef">
+      <name>Result</name>
+      <synonym>
+        <key>ru</key>
+        <value>Result</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_SourceQueryComponents</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceFoldersAndItems>Folders</choiceFoldersAndItems>
+      <choiceParameters>
+        <name>Отбор.ComponentType</name>
+        <value xsi:type="core:ReferenceValue">
+          <value>Enum.velpo_ComponetQueryTypes.EnumValue.Result</value>
+        </value>
+      </choiceParameters>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3bf2e401-0c63-4df0-a065-c084e2834fe0">
+      <name>Name</name>
+      <synonym>
+        <key>ru</key>
+        <value>Name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>254</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolder</use>
+  </tabularSections>
+  <tabularSections uuid="32f39307-4c39-440a-91b1-602b485a04da">
+    <producedTypes>
+      <objectType typeId="1b15c698-a2d0-40b8-9260-15af60e9056b" valueTypeId="222ecdb5-966e-48af-814e-a1ea59771c94"/>
+      <rowType typeId="19bb4d25-ace4-45b8-a8e8-41c2c8e7763e" valueTypeId="f10ca418-dbee-4ea6-b657-bc034e1c2585"/>
+    </producedTypes>
+    <name>EntryPoints</name>
+    <synonym>
+      <key>ru</key>
+      <value>Entry points</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5fa2ceb0-361a-4536-869c-9bfd9f793d98">
+      <name>Taxonomy</name>
+      <synonym>
+        <key>ru</key>
+        <value>Таксономия</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Taxonomy</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.velpo_Taxonomies</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="552b2a31-9182-4333-9c4a-a710ca1f634a">
+      <name>EntryPoint</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точка входа</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Entry point</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.velpo_EntryPoints</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <choiceParameterLinks>
+        <name>Filter.Owner</name>
+        <field>ChartOfCharacteristicTypes.velpo_SourceQueryComponents.TabularSection.EntryPoints.Attribute.Taxonomy</field>
+      </choiceParameterLinks>
+      <dataHistory>Use</dataHistory>
+      <indexing>Index</indexing>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <use>ForFolder</use>
+  </tabularSections>
+  <forms uuid="e34e39d7-f141-47a2-bb19-bf6085983ab8">
+    <name>ItemForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Item form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8b968598-97de-4e46-8b91-7d4f2dabcbf6">
+    <name>GroupForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>Group form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e9433c2b-9f56-4228-b134-529e394d621c">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1c496b9-2eab-4e12-8263-1adfc549d6db">
+    <name>OwnFundMapping</name>
+    <synonym>
+      <key>en</key>
+      <value>Own fund mapping</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="60ca9f14-2f3d-4c90-b194-4a552302de24">
+    <name>РезультатВыполненияЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Результат выполнения запроса</value>
+    </synonym>
+  </templates>
+  <commands uuid="00c89c67-a7b0-48cf-825c-862b947d32a1">
+    <name>OpenOwnFundMapping</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть маппинг собственных средств</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Open own fund mapping</value>
+    </synonym>
+    <group>NavigationPanelSeeAlso</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:ChartOfCharacteristicTypes>

@@ -1,0 +1,12 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2008/assertion/consistency" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.xbrl.org/2003/XLink"/>
+	<import namespace="http://xbrl.org/2008/variable"/>
+	<import namespace="http://xbrl.org/2008/validation"/>
+	<property name="consistencyAssertion">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/validation" xsi:type="ObjectType" base="d3p1:assertion.type" open="true" mixed="true" sequenced="true">
+			<property name="strict" type="xs:boolean" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://xbrl.org/2008/variable" name="absoluteAcceptanceRadius" type="d4p1:expression" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://xbrl.org/2008/variable" name="proportionalAcceptanceRadius" type="d4p1:expression" lowerBound="0" form="Attribute"/>
+		</typeDef>
+	</property>
+</package>

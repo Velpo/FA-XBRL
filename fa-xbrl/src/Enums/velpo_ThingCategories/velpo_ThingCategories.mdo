@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="743036a8-0044-4c09-95df-f4eae47589b9">
+  <producedTypes>
+    <refType typeId="7e8cb354-8039-4c13-93b7-df0172704aad" valueTypeId="b7cf347c-02a9-4b92-bfa0-fd5c00bf0c8b"/>
+    <listType typeId="c2917a95-2f84-4714-a4e6-d582adcfa78f" valueTypeId="598f2053-a837-48a5-907b-7fbb43b3d8ea"/>
+    <managerType typeId="ac1a2fd6-6797-456f-b108-d4c0c30d51b1" valueTypeId="9be1fd0e-1408-455a-9b99-81028a0c1d44"/>
+  </producedTypes>
+  <name>velpo_ThingCategories</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категория вещи</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Thing categories</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="42fdc087-ba96-45c3-bcd9-3fb38e5bd033">
+    <name>ResidentialProperty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Жилая недвижимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Residential property</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd19c3d1-ecbc-48be-a75b-2fafdad576fb">
+    <name>NonResidentialProperty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нежилая недвижимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-residential property</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a7deaccb-709c-4e23-bab8-6ffa04b8b053">
+    <name>Land</name>
+    <synonym>
+      <key>ru</key>
+      <value>Земля</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Land</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2128bcbe-fb83-453e-957b-060a75459c79">
+    <name>Good</name>
+    <synonym>
+      <key>ru</key>
+      <value>Товар</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Good</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c4dea2d0-cf6a-4b62-a8cb-44d4ca9e4db9">
+    <name>Other</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иная вещь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

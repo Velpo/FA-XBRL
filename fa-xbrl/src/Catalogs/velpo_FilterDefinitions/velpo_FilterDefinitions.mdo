@@ -1,0 +1,3536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bc31081c-1554-4e2e-8ef4-b535a56e0e58">
+  <producedTypes>
+    <objectType typeId="cf9939fd-77a1-4b93-980e-6c77caecd76c" valueTypeId="a9989516-f2e4-4340-8815-371c29671d21"/>
+    <refType typeId="383580a5-cd23-411d-a30e-5ed4a3232a68" valueTypeId="0b5b9330-394a-4b47-8233-e2b361060307"/>
+    <selectionType typeId="b80fea66-aad3-4aa8-9263-1edca28fee89" valueTypeId="7929093b-6f87-436e-b898-396acbbc681c"/>
+    <listType typeId="59ab84d2-e264-40f3-8265-b9d1faa32392" valueTypeId="0b9b48c9-35ed-4047-aa05-f3a7c6e6ba3a"/>
+    <managerType typeId="daf6a4a2-ab34-419d-a0ee-74c19b92b0a9" valueTypeId="df6c633f-e12e-4ebe-934f-8790588b7a3b"/>
+  </producedTypes>
+  <name>velpo_FilterDefinitions</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определение фильтров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filter definitions</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.velpo_FilterDefinitions.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.velpo_FilterDefinitions.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Filter.Owner</name>
+      <field>Catalog.velpo_FilterDefinitions.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.velpo_DefinitionNodes</owners>
+  <owners>Catalog.velpo_AssertionFormulaDefinitions</owners>
+  <owners>Catalog.velpo_VaribleDefinitions</owners>
+  <owners>Catalog.velpo_RoleTables</owners>
+  <owners>Catalog.velpo_Taxonomies</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="505e6521-fe20-468f-85aa-93973bc2d62c">
+    <name>FilterType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип фильтра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Filter type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_FilterTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="319ded26-0c4f-4aa7-b927-1cd2571e46bf">
+    <name>IsCover</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покрытие</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сomplement</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="52f3d996-c797-4454-a706-7603bcd712ea">
+    <name>IsComplement</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сomplement</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8cc3cb0f-8607-45e7-b1ff-f70fe0b12d95">
+    <name>Priority</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="2126f989-bc5a-477f-8e92-0e18a8000852">
+    <name>Order</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8e20dcef-0277-4d8f-85d8-6d8a4c964ee3">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b2399607-da85-4216-b349-72300987452a">
+    <name>RoleType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Role type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_RoleTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Filter.Owner</name>
+      <field>Catalog.velpo_FilterDefinitions.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="fe221a06-5b59-4fc5-ab49-d63e3122ea1e">
+    <producedTypes>
+      <objectType typeId="608027a1-2b3f-42bb-9862-61026232e6d5" valueTypeId="9bcd2efb-3b16-4d7b-af45-b9613409adf8"/>
+      <rowType typeId="d10b5825-d16e-4020-9f7b-d759e5a965c4" valueTypeId="3ff87add-0089-47ac-86ac-c2aa60ce708d"/>
+    </producedTypes>
+    <name>AspectCover</name>
+    <synonym>
+      <key>ru</key>
+      <value>Покрытие аспектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Aspect cover</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Aspect cover</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="63459334-a93b-45a4-ac83-1768a46e6066">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="410082c7-4f1b-4372-b95b-af4259c55270">
+      <name>CoverType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип покрытия</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Cover type</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_CoverTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0e804e89-6e81-40c7-ba63-0ac490102d4f">
+      <name>Axis</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_HypercubeAxes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2adac79b-ac2a-47f1-be7d-fda010758307">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="ae88aa5c-ed99-4976-b38a-c692a3202ad1">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="102d41a4-8f6b-4fd2-b519-8c1f85d0bf0d">
+    <producedTypes>
+      <objectType typeId="7e97bd3f-a85a-48d6-88de-ba1de4fbeec2" valueTypeId="ed01eeed-26be-45c0-ad74-3edf98935d79"/>
+      <rowType typeId="f6e7cae6-a4e3-41e0-a450-659e80b4a48f" valueTypeId="397176bc-b44b-4d26-883c-d8e35278f12f"/>
+    </producedTypes>
+    <name>ConceptBalance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип баланса показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept balance</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e0231c74-bcfc-4b8e-affd-b61313b61f13">
+      <name>BalanceType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип баланса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>BalanceType</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_BalanceTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6e46b730-5ec2-4779-bedf-9827c4c4de16">
+    <producedTypes>
+      <objectType typeId="38f21171-491d-48a1-8ac2-86f20c3e1b72" valueTypeId="7fd61059-d1f1-4e04-8e8b-17142121be5c"/>
+      <rowType typeId="1dee767e-ca44-4618-9197-3abd1840e2ff" valueTypeId="f2ea1c48-9d6b-4fdf-a7fa-5d108d0955f4"/>
+    </producedTypes>
+    <name>ConceptCustomAttribute</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настраиваемый аттрибут показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept custom attribute</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="59a50b84-0b3b-4a93-8748-0b63e64a5307">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2ec56dd6-7af7-4629-82f2-65576a279f3d">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="310e15a0-3430-427f-932a-1d9cc02e8b8f">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="46361630-c127-4a0e-ac62-a430580ff3e7">
+      <name>Value</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="672a7c42-f74c-4197-98f8-ccb1f7b13b4f">
+    <producedTypes>
+      <objectType typeId="1dd31ab9-c8ff-44ec-b435-8fcb4a3bef82" valueTypeId="87d733d7-604f-4c1f-a445-0eee84c940fc"/>
+      <rowType typeId="99cfe4a7-4d94-403c-ba61-d77cdd54bc0b" valueTypeId="23473d18-d51a-4017-ab85-83e5d3bbd513"/>
+    </producedTypes>
+    <name>ConceptDataType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept data type</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="2c80b4bd-f746-4524-8d9e-27037f32da67">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="772728d2-fc87-4516-958c-80be35aeb298">
+      <name>IsStrict</name>
+      <synonym>
+        <key>ru</key>
+        <value>Точный</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Strict</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="dbd88b76-5553-42eb-b1a1-2fec216b19fe">
+      <name>DataType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Data type</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_ValueDataTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="86059e54-f4c6-43c5-91c7-b87ebcd1bcfd">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5342d502-4103-4dee-97b2-160a2c3a4a1f">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ee1cdc7a-082c-4960-9108-2670f99212bb">
+    <producedTypes>
+      <objectType typeId="c07c3e44-92cd-4004-8309-1462ac2dae98" valueTypeId="c8017e1f-a209-4070-a044-d88bc97d4733"/>
+      <rowType typeId="290e191c-3145-4dcc-b971-7d5c54aa4a1d" valueTypeId="a85b9c34-eea7-4d79-b40c-196ab0e5cad9"/>
+    </producedTypes>
+    <name>ConceptName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept name</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Concept name</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d1447b28-4ea3-4f06-976b-48c5a808f79b">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc0fb8f3-389c-4854-acb0-7d8707dfabcd">
+      <name>Concept</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Concept</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.velpo_Reporting</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="02f69b2f-c582-4435-ac4f-59b66d6f9b14">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fef60067-f671-4aac-94f1-8b3b8b02af98">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b9a1c6b8-b0b2-4c6a-8cc3-03bbc4c2b670">
+    <producedTypes>
+      <objectType typeId="a6be0001-5455-4069-823b-f36227c333df" valueTypeId="49df365f-dacd-4114-8655-01dee939c0cc"/>
+      <rowType typeId="b53d83bd-09de-4975-8db4-64d277a8a0f9" valueTypeId="a3bdcb59-26bc-4152-bcbe-49949ff76b3a"/>
+    </producedTypes>
+    <name>ConceptPeriodType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип периода показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept period type</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="63944b87-1c09-4047-8169-55d0c67ab66b">
+      <name>PeriodType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип периода</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Period type</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_PeriodTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6219b327-e08b-41bc-8dd8-c548dab464d2">
+    <producedTypes>
+      <objectType typeId="b8f70b1a-82c2-45e0-8fd3-65461d6f5851" valueTypeId="af8900e3-7652-4faa-b0e4-65ef64b44993"/>
+      <rowType typeId="2c30f41c-2ec8-41d0-9a63-6a31287f92b8" valueTypeId="e65e3717-0c4d-41b5-97b2-868dead62f11"/>
+    </producedTypes>
+    <name>ConceptRelation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связь показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept relation</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Concept relation</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="fa465831-4722-4b0e-8de9-27c3713368be">
+      <name>Arcname</name>
+      <synonym>
+        <key>ru</key>
+        <value>URI имени дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5da85e90-6bdd-4f34-858a-8ef25126d894">
+      <name>ArcnameAttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут имени дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcname attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5bd32bd7-2f7b-4809-81e2-ae22effaf0d5">
+      <name>ArcnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение имени дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7b16cf17-a788-456b-bb39-1a44439699bb">
+      <name>Arcrole</name>
+      <synonym>
+        <key>ru</key>
+        <value>URI дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcrole</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="06bf047d-dbf3-4497-9155-57d988024588">
+      <name>ArcroleAttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcrole attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b09f2bcb-6d2c-4063-bf62-8c816d07cb6a">
+      <name>ArcroleExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcrole expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6fec882e-e43b-455b-970e-f72517b8bd09">
+      <name>AxisRelationType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип оси</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis relation type</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AxisRelationTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="916c1177-704d-4084-bcf6-bc4d14f5a805">
+      <name>Concept</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Concept</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.velpo_Reporting</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="4b151363-6084-4dd6-89a6-a3c5ae8f4906">
+      <name>Generations</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поколения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Generations</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cc72ec81-1258-47ec-a857-bcee83400745">
+      <name>Linkname</name>
+      <synonym>
+        <key>ru</key>
+        <value>URI имени</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c34e257b-d13a-45df-8b35-a6e851fb4226">
+      <name>LinknameAttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут имени</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkname attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="20323632-886a-40d1-9477-f4bda420284a">
+      <name>LinknameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение имени</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4ac8dd2a-7e30-4e48-bc2a-2263196b84a3">
+      <name>Linkrole</name>
+      <synonym>
+        <key>ru</key>
+        <value>URI роли</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkrole</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5821d618-e967-4409-89e8-b79528ef34f4">
+      <name>LinkroleAttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут роли</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkrole attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c202680b-d17d-4366-8f77-f92f9f48ae6e">
+      <name>LinkroleExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение роли</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkrole expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7209e475-03c9-47fe-8a8f-843b3f434b64">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0c490376-e910-4819-8382-f83617ea097c">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f6b3163f-2099-4fde-b689-19b1b8a796ec">
+      <name>SourceAttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут источник</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Source attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="84f8ccd2-4bd9-43c6-80f4-79d8e2acfcd3">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="a1d39eca-bed8-4fbd-8809-21df7e8b76af">
+    <producedTypes>
+      <objectType typeId="9d483a01-679c-43be-a1c2-43142e792d8e" valueTypeId="5380ff93-fae7-403e-8eca-d9c98ed6c575"/>
+      <rowType typeId="51d9cb59-db6d-4287-9623-fa751cb145ee" valueTypeId="865d9389-5ff6-4daf-a5c6-bf86b581ff3f"/>
+    </producedTypes>
+    <name>ConceptSubstitutionGroup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа замены показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept substitution group</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a0f1ce9b-1b6d-454c-ac9c-4bf633e691a2">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e794b14d-f12e-4ac2-afe7-9cbefcd00a19">
+      <name>SubstitutionGroup</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа показателя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Substitution group</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_ConceptSubstitutionGroups</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bbec23ba-81d8-4ab8-91cf-8a0acb46fc38">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6f5361c0-e3ee-4cbd-96d1-0cd6ae11f5d8">
+      <name>Expression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="13d9cfe7-575f-4a85-aa16-5913ca4e3816">
+    <producedTypes>
+      <objectType typeId="fb731b7b-6b7b-44ff-bac6-eec10dbf745d" valueTypeId="57c67a2f-2301-4679-a5be-e55dca97a211"/>
+      <rowType typeId="15af086a-6681-4e26-805d-daa2be2a30b8" valueTypeId="1605f46d-796c-4fc8-b889-d3898eb39dd8"/>
+    </producedTypes>
+    <name>EntityIdentifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сущности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entity identifier</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6dbcb07d-8e22-4a73-aa10-3ccba3c7ae4a">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="af76935a-0f15-4195-8a88-b5ecc167fbaf">
+    <producedTypes>
+      <objectType typeId="c0a7a984-d8ce-43d6-8f2e-38e65e10e758" valueTypeId="26217764-b5bc-4fbd-a41d-07bc6a0fc2dd"/>
+      <rowType typeId="e1f3af35-beb0-47ef-a8f6-1f99d6995bff" valueTypeId="97c53482-0914-4992-b42e-19b97959027e"/>
+    </producedTypes>
+    <name>ExplicitDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Явное измерение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Explicit dimension</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Explicit dimension</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a9e07534-6686-4ccf-bc97-87640b6be220">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a16b9de8-7eaa-47ac-b280-07f6677f6938">
+      <name>Axis</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_HypercubeAxes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aeee67ba-a47d-41aa-8382-7a638e6978bf">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="36b60ca7-438f-4ceb-a39f-bcfe792f20d8">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d22182a8-5fbc-47e4-9205-fdfea5fa5c03">
+    <producedTypes>
+      <objectType typeId="f4d3786d-33d7-4573-a2da-d77584e4bb92" valueTypeId="4a427716-87cd-4222-90bb-7f699368a59a"/>
+      <rowType typeId="f4dde624-6f9f-427a-8db4-21ecad4582ca" valueTypeId="4c14f780-4c04-4c3b-89b7-73857dc5a154"/>
+    </producedTypes>
+    <name>ExplicitDimensionMembers</name>
+    <synonym>
+      <key>ru</key>
+      <value>Явное измерение (значения)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Explicit dimension members</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c06773ce-dcf7-4cc8-8c9f-e8eb446ec048">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="e2bc9e37-61b3-4a97-9d1a-7aa73cb0cc03">
+      <name>Arcrole</name>
+      <synonym>
+        <key>ru</key>
+        <value>URI дуги</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Arcrole</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bfa99c0d-63dd-4d59-9735-591e65b745e0">
+      <name>AxisRelationType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип оси</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis relation type</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AxisRelationTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c140b7c3-9100-4a76-b9b4-cba8ea8972b9">
+      <name>Linkrole</name>
+      <synonym>
+        <key>ru</key>
+        <value>URI роли</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Linkrole</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f9ae98f3-c7b8-4c02-9c44-bc955553f730">
+      <name>Member</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Member</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.velpo_MemberValues</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9157a74e-5611-4447-9f29-7c9ceadd0a89">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f73dff91-8c00-40db-b950-84006274d9c0">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="10e51f5d-9ff0-4296-b892-2992af0e09ac">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fcfb575e-1499-4189-aa73-49ea77a3e7fb">
+    <producedTypes>
+      <objectType typeId="d8927149-046a-4aef-9adb-7208c46ecfda" valueTypeId="835ced59-bb90-4fe3-b14f-dee2121b2e99"/>
+      <rowType typeId="e2d44164-f205-4919-b1b8-13427cdbb7e3" valueTypeId="6dedf49c-08b3-404d-8877-2e346afd2fa6"/>
+    </producedTypes>
+    <name>General</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>General</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>General</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="c8a38925-aa10-4a65-b130-b7c626f6765d">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="42117992-fbd2-48ea-a068-7725265a6e9e">
+    <producedTypes>
+      <objectType typeId="56820321-8c11-4b67-b56b-9903747478de" valueTypeId="efb87998-e0a9-4394-a7cb-5ed97296fb01"/>
+      <rowType typeId="0f1780cb-94c4-47d6-b129-0deb4722cf42" valueTypeId="beaab3c5-86ce-47c8-be96-3a094faaf257"/>
+    </producedTypes>
+    <name>InstantDuration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период &quot;Момент-Диапазон&quot;</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instant duration</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="045aaf5a-a703-42cc-96b3-0dcd66945284">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6feeac31-97fe-46d0-b9d4-8b1f19f50105">
+      <name>Boundary</name>
+      <synonym>
+        <key>ru</key>
+        <value>Граница</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Boundary</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_BoundaryTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c723a4fd-d7da-4389-b6ba-1c3f862cf24e">
+    <producedTypes>
+      <objectType typeId="1ee4c100-cc87-468f-aace-e4fe010b85f1" valueTypeId="d338f2c3-431c-4f9f-813d-f9fba2c8100e"/>
+      <rowType typeId="0bcb5422-14e8-4d5e-925a-4b13d2d3c948" valueTypeId="ec7034c6-0a01-40f0-a371-3a8a9f97bb30"/>
+    </producedTypes>
+    <name>MatchCompleteScenario</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие полного сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Complete-scenario matching</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1971235f-858b-4a30-a3a0-a08247627c4a">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="b3765f6b-9106-4e65-8648-bd031e43114a">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e1803481-c781-454d-8a2e-b72ef261bafe">
+    <producedTypes>
+      <objectType typeId="641c27ce-9286-4905-8878-565dc61fd675" valueTypeId="8ebb1ece-6c70-4c50-9208-d2e4ed928e52"/>
+      <rowType typeId="1f81c1bb-4db5-4e96-9327-5b95d4b76dff" valueTypeId="64bd6aeb-f7ad-4218-82e9-2284c6dc66d1"/>
+    </producedTypes>
+    <name>MatchCompleteSegment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие полного сегмента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Complete-segment matching</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a79abc24-63ea-485b-b0d9-5414d3271f8a">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8e10a0ef-199b-47cb-9ade-00ea800d7d8d">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="036c0541-9461-4642-bd56-2c3215888e10">
+    <producedTypes>
+      <objectType typeId="45af9865-8baa-421f-a50c-bd9edda8c537" valueTypeId="32cbbe40-6115-4236-b6f1-404a8d188112"/>
+      <rowType typeId="ec96f3a6-e86e-4da2-b267-85c16b7a8276" valueTypeId="172b980a-95b6-4607-898b-e90d0d267ee2"/>
+    </producedTypes>
+    <name>MatchConcept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Match concept</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Match concept</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f035ff4b-70f2-4900-b069-2b5ccece3923">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="48633d3e-29ba-4b29-9cb8-b769454bdd5f">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="e49c0f17-b917-4143-89ec-6a8cbb8057db">
+    <producedTypes>
+      <objectType typeId="4daec5fb-0be1-4620-a210-a833477c24d7" valueTypeId="2d19298d-f4f0-4075-aa0e-5ffe3c0f4c02"/>
+      <rowType typeId="90978f88-653f-437f-a48e-76630feaa81c" valueTypeId="223f3b9a-e8ac-4d4f-bfe6-20f55e7e6bce"/>
+    </producedTypes>
+    <name>MatchDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Match dimension</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Match dimension</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f6c82e5c-df3d-4ca3-a8e6-c0a984f03665">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a0e47ff6-d73b-477e-9065-33be6e3da4a8">
+      <name>Axis</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_HypercubeAxes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a54a8b5e-02f8-47ec-8a80-5de86e5fecd5">
+      <name>Dimension</name>
+      <synonym>
+        <key>ru</key>
+        <value>Измерение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Dimension</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="9687aa8f-cef2-4274-8706-dc502fd953c6">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bee3f019-19c1-4a11-9719-d779c1934bb8">
+    <producedTypes>
+      <objectType typeId="d8b2e3a0-f2f7-4b6f-9c99-3fe2a5d57aba" valueTypeId="ebab3525-2277-43bd-b841-d774b5a32007"/>
+      <rowType typeId="d1e41daa-790f-4476-9de1-ec6b5c1f1935" valueTypeId="d6a7463e-fbd9-45d8-b44f-2340ed84ec51"/>
+    </producedTypes>
+    <name>MatchEntityIdentifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие идентификатора сущности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Match entity identifier</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="18031eca-2681-4bcc-ab44-194b086dfffa">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="66c4044c-69b0-412c-a534-eb9d7709e1a4">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fe43f0a1-614c-4406-892a-998303c788d5">
+    <producedTypes>
+      <objectType typeId="5379b74f-f147-4076-95fe-29a984a8a64d" valueTypeId="04dd0353-0d00-47c7-9dbf-2cec9c0b4d3d"/>
+      <rowType typeId="a73d7e80-79b9-4b37-8735-a7ddc7d3e40f" valueTypeId="e36cda12-d248-4190-8d38-dda9261bb29f"/>
+    </producedTypes>
+    <name>MatchLocation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие расположения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Match location</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4826b5c2-0c70-489c-b1e2-7e350549c9f0">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="36e1cef7-a6c4-4301-81d0-8af3d51b00fd">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6c1b1469-82f0-4f20-8aaf-10c3e5bec5c0">
+    <producedTypes>
+      <objectType typeId="fbc4bb15-3a7b-4ec3-9873-8b5809249974" valueTypeId="3f0c04c6-03a7-45aa-9abc-e64b2036bd3e"/>
+      <rowType typeId="3ad01787-c702-423b-89c4-77f6dfa18be2" valueTypeId="c6d75e7f-66bc-4ac4-b731-089e1fb02fff"/>
+    </producedTypes>
+    <name>MatchNonXDTScenario</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление сценариев, отличных от XDT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT segment matching</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="ebdcb9aa-5592-4a69-bea6-7b237b829bd6">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3010f6f0-e687-48fc-a1cd-ffc43c722f8e">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f61d56f0-b3b5-4872-8dbb-874a5b84025e">
+    <producedTypes>
+      <objectType typeId="74ca34fb-936a-4438-ae00-4df4edd79d3a" valueTypeId="55d65189-0ecd-427a-befe-f942c86e516f"/>
+      <rowType typeId="7c16042a-672a-413d-adfc-454df2ee5d4e" valueTypeId="8fb25e1f-0990-4799-9ddd-8cbc813109ca"/>
+    </producedTypes>
+    <name>MatchNonXDTSegment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сопоставление сегментов, отличных от XDT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT segment matching</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="758acea6-df3e-4384-bf61-eb5ceb5fdaa2">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b1dcaac-2279-4da8-82c5-268046e81a4b">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ad5345b6-bca7-403d-8fc2-c90e377f18d1">
+    <producedTypes>
+      <objectType typeId="0e701a5d-5643-46de-868d-d6b3b07d913a" valueTypeId="eaa43138-1f2a-4439-b6f7-df863ace8b43"/>
+      <rowType typeId="919b869b-f159-4cd7-82fb-9fd160eb85a2" valueTypeId="bf21d51e-6585-4ea7-b44f-4b5b48725a26"/>
+    </producedTypes>
+    <name>MatchPeriod</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие периода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Match period</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="17cca5df-d89d-4572-9c42-d4c798990180">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="82076256-307a-407f-8485-309e9669a16e">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="125196bb-d8e8-407a-9003-efddf39e365a">
+    <producedTypes>
+      <objectType typeId="3927a190-36d8-407e-9332-1de0572e9427" valueTypeId="3a7672ca-134d-4ee8-8f96-03b04dcfa8e5"/>
+      <rowType typeId="4a0a9832-2de5-40a3-9c3b-b3c77d7a068d" valueTypeId="a681f2bf-f2c5-4557-aa48-ba493d0e5e91"/>
+    </producedTypes>
+    <name>MatchUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие ед. измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Match unit</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="5a40939f-78d7-4b14-9b21-30c41c5b4762">
+      <name>MatchAny</name>
+      <synonym>
+        <key>ru</key>
+        <value>Любое совпадение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Match Any</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7ff07a50-457e-45ca-9c2f-8c9b24a1d162">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d393b2ba-dedc-4853-a362-a51433b1e7a5">
+    <producedTypes>
+      <objectType typeId="b5c31b84-3920-4dfa-a295-a9fb9352292c" valueTypeId="1c3e46cd-6ca4-47cd-ab32-a59cfb347e2f"/>
+      <rowType typeId="eec0547c-b1cb-4441-8001-f7d21aef4bd8" valueTypeId="8432a26b-1579-48bb-9017-476362c945c7"/>
+    </producedTypes>
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Period</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a81eee0a-216d-4048-a0d7-3915f3864722">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="73ef9135-8df3-456b-bd9c-76f0f061b546">
+    <producedTypes>
+      <objectType typeId="0f207211-31ad-4b22-b942-6b3b6e6feabe" valueTypeId="a7d1b9aa-57f4-4cd4-852a-bcb730591802"/>
+      <rowType typeId="fe0640c2-6a6e-4b66-ad22-ecb0e64e2416" valueTypeId="9a120b3f-4269-4f34-90d0-4ee64cbf3790"/>
+    </producedTypes>
+    <name>PeriodEnd</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period end</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Period end</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="45748b6d-5364-4bb3-8ce8-5f3c733f6b3b">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Date</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bbdad72-1dcd-4a6d-983a-b80d8e50f08b">
+      <name>Time</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Time</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5b8483e8-38d9-413a-b48f-744b84ae8a91">
+    <producedTypes>
+      <objectType typeId="440c7119-290c-4527-b0a8-9e71cb8015ed" valueTypeId="cba40c75-0709-4ebd-8dc4-66381f17af29"/>
+      <rowType typeId="d0c6f3bf-0a78-45ca-a00b-962b4e0cdf5d" valueTypeId="cd7ccd52-47e6-4b14-a860-e205f0672c34"/>
+    </producedTypes>
+    <name>PeriodInstant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период &quot;Момент&quot;</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period instant</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Period instant</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="6568ad37-a465-4042-8102-ca755de04419">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Date</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="8d74cba7-cdd4-4bac-a9a3-8c0a2f2168bb">
+      <name>Time</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Time</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="459deb13-c203-46d3-bcb0-4851a5a829e9">
+    <producedTypes>
+      <objectType typeId="7cc3e444-3252-4e41-88d0-da5ab0a890ba" valueTypeId="dafcec18-ee1c-4f0c-a3d5-609a934a2970"/>
+      <rowType typeId="57c2db9e-a561-4441-84f8-816c0634ff4b" valueTypeId="6438a27f-5234-4f7a-944b-3f07bce54d25"/>
+    </producedTypes>
+    <name>PeriodStart</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period start</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Period start</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d1ec0c8f-d73f-4ba0-bb41-d97649d1192d">
+      <name>Date</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Date</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f05aff46-666a-40f5-bf16-7a3ea41c39ce">
+      <name>Time</name>
+      <synonym>
+        <key>ru</key>
+        <value>Время</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Time</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="68c90d5f-0157-4f76-9f91-15879378168c">
+    <producedTypes>
+      <objectType typeId="55eb72ef-4e02-438a-96f6-0c879851a103" valueTypeId="7eb47def-b4dc-4d76-9207-04f8f3119680"/>
+      <rowType typeId="b5d22969-e16c-4b9b-81e1-ca26d2eb291a" valueTypeId="378916a3-e990-4a19-817c-69cb2da020fd"/>
+    </producedTypes>
+    <name>RegularExpressionEntityIdentifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта регулярного выражения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Regular expression entity identifier</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9f94a44a-9324-4b8e-bb60-087d1c008e9a">
+      <name>Pattern</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фасет</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Pattern</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="d6bb22f0-d9d5-4d6d-8955-ebf8fbce050d">
+    <producedTypes>
+      <objectType typeId="0f0363ab-e3ca-411e-8d56-7755c6d31654" valueTypeId="4407324b-efc0-4b40-999d-82d78830d9fb"/>
+      <rowType typeId="2b461e69-6b71-4852-8031-6049205004a2" valueTypeId="6ebb28b1-9ab1-494c-adf7-4f3caeace254"/>
+    </producedTypes>
+    <name>RegularExpressionEntityScheme</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема объекта регулярного выражения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Regular expression entity scheme</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="99e1c641-ca81-465c-a4dc-8acc80200220">
+      <name>Pattern</name>
+      <synonym>
+        <key>ru</key>
+        <value>Фасет</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Pattern</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="bdf1fdde-9221-4443-99cc-aab3880cda4b">
+    <producedTypes>
+      <objectType typeId="d045be31-09e5-4da0-81d2-85207b91233e" valueTypeId="336bf8f5-2ef4-467c-af97-0fc65ce541aa"/>
+      <rowType typeId="10768b37-3119-48ec-8c4a-abad45e3b29d" valueTypeId="1731142f-153e-4dc7-8596-8f8402372f3a"/>
+    </producedTypes>
+    <name>Relative</name>
+    <synonym>
+      <key>ru</key>
+      <value>Относительный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Relative</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="36c0374a-6a61-44e5-beca-8c2405c82d0d">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="25d580b7-fb7b-4cfe-83f3-66b7c1672e3e">
+    <producedTypes>
+      <objectType typeId="bc5d0a69-a5b0-473b-8c89-95ec8dad9b3a" valueTypeId="df24c57a-3db7-427a-993d-066b4cfb2b9e"/>
+      <rowType typeId="af6d307f-e7ba-4281-a652-e2fb4c82eb5d" valueTypeId="f2f908c3-2a98-471e-af9c-cd9a97407296"/>
+    </producedTypes>
+    <name>Scenario</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scenario</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4e67bc53-0529-4230-90a3-a882891fda41">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ada56ed9-ef0c-4dce-afd3-44c8f884ea4d">
+    <producedTypes>
+      <objectType typeId="6f0465f6-5934-4b6a-b2b6-e1bebde09ab5" valueTypeId="dcd7cfc8-e93a-4119-a457-c5548efcb43e"/>
+      <rowType typeId="57867a09-f836-47f0-a9a8-ad68d520ee08" valueTypeId="3c2d02fd-9b19-4bee-a1a2-80deede4fc60"/>
+    </producedTypes>
+    <name>Segment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Segment</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="09b2ab5d-e24c-40fa-9400-a23d9ef1fd89">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="209cdce5-2c3b-45ab-9837-9073648fb79b">
+    <producedTypes>
+      <objectType typeId="ef492ab3-89d0-4858-a40b-46e104cf5f87" valueTypeId="62ea31a9-1b0c-415c-957c-73fbcf87d015"/>
+      <rowType typeId="db3698af-950c-4a9c-9777-3bd9011e86cb" valueTypeId="850de971-a9dd-4866-9ac7-c9bf59a5b2d7"/>
+    </producedTypes>
+    <name>SpecificEntityIdentifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определенный идентификатор сущности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specific entity identifier</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="91bf4986-aa99-4400-a7c9-45ab66132d67">
+      <name>Schema</name>
+      <synonym>
+        <key>ru</key>
+        <value>Схема</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Schema</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4b63a90b-f12e-481e-9135-bfecf70ee14d">
+      <name>Value</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Value</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="738d0591-8ee4-481d-b2cd-3c9ad6c5f36b">
+    <producedTypes>
+      <objectType typeId="423a09bd-a3cc-478c-81b5-e1fd73b6e455" valueTypeId="17d781cb-74f6-4e6e-89d2-12888fce95a0"/>
+      <rowType typeId="efc4a8b5-ef1d-4eec-b7a5-52d20b141111" valueTypeId="e4ad9105-54b1-4a25-ac08-248f232aa184"/>
+    </producedTypes>
+    <name>SpecificEntityScheme</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определенная схема сущности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Specific entity scheme</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="330fb786-d24e-48bf-9021-4a558a64e70e">
+      <name>Schema</name>
+      <synonym>
+        <key>ru</key>
+        <value>Схема</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Schema</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="b37ebbe5-25d2-45dd-a71b-1e6d1d007500">
+    <producedTypes>
+      <objectType typeId="7abe66e2-a4a3-4ba7-99bf-c4056ef40f3f" valueTypeId="74c04f22-6dc6-442b-8816-99af9a8bff94"/>
+      <rowType typeId="a1fdd8e7-ecc0-4e24-8973-54f6dbce49e6" valueTypeId="1953277c-9d82-45cb-9961-e61a104fb0d0"/>
+    </producedTypes>
+    <name>TupleAncestor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предок кортежа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tuple ancestor</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="cfcf6929-42c5-456f-b069-10a724adcb29">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f8893a7f-c320-4443-bb12-1ed0644d9d5b">
+      <name>Turple</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кортеж</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Turple</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.velpo_Reporting</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="73b9b6bd-dbda-45d0-a511-191e5de38800">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="24293a64-1b7f-418b-9055-800d8b3bb494">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c60d69d7-90bb-4824-839a-fea4d4d997ec">
+    <producedTypes>
+      <objectType typeId="d32d2fb6-5fe1-4f1a-9165-bfae89fed70e" valueTypeId="6c579952-df3f-4741-b188-849f11b0004d"/>
+      <rowType typeId="4d27fa68-4cfa-4fb4-a616-155f7f3ef49e" valueTypeId="293fcf73-02d7-4a4c-a0b9-b5e87e07c21f"/>
+    </producedTypes>
+    <name>TupleLocation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местоположение кортежа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tuple location</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b4a4d83e-5fd7-4df9-95dd-877752e3a94d">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11272977-edc8-4e2f-bd87-aab845e32ddb">
+      <name>Location</name>
+      <synonym>
+        <key>ru</key>
+        <value>Расположение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Location</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="5b56c454-c909-48ea-9c3b-c0aa97957209">
+    <producedTypes>
+      <objectType typeId="be0a7b4b-cd75-471b-8c79-011c5ec5a631" valueTypeId="cf0e0730-59bf-438c-9ac4-050aaeca7f09"/>
+      <rowType typeId="2f6db558-dfe6-46f6-ac50-42d731a1a391" valueTypeId="6964f643-6fa3-436e-bdf2-e8128537c69c"/>
+    </producedTypes>
+    <name>TupleParent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель кортежа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tuple parent</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d0f00fcc-10a4-458c-811c-c05dcf81eb5c">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6273da5a-de46-44cf-b8e6-060d66ef188a">
+      <name>Turple</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кортеж</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Turple</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.velpo_Reporting</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <indexing>Index</indexing>
+    </attributes>
+    <attributes uuid="82ef34ca-3014-4ccb-9735-2f4718dbc35d">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="f5cf35e4-112b-4b37-a6d5-166736c556d0">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение измерения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="f973df3d-c295-47ee-a36a-a7e29b07bebf">
+    <producedTypes>
+      <objectType typeId="9a1d2f01-bfdf-429f-bc47-3a7f737f818c" valueTypeId="ebe177b3-f9e5-460c-9aa0-6d5a724e3b47"/>
+      <rowType typeId="9103784f-ba75-4666-8607-5dd733756b60" valueTypeId="b0478378-bf98-4249-a659-84ca59b5d427"/>
+    </producedTypes>
+    <name>TupleSibling</name>
+    <synonym>
+      <key>ru</key>
+      <value>Брат кортежа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tuple sibling</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="478786ca-6b2b-4a5d-aaee-f0d187b85fb7">
+      <name>Variable</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Variable</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="52b170b5-5c83-4411-8f98-cd212d2ba24f">
+    <producedTypes>
+      <objectType typeId="7f4e078d-9090-46be-bd54-bd899979fe35" valueTypeId="d3852733-ff50-4299-a3bd-4cff39b8947d"/>
+      <rowType typeId="0d8d7676-a4b0-4210-afb3-44d24158a83d" valueTypeId="ad16e898-5f11-4b7f-a183-bd97816f1bb8"/>
+    </producedTypes>
+    <name>TypedDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытое измерение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Typed dimension</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Typed dimension</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="e5cca3fd-948b-4ac8-8b2a-dcdc5fb52f1d">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="cdc8e729-b19f-4329-b3a5-c2646bf17f23">
+      <name>Axis</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_HypercubeAxes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1ba3f1b6-ee60-4122-a3be-6420b515966d">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="76713dcf-99c3-4ec3-9977-c1cd3d3899cb">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="fcf45044-4a45-4789-853c-0cca2f2bb95a">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="42c483eb-3846-440e-9905-8744113f7ed3">
+    <producedTypes>
+      <objectType typeId="2953dc0b-3cd8-4561-9553-05757afcf3b8" valueTypeId="08dd33b0-ede1-442c-b3ed-10bba187ca95"/>
+      <rowType typeId="d0b1ea08-d404-44de-bde2-c2b024cfaa7a" valueTypeId="018d7527-d580-4575-8473-2dd30dfa8baa"/>
+    </producedTypes>
+    <name>UnitGeneralMeasure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица общая мера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit general measure</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4ef00cd0-2e37-4ce8-947e-c082f7f262f0">
+      <name>Test</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тест</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Test</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="6760728c-4a27-4ba7-a24e-a18d34e9af30">
+    <producedTypes>
+      <objectType typeId="f560bad3-29ce-459b-beb4-66303a7733d1" valueTypeId="7c101870-8da5-4169-ba4a-5eccc6261d20"/>
+      <rowType typeId="33555f1c-19d4-452d-89ec-1d5268649bed" valueTypeId="a1914e28-cff9-40a4-bcd6-de2954c8b34c"/>
+    </producedTypes>
+    <name>UnitSingleMeasure</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица единственная мера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit single measure</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="767efb25-8985-4c2f-bf9a-e18b2a70901c">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7c653c37-3944-4abc-bc22-5ae90d6617ab">
+      <name>Qname</name>
+      <synonym>
+        <key>ru</key>
+        <value>Qname</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3194aba8-1295-4361-8ac0-75356e4b7b7c">
+      <name>QnameExpression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Qname expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="5f622ce1-6c8f-453e-8c02-0072ccabb81e">
+      <name>Unit</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ед. изм.</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Unit</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.velpo_Units</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="1161a4cd-6e25-471e-9372-9dcf78024b6d">
+    <producedTypes>
+      <objectType typeId="fe2e4d04-971a-49bf-afd3-c8b9f3eca2fb" valueTypeId="e5489eb1-26b2-4776-b902-92a50e65e54c"/>
+      <rowType typeId="56c7ef96-aab2-44fe-aeca-771b6b6303e2" valueTypeId="69b70587-8e31-4e64-b611-d2943b76ee1b"/>
+    </producedTypes>
+    <name>ValuePrecision</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точность значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value precision</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="8270ecd2-264e-4076-9e42-4186e5862f59">
+      <name>Minimum</name>
+      <synonym>
+        <key>ru</key>
+        <value>Минимум</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Minimum</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

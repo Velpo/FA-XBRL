@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="53903450-a03f-461c-8d6f-72dd943b72d3">
+  <producedTypes>
+    <objectType typeId="f1688645-b87b-4993-b55d-f366e3ccbc9d" valueTypeId="d3f5cb2f-e312-4cba-88e5-3f5f711f04ce"/>
+    <managerType typeId="dbc58e67-2350-4237-bb02-c93a056afcbb" valueTypeId="007414aa-a514-4953-bfb9-259fb45a18aa"/>
+  </producedTypes>
+  <name>velpo_TaxonomyImport</name>
+  <synonym>
+    <key>ru</key>
+    <value>Импорт таксономии</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Taxonomy import</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.velpo_TaxonomyImport.Form.Form</defaultForm>
+  <attributes uuid="2bfc16df-ed52-4f14-aa4e-0fe0b38be52e">
+    <name>Description</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Description</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>en</key>
+      <value>World country long description</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1beddf96-3151-4e42-9aca-ad50866a04f5">
+    <name>Identifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Identifier</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1dc09246-a1b0-4669-978f-da415f3befe0">
+    <name>LicenseHref</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ссылка на лицезию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>License reference</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67d87b65-1e33-4903-a7e8-ac384c1290e7">
+    <name>LicenseName</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование лицензии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>License name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eff6a176-f25a-496e-8c36-fb280c6922f2">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="675e4cbe-8fc2-4ccf-9c86-25afef2367d1">
+    <name>PublicationDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата публикации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Publication date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b92354b0-a759-4cec-a77f-79c2758486dd">
+    <name>Publisher</name>
+    <synonym>
+      <key>ru</key>
+      <value>Издатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Publisher</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b5abc404-c4fc-4533-9f5f-915bc97c5bbe">
+    <name>PublisherCountry</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страна</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Country</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="50adb6bb-2dc5-45b7-b73f-b1e5263ed82d">
+    <name>PublisherURL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сайт</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>URL</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e17c957a-2d98-4fd8-832b-7a7fc4ddedae">
+    <name>TaxonomyFile</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файл таксономии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Taxonomy file</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="63aa4d91-483e-4818-9a57-776fe956dfeb">
+    <name>Version</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Version</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="2524ec84-07e9-4bab-b061-d1b6fe7778a1">
+    <producedTypes>
+      <objectType typeId="b5276254-89ca-40ae-87dc-ad9586fb00cf" valueTypeId="595354a4-50ce-46dd-8ac9-c72e00337c68"/>
+      <rowType typeId="9fadc419-2876-4ab5-b55b-bc88a1e70281" valueTypeId="f1f2976a-abc0-4090-8b13-32788f9b6d38"/>
+    </producedTypes>
+    <name>SupersededTaxonomies</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замененные таксономии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Superseded taxonomies</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="528a320a-c459-45d5-989c-aa40c4fa99ff">
+      <name>Taxonomy</name>
+      <synonym>
+        <key>ru</key>
+        <value>Таксономия</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Taxonomy</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.velpo_Taxonomies</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="4e441af6-ce41-43c5-b02c-3de1fa25c3da">
+    <producedTypes>
+      <objectType typeId="97143501-f7ab-4ea4-b64b-1099a0429a25" valueTypeId="e0e07a5c-c9fa-49c0-8144-3999c2cfc666"/>
+      <rowType typeId="afe5958d-19f1-4f20-97cb-b3b66c88075a" valueTypeId="660cad02-da7f-4e6f-983b-ea164fe7cbcc"/>
+    </producedTypes>
+    <name>VersioningReports</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчеты по управлению версиями</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Versioning reports</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="a6d0afc8-929f-4c40-b7b1-6491947858ca">
+      <name>Reference</name>
+      <synonym>
+        <key>ru</key>
+        <value>Справка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Reference</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="c0e31dd9-011a-487f-a73e-65311c217165">
+    <name>Form</name>
+    <synonym>
+      <key>ru</key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

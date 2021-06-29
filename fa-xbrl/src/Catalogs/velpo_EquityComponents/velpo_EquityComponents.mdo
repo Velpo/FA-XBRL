@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c373aaa4-04ec-4371-af38-3e71b77c2604">
+  <producedTypes>
+    <objectType typeId="b0c8931d-ed91-4e94-847d-aba45f72aafc" valueTypeId="4f98375e-8164-4500-b30b-52e09c84e340"/>
+    <refType typeId="f831b2ea-71bd-46da-a8db-b0a5b695a408" valueTypeId="5ed34314-5012-4695-a1ce-9a684f2083ff"/>
+    <selectionType typeId="dd04ed98-b267-46c9-9552-e0deddd96024" valueTypeId="0db6e549-7f2a-4131-b5ec-5e3517a6138b"/>
+    <listType typeId="91eca321-7e07-44f6-a6ea-b5b8828cb450" valueTypeId="3215c645-b1ea-4584-9ea4-0526d75a9d9b"/>
+    <managerType typeId="e57f0689-b833-4b8c-86b6-0698297981c1" valueTypeId="47485c7f-7e78-4f5c-a762-9869aa08d148"/>
+  </producedTypes>
+  <name>velpo_EquityComponents</name>
+  <synonym>
+    <key>ru</key>
+    <value>Компоненты капитала</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Equity components</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.velpo_EquityComponents.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.velpo_EquityComponents.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>2</codeLength>
+  <descriptionLength>100</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="201394a4-1b41-4f4e-b835-6b4d6ac57d24">
+      <name>AdditionalPaidInCapital</name>
+      <description>Добавочный капитал</description>
+      <code xsi:type="core:StringValue">
+        <value>76</value>
+      </code>
+    </items>
+    <items id="f0d2ab1a-d80e-40ea-9f86-9754d58fb21b">
+      <name>MinimumAuthorizedCapital</name>
+      <description>Минимальный размер уставного капитала</description>
+      <code xsi:type="core:StringValue">
+        <value>81</value>
+      </code>
+    </items>
+    <items id="9e34d47b-b080-4555-bc5b-5a364176e263">
+      <name>UncoveredLosses</name>
+      <description>Непокрытые убытки отчетного года и прошлых лет</description>
+      <code xsi:type="core:StringValue">
+        <value>80</value>
+      </code>
+    </items>
+    <items id="ca3699fa-ca4d-4d3a-8f05-873576318f81">
+      <name>RetainedEarnings</name>
+      <description>Нераспределенная прибыль отчетного года и прошлых лет</description>
+      <code xsi:type="core:StringValue">
+        <value>78</value>
+      </code>
+    </items>
+    <items id="286489c3-87d7-48f2-98e4-57c131a9dd8b">
+      <name>CapitalReserve</name>
+      <description>Резервный капитал</description>
+      <code xsi:type="core:StringValue">
+        <value>77</value>
+      </code>
+    </items>
+    <items id="e4617525-d8cf-4eb9-a497-8f5858a17c69">
+      <name>OwnShares</name>
+      <description>Собственные акции (доли), выкупленные у акционеров (участников)</description>
+      <code xsi:type="core:StringValue">
+        <value>79</value>
+      </code>
+    </items>
+    <items id="19f1ed5e-7659-43ff-8d3c-5de8aa88819f">
+      <name>AuthorizedСapital</name>
+      <description>Уставный капитал</description>
+      <code xsi:type="core:StringValue">
+        <value>75</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

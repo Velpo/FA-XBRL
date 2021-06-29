@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c3c9f3d6-ad3b-40cf-8d15-064ae6372f31">
+  <producedTypes>
+    <refType typeId="0bbb2d39-f441-4a7b-9e19-2aae2d18819d" valueTypeId="707ada2f-9941-4fad-a0e2-902da98f6686"/>
+    <listType typeId="c9397626-a3b2-49c7-b3d1-58a2c2574064" valueTypeId="e7790f49-4eb3-4985-99b1-c6bb9ea020fc"/>
+    <managerType typeId="8c73dc35-420f-434f-abf0-a2db1b125130" valueTypeId="a82b4b4c-9311-4d4f-9cf1-a489ae043bcd"/>
+  </producedTypes>
+  <name>velpo_AM_Best</name>
+  <synonym>
+    <key>ru</key>
+    <value>A.M. Best</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>A.M. Best</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="79947b1f-3e34-44b1-9c2f-0479a12ffca9">
+    <name>A_double_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>A++</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A++</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d700353a-7ad8-4adf-bd40-b64028dd9dcc">
+    <name>A_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>A+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="16f68eb8-2d42-4433-86dd-44e28dbf4b34">
+    <name>A</name>
+    <synonym>
+      <key>ru</key>
+      <value>A</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a22d52a2-8ff7-43d9-9e65-79a3922fc944">
+    <name>A_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>A-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9de8ef73-3604-4cc9-a6aa-0eb93abef7a7">
+    <name>B_double_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>B++</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>B++</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a2d07866-ccb7-4546-9e74-d5c338b3614e">
+    <name>B_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>B+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>B+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0c82167d-a42b-40f0-8372-5023cfbf401b">
+    <name>B</name>
+    <synonym>
+      <key>ru</key>
+      <value>B</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7b2349d9-50f0-4b0f-89ef-9c1900c8768f">
+    <name>B_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>B-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>B-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="628f8138-ef56-482e-9b1d-0bbc3c9d7fad">
+    <name>C_double_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>C++</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>C++</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="36629319-c88f-4b91-ab71-5b3782273cfc">
+    <name>C_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>C+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>C+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="791b2a47-1f0c-4cb0-840b-0b7bb3f26fb2">
+    <name>C</name>
+    <synonym>
+      <key>ru</key>
+      <value>C</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f37e9c2f-2386-4657-8b01-448abbd14c61">
+    <name>D</name>
+    <synonym>
+      <key>ru</key>
+      <value>D</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>D</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

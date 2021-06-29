@@ -1,0 +1,6 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2016/assertion-severity" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.xbrl.org/2003/XLink"/>
+	<property xmlns:d2p1="http://www.xbrl.org/2003/XLink" name="error" type="d2p1:resourceType"/>
+	<property xmlns:d2p1="http://www.xbrl.org/2003/XLink" name="ok" type="d2p1:resourceType"/>
+	<property xmlns:d2p1="http://www.xbrl.org/2003/XLink" name="warning" type="d2p1:resourceType"/>
+</package>

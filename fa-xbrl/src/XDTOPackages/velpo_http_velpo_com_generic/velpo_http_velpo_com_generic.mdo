@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da18bcbb-5760-4239-ad1b-d37d59e9e8b5">
+  <name>velpo_http_velpo_com_generic</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://velpo.com/generic</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://velpo.com/generic</value>
+  </synonym>
+  <namespace>http://velpo.com/generic</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4c6cdacc-6186-41ed-855e-77878b24b4af">
+  <producedTypes>
+    <managerType typeId="6bf711b7-ab1c-4836-8342-cf38c2136f13" valueTypeId="43b82ad0-a6d4-4a4a-8a94-9f332c497174"/>
+    <valueManagerType typeId="9d9765ba-f791-4060-b3ce-90598981346b" valueTypeId="2cb4c9d7-d3bd-4765-9237-3648f9e8fc70"/>
+    <valueKeyType typeId="a0cc23cc-6af2-4eff-9b43-7368369e9870" valueTypeId="edcba58c-69d9-4123-b593-14f30ced7430"/>
+  </producedTypes>
+  <name>velpo_ProxyServerSettings</name>
+  <synonym>
+    <key>en</key>
+    <value>Velpo proxy server settings</value>
+  </synonym>
+  <comment>Setup proxy server parameters for access to the Internet at 1C:Enterprise server</comment>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

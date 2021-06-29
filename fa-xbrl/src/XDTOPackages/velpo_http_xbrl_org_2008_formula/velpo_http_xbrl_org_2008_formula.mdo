@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a133a14-93da-4a87-86dc-71e731659b42">
+  <name>velpo_http_xbrl_org_2008_formula</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://xbrl.org/2008/formula</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://xbrl.org/2008/formula</value>
+  </synonym>
+  <namespace>http://xbrl.org/2008/formula</namespace>
+</mdclass:XDTOPackage>

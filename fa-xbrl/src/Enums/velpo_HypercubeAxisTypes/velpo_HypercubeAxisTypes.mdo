@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91dfe82e-334c-4fbf-b1d1-68d146f01fd0">
+  <producedTypes>
+    <refType typeId="dfbb527a-8a3d-4ef9-9789-8830c6cd3a28" valueTypeId="75301493-c77b-4d0f-9ed6-348791380f1b"/>
+    <listType typeId="8ea32c37-fa66-48b3-a365-9d42e7273e53" valueTypeId="a4f04bef-093f-4727-916e-c794d6b42788"/>
+    <managerType typeId="0ee9d338-9bed-40f4-a0f2-6c2a9e90099f" valueTypeId="077f9516-62ec-41fa-be88-b35b900a340a"/>
+  </producedTypes>
+  <name>velpo_HypercubeAxisTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты осей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Hypercube/axis types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="476ca65f-43e7-4dc2-b73a-981ecfa48c00">
+    <name>Hypercube</name>
+    <synonym>
+      <key>ru</key>
+      <value>Hypercube</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Гиперкуб</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7f022ac2-a9d5-4f12-b0a4-510adbc321fe">
+    <name>ExplicitDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Закрытая ось</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Explicit dimension</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6ea60f80-9ab4-4159-9283-7382c3322d1d">
+    <name>TypedDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытая ось</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Typed dimension</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

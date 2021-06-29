@@ -1,0 +1,90 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.xbrl.org/2009/utr" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.w3.org/1998/Math/MathML"/>
+	<property name="baseStandard">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+			<enumeration>ISO4217</enumeration>
+			<enumeration>SI</enumeration>
+			<enumeration>Customary</enumeration>
+			<enumeration>Non-SI</enumeration>
+			<enumeration>XBRL</enumeration>
+			<enumeration/>
+		</typeDef>
+	</property>
+	<property xmlns:d2p1="http://www.xbrl.org/2009/utr" name="conversionContent" type="d2p1:mathExpression"/>
+	<property xmlns:d2p1="http://www.xbrl.org/2009/utr" name="conversionPresentation" type="d2p1:mathExpression"/>
+	<property xmlns:d2p1="http://www.xbrl.org/2009/utr" name="definition" type="d2p1:DocumentationType"/>
+	<property name="denominatorItemType" type="xs:NCName"/>
+	<property name="itemType">
+		<typeDef xsi:type="ValueType" base="xs:NCName" variety="Atomic"/>
+	</property>
+	<property name="itemTypeDate" type="xs:date"/>
+	<property name="nsDenominatorItemType" type="xs:anyURI"/>
+	<property name="nsItemType">
+		<typeDef xsi:type="ValueType" base="xs:anyURI" variety="Atomic"/>
+	</property>
+	<property name="nsNumeratorItemType" type="xs:anyURI"/>
+	<property xmlns:d2p1="http://www.xbrl.org/2009/utr" name="nsUnit" type="d2p1:nsUnitType"/>
+	<property name="numeratorItemType" type="xs:NCName"/>
+	<property name="status">
+		<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic">
+			<enumeration>PWD</enumeration>
+			<enumeration>CR</enumeration>
+			<enumeration>REC</enumeration>
+			<enumeration>NIE</enumeration>
+			<enumeration>PROPOSED</enumeration>
+			<enumeration>IWD</enumeration>
+			<enumeration>ACK</enumeration>
+			<enumeration>RR</enumeration>
+		</typeDef>
+	</property>
+	<property name="symbol">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic"/>
+	</property>
+	<property name="unitId">
+		<typeDef xsi:type="ValueType" base="xs:NCName" variety="Atomic"/>
+	</property>
+	<property name="unitName">
+		<typeDef xsi:type="ValueType" base="xs:string" variety="Atomic">
+			<pattern>[^\s].*[^\s]</pattern>
+		</typeDef>
+	</property>
+	<property name="utr">
+		<typeDef xsi:type="ObjectType">
+			<property name="version" type="xs:string" lowerBound="0" fixed="true" default="1.0" form="Attribute"/>
+			<property name="lastUpdated" type="xs:date" lowerBound="0" form="Attribute"/>
+			<property name="units">
+				<typeDef xsi:type="ObjectType" ordered="false" sequenced="true">
+					<property name="unit" lowerBound="0" upperBound="-1">
+						<typeDef xsi:type="ObjectType" ordered="false" sequenced="true">
+							<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:unitId" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:unitName" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:nsUnit" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:itemType" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:nsItemType" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:itemTypeDate" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:symbol" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:numeratorItemType" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:nsNumeratorItemType" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:denominatorItemType" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:nsDenominatorItemType" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:definition" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:baseStandard" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:conversionPresentation" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:conversionContent" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:status" lowerBound="0"/>
+							<property xmlns:d8p1="http://www.xbrl.org/2009/utr" ref="d8p1:versionDate" lowerBound="0"/>
+						</typeDef>
+					</property>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<property name="versionDate" type="xs:date"/>
+	<valueType name="nsUnitEmptyType" base="xs:string" variety="Atomic" length="0"/>
+	<valueType name="nsUnitType" base="xs:anyURI" variety="Atomic"/>
+	<objectType name="DocumentationType" open="true" mixed="true" sequenced="true"/>
+	<objectType name="mathExpression">
+		<property xmlns:d3p1="http://www.w3.org/1998/Math/MathML" ref="d3p1:math"/>
+	</objectType>
+</package>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f1e9d6dc-869d-45be-bad8-4e566beb3216">
+  <name>velpo_http_www_w3_org_1998_Math_MathML</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://www.w3.org/1998/Math/MathML</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://www.w3.org/1998/Math/MathML</value>
+  </synonym>
+  <namespace>http://www.w3.org/1998/Math/MathML</namespace>
+</mdclass:XDTOPackage>

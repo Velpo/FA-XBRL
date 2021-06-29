@@ -1,0 +1,114 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2008/formula" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://xbrl.org/2008/variable"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/formula" name="abstract_aspect" type="d2p1:abstract.aspect.type" localName="abstract.aspect"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/formula" name="abstract_dimension_aspect" type="d2p1:abstract.dimension.aspect.type" localName="abstract.dimension.aspect"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/formula" name="abstract_occ_aspect" type="d2p1:abstract.occ.aspect.type" localName="abstract.occ.aspect"/>
+	<property name="aspects">
+		<typeDef xsi:type="ObjectType">
+			<property name="source" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://xbrl.org/2008/formula" ref="d4p1:abstract_aspect" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="concept">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.aspect.type" ordered="false" sequenced="true">
+			<property name="qname" type="xs:QName" lowerBound="0"/>
+			<property name="qnameExpression" type="xs:anyType" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<property name="entityIdentifier">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.aspect.type">
+			<property name="scheme" lowerBound="0" form="Attribute"/>
+			<property name="value" lowerBound="0" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="explicitDimension">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.dimension.aspect.type" ordered="false" sequenced="true">
+			<property name="member" type="d3p1:qname.model" lowerBound="0"/>
+			<property name="omit" lowerBound="0">
+				<typeDef xsi:type="ObjectType"/>
+			</property>
+		</typeDef>
+	</property>
+	<property name="formula">
+		<typeDef xsi:type="ObjectType" open="true" mixed="true" ordered="false" sequenced="true">
+			<property name="value" lowerBound="1" form="Attribute"/>
+			<property name="source" lowerBound="0" form="Attribute"/>
+			<property name="precision" type="xs:anyType" lowerBound="0"/>
+			<property name="decimals" type="xs:anyType" lowerBound="0"/>
+			<property xmlns:d4p1="http://xbrl.org/2008/formula" ref="d4p1:aspects" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property xmlns:d2p1="http://xbrl.org/2008/formula" name="occEmpty" type="d2p1:abstract.occ.aspect.type"/>
+	<property name="occFragments">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.occ.aspect.type" open="true" sequenced="true"/>
+	</property>
+	<property name="occXpath">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.occ.aspect.type">
+			<property name="select" lowerBound="0" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property name="period">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.aspect.type" ordered="false" sequenced="true">
+			<property name="forever" lowerBound="0">
+				<typeDef xsi:type="ObjectType"/>
+			</property>
+			<property name="instant" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="value" lowerBound="0" form="Attribute"/>
+				</typeDef>
+			</property>
+			<property name="duration" lowerBound="0">
+				<typeDef xsi:type="ObjectType">
+					<property name="start" lowerBound="0" form="Attribute"/>
+					<property name="end" lowerBound="0" form="Attribute"/>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<property name="typedDimension">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.dimension.aspect.type" ordered="false" sequenced="true">
+			<property name="xpath" type="xs:string" lowerBound="0"/>
+			<property name="value" lowerBound="0">
+				<typeDef xsi:type="ObjectType" open="true" sequenced="true"/>
+			</property>
+			<property name="omit" lowerBound="0">
+				<typeDef xsi:type="ObjectType"/>
+			</property>
+		</typeDef>
+	</property>
+	<property name="unit">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/formula" xsi:type="ObjectType" base="d3p1:abstract.aspect.type">
+			<property name="augment" type="xs:boolean" lowerBound="0" form="Attribute"/>
+			<property name="multiplyBy" lowerBound="0" upperBound="-1">
+				<typeDef xsi:type="ObjectType">
+					<property name="measure" lowerBound="0" form="Attribute"/>
+					<property name="source" lowerBound="0" form="Attribute"/>
+				</typeDef>
+			</property>
+			<property name="divideBy" lowerBound="0" upperBound="-1">
+				<typeDef xsi:type="ObjectType">
+					<property name="measure" lowerBound="0" form="Attribute"/>
+					<property name="source" lowerBound="0" form="Attribute"/>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<objectType name="abstract.aspect.type">
+		<property name="source" lowerBound="0" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://xbrl.org/2008/formula" name="abstract.dimension.aspect.type" base="d2p1:abstract.aspect.type">
+		<property name="dimension" type="xs:QName" lowerBound="1" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://xbrl.org/2008/formula" name="abstract.occ.aspect.type" base="d2p1:abstract.aspect.type">
+		<property name="occ" lowerBound="1" form="Attribute">
+			<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic">
+				<enumeration>segment</enumeration>
+				<enumeration>scenario</enumeration>
+			</typeDef>
+		</property>
+	</objectType>
+	<objectType name="qname.model" ordered="false" sequenced="true">
+		<property name="qname" type="xs:QName" lowerBound="0"/>
+		<property name="qnameExpression" type="xs:anyType" lowerBound="0"/>
+	</objectType>
+</package>

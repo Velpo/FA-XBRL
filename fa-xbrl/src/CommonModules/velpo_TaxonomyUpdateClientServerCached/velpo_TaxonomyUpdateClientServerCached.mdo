@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c6742aa0-206a-495b-8da6-0285acc059a5">
+  <name>velpo_TaxonomyUpdateClientServerCached</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление таксономии клиент повт исп</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Taxonomy update client server cashed</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

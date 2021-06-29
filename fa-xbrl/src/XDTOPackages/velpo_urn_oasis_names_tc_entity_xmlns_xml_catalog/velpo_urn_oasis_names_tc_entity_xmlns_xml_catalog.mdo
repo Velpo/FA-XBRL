@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="21ed2c18-6df4-4b8d-93f2-fe1b55f13294">
+  <name>velpo_urn_oasis_names_tc_entity_xmlns_xml_catalog</name>
+  <synonym>
+    <key>ru</key>
+    <value>urn:oasis:names:tc:entity:xmlns:xml:catalog</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>urn:oasis:names:tc:entity:xmlns:xml:catalog</value>
+  </synonym>
+  <namespace>urn:oasis:names:tc:entity:xmlns:xml:catalog</namespace>
+</mdclass:XDTOPackage>

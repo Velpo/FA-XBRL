@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="208762c6-adb2-4ddb-833a-01613d06932a">
+  <producedTypes>
+    <refType typeId="022a32b3-612c-45ff-b196-67c6991b37db" valueTypeId="53b2895c-5015-44a2-867f-059fb0ce4cce"/>
+    <listType typeId="48a733d7-2dac-4047-b69d-d387f997cef5" valueTypeId="43d6f155-f708-4c30-8dc9-2cf08b6fd161"/>
+    <managerType typeId="df950bec-2401-44e0-83dd-03a935114aa4" valueTypeId="bec1f4ef-1411-494e-be78-dcf9ae60cdfa"/>
+  </producedTypes>
+  <name>velpo_AttributeTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы атрибутов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Attribute types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74b87a4d-9cc9-4753-82c6-5e19252ec278">
+    <name>Qname</name>
+    <synonym>
+      <key>ru</key>
+      <value>Qname</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Qname</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a90d1a1-4011-4fb7-ab28-a157ef128999">
+    <name>Expression</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выражение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Expression</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f32886bf-ede9-4005-b0f6-be7c258f084c">
+    <name>Omit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропуск</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Omit</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="48e0a7a6-2b1e-4780-81f0-edec20f92e4c">
+    <name>Duration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Duration</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f0ce0dc6-0e76-4288-bbaa-f5661ad7fe7a">
+    <name>Instant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instant</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1a98a46-11eb-48e8-93f2-a8d82fc8785d">
+    <name>Forever</name>
+    <synonym>
+      <key>ru</key>
+      <value>Постоянно</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Forever</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ac34804d-2af4-4299-b599-bbb67ccfcb7b">
+    <name>XPath</name>
+    <synonym>
+      <key>ru</key>
+      <value>XPath</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>X path</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8700628a-b54d-4d5e-8bdf-07466f92e51a">
+    <name>Value</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d06967df-6270-4961-a333-80bf6b3dc84a">
+    <name>Empty</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пусто</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Empty</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="10b81f82-e292-4dcd-b51f-cdcb361d53cb">
+    <name>Fragments</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фрагменты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Fragments</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="579069ba-cae9-4117-adce-96da1c441242">
+    <name>MultiplyBy</name>
+    <synonym>
+      <key>ru</key>
+      <value>Умножить на</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Multiply by</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="19529791-5760-46a9-b752-f8d49f4e49fa">
+    <name>DivideBy</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поделить на</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Divide by</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e3ea798f-3e30-478a-9b36-f0283bd4202e">
+    <name>Aspect</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аспект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Aspect</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53db6d2e-bdb1-4d92-a808-656b83d16ea1">
+    <name>DimQname</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение-QName</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dim-Qname</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a36c114f-7fb7-448b-bfaf-b3bde41d9a88">
+    <name>DimExpression</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерение-Выражение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dim-Expression</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75727f50-8e38-4aa1-a553-c62f2216d1ba">
+    <name>ExcludedDimQname</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключенное Измерение-QName</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Excluded-Dim-Qname</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="baca14c4-b0e0-4bad-be48-a3a0e1bd88e7">
+    <name>ExcludedDimExpression</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исключенное Измерение-Выражение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Excluded-Dim-Expression</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2fed0dae-a6de-4b60-a456-3bee06eba4de">
+    <name>Variable</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переменная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Variable</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="298bcbc7-03cb-4046-9edb-4dd93d2c5fce">
+    <name>Precision</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точность</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Precision</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67f464a7-9ed3-4dd0-9e0e-c256a8d48416">
+    <name>Decimals</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дробная часть</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Decimals</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

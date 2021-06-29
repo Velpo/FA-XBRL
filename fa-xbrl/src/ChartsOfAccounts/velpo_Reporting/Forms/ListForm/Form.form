@@ -1,0 +1,2387 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <items xsi:type="form:FormGroup">
+    <name>ListSettingsComposerUserSettings</name>
+    <id>1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Группа пользовательских настроек</value>
+    </title>
+    <verticalStretch>false</verticalStretch>
+    <extendedTooltip>
+      <name>ListSettingsComposerUserSettingsExtendedTooltip</name>
+      <id>2</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <type>UsualGroup</type>
+    <extInfo xsi:type="form:UsualGroupExtInfo">
+      <group>Vertical</group>
+      <representation>WeakSeparation</representation>
+      <showLeftMargin>true</showLeftMargin>
+      <united>true</united>
+      <throughAlign>Auto</throughAlign>
+      <currentRowUse>Auto</currentRowUse>
+    </extInfo>
+  </items>
+  <items xsi:type="form:Table">
+    <name>List</name>
+    <id>3</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>List</segments>
+    </dataPath>
+    <defaultItem>true</defaultItem>
+    <titleLocation>None</titleLocation>
+    <items xsi:type="form:FormField">
+      <name>Name</name>
+      <id>28</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Name</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>NameExtendedTooltip</name>
+        <id>30</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>NameContextMenu</name>
+        <id>29</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Description</name>
+      <id>16</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Description</segments>
+        </paths>
+      </dataPath>
+      <defaultItem>true</defaultItem>
+      <extendedTooltip>
+        <name>DescriptionExtendedTooltip</name>
+        <id>18</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>DescriptionContextMenu</name>
+        <id>17</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>ConceptType</name>
+      <id>106</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.ConceptType</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>ConceptTypeExtendedTooltip</name>
+        <id>108</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ConceptTypeContextMenu</name>
+        <id>107</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>DataType</name>
+      <id>115</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.DataType</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>DataTypeExtendedTooltip</name>
+        <id>117</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>DataTypeContextMenu</name>
+        <id>116</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>TurnoversOnly</name>
+      <id>112</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.TurnoversOnly</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>TurnoversOnlyExtendedTooltip</name>
+        <id>114</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>TurnoversOnlyContextMenu</name>
+        <id>113</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>IsAbstract</name>
+      <id>118</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.IsAbstract</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>IsAbstractExtendedTooltip</name>
+        <id>120</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>IsAbstractContextMenu</name>
+        <id>119</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>IsOverridden</name>
+      <id>121</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.IsOverridden</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>IsOverriddenExtendedTooltip</name>
+        <id>123</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>IsOverriddenContextMenu</name>
+        <id>122</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>CheckBoxField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis1</name>
+      <id>31</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 1</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 1</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis1</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis1ExtendedTooltip</name>
+        <id>33</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis1ContextMenu</name>
+        <id>32</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis2</name>
+      <id>34</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 2</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 2</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis2</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis2ExtendedTooltip</name>
+        <id>36</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis2ContextMenu</name>
+        <id>35</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis3</name>
+      <id>37</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 3</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 3</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis3</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis3ExtendedTooltip</name>
+        <id>39</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis3ContextMenu</name>
+        <id>38</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis4</name>
+      <id>40</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 4</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 4</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis4</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis4ExtendedTooltip</name>
+        <id>42</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis4ContextMenu</name>
+        <id>41</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis5</name>
+      <id>43</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 5</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 5</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis5</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis5ExtendedTooltip</name>
+        <id>45</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis5ContextMenu</name>
+        <id>44</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis6</name>
+      <id>46</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 6</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 6</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis6</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis6ExtendedTooltip</name>
+        <id>48</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis6ContextMenu</name>
+        <id>47</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis7</name>
+      <id>49</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 7</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 7</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis7</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis7ExtendedTooltip</name>
+        <id>51</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis7ContextMenu</name>
+        <id>50</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis8</name>
+      <id>52</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 8</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 8</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis8</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis8ExtendedTooltip</name>
+        <id>54</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis8ContextMenu</name>
+        <id>53</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis9</name>
+      <id>55</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 9</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 9</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis9</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis9ExtendedTooltip</name>
+        <id>57</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis9ContextMenu</name>
+        <id>56</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis10</name>
+      <id>58</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 10</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 10</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis10</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis10ExtendedTooltip</name>
+        <id>60</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis10ContextMenu</name>
+        <id>59</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis11</name>
+      <id>61</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 11</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 11</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis11</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis11ExtendedTooltip</name>
+        <id>63</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis11ContextMenu</name>
+        <id>62</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis12</name>
+      <id>64</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 12</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 12</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis12</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis12ExtendedTooltip</name>
+        <id>66</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis12ContextMenu</name>
+        <id>65</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis13</name>
+      <id>67</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 13</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 13</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis13</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis13ExtendedTooltip</name>
+        <id>69</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis13ContextMenu</name>
+        <id>68</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis14</name>
+      <id>70</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 14</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 14</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis14</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis14ExtendedTooltip</name>
+        <id>72</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis14ContextMenu</name>
+        <id>71</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis15</name>
+      <id>73</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 15</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 15</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis15</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis15ExtendedTooltip</name>
+        <id>75</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis15ContextMenu</name>
+        <id>74</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis16</name>
+      <id>76</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 16</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 16</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis16</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis16ExtendedTooltip</name>
+        <id>78</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis16ContextMenu</name>
+        <id>77</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis17</name>
+      <id>79</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 17</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 17</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis17</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis17ExtendedTooltip</name>
+        <id>81</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis17ContextMenu</name>
+        <id>80</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis18</name>
+      <id>82</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 18</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 18</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis18</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis18ExtendedTooltip</name>
+        <id>84</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis18ContextMenu</name>
+        <id>83</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis19</name>
+      <id>85</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 19</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 19</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis19</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis19ExtendedTooltip</name>
+        <id>87</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis19ContextMenu</name>
+        <id>86</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis20</name>
+      <id>88</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 20</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 20</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis20</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis20ExtendedTooltip</name>
+        <id>90</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis20ContextMenu</name>
+        <id>89</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis21</name>
+      <id>91</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 21</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 21</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis21</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis21ExtendedTooltip</name>
+        <id>93</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis21ContextMenu</name>
+        <id>92</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis22</name>
+      <id>94</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 22</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 22</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis22</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis22ExtendedTooltip</name>
+        <id>96</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis22ContextMenu</name>
+        <id>95</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis23</name>
+      <id>97</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 23</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 23</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis23</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis23ExtendedTooltip</name>
+        <id>99</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis23ContextMenu</name>
+        <id>98</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis24</name>
+      <id>100</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 24</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 24</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis24</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis24ExtendedTooltip</name>
+        <id>102</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis24ContextMenu</name>
+        <id>101</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
+      <name>Axis25</name>
+      <id>103</id>
+      <title>
+        <key>ru</key>
+        <value>Вид субконто 25</value>
+      </title>
+      <title>
+        <key>en</key>
+        <value>Axis 25</value>
+      </title>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>List.Axis25</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>Axis25ExtendedTooltip</name>
+        <id>105</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>Axis25ContextMenu</name>
+        <id>104</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>LabelField</type>
+      <editMode>Enter</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:LabelFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+      </extInfo>
+    </items>
+    <commandBarLocation>None</commandBarLocation>
+    <autoCommandBar>
+      <name>ListCommandBar</name>
+      <id>5</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <horizontalAlign>Left</horizontalAlign>
+    </autoCommandBar>
+    <searchStringAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ListSearchString</name>
+      <id>7</id>
+      <extendedTooltip>
+        <name>ListSearchStringExtendedTooltip</name>
+        <id>9</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ListSearchStringContextMenu</name>
+        <id>8</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <extInfo xsi:type="form:SearchStringAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchStringAddition>
+    <viewStatusAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ListViewStatus</name>
+      <id>10</id>
+      <extendedTooltip>
+        <name>ListViewStatusExtendedTooltip</name>
+        <id>12</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ListViewStatusContextMenu</name>
+        <id>11</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>ViewStatusAddition</type>
+      <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </viewStatusAddition>
+    <searchControlAddition>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <name>ListSearchControl</name>
+      <id>13</id>
+      <extendedTooltip>
+        <name>ListSearchControlExtendedTooltip</name>
+        <id>15</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ListSearchControlContextMenu</name>
+        <id>14</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>SearchControlAddition</type>
+      <extInfo xsi:type="form:SearchControlAdditionExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+      </extInfo>
+    </searchControlAddition>
+    <extendedTooltip>
+      <name>ListExtendedTooltip</name>
+      <id>6</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ListContextMenu</name>
+      <id>4</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <changeRowSet>true</changeRowSet>
+    <changeRowOrder>true</changeRowOrder>
+    <autoMaxWidth>true</autoMaxWidth>
+    <autoMaxHeight>true</autoMaxHeight>
+    <autoMaxRowsCount>true</autoMaxRowsCount>
+    <choiceMode>true</choiceMode>
+    <selectionMode>MultiRow</selectionMode>
+    <header>true</header>
+    <headerHeight>1</headerHeight>
+    <footerHeight>1</footerHeight>
+    <horizontalScrollBar>AutoUse</horizontalScrollBar>
+    <verticalScrollBar>AutoUse</verticalScrollBar>
+    <horizontalLines>true</horizontalLines>
+    <verticalLines>true</verticalLines>
+    <useAlternationRowColor>true</useAlternationRowColor>
+    <searchOnInput>Auto</searchOnInput>
+    <initialListView>Auto</initialListView>
+    <initialTreeView>ExpandTopLevel</initialTreeView>
+    <horizontalStretch>true</horizontalStretch>
+    <verticalStretch>true</verticalStretch>
+    <enableStartDrag>true</enableStartDrag>
+    <enableDrag>true</enableDrag>
+    <fileDragMode>AsFileRef</fileDragMode>
+    <rowPictureDataPath xsi:type="form:DataPath">
+      <segments>List.DefaultPicture</segments>
+    </rowPictureDataPath>
+    <extInfo xsi:type="form:DynamicListTableExtInfo">
+      <autoRefreshPeriod>60</autoRefreshPeriod>
+      <period>
+        <startDate>0001-01-01T00:00:00</startDate>
+        <endDate>0001-01-01T00:00:00</endDate>
+      </period>
+      <topLevelParent xsi:type="core:UndefinedValue"/>
+      <showRoot>true</showRoot>
+      <userSettingsGroup>ListSettingsComposerUserSettings</userSettingsGroup>
+    </extInfo>
+  </items>
+  <autoCommandBar>
+    <name>FormCommandBar</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <attributes>
+    <name>List</name>
+    <id>1</id>
+    <valueType>
+      <types>DynamicList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <notDefaultUseAlwaysAttributes xsi:type="form:MultiLanguageDataPath">
+      <paths xsi:type="form:DataPath">
+        <segments>List.IsGroup</segments>
+      </paths>
+    </notDefaultUseAlwaysAttributes>
+    <main>true</main>
+    <extInfo xsi:type="form:DynamicListExtInfo">
+      <queryText>SELECT
+	ChartOfAccountsReporting.Ref AS Ref,
+	ChartOfAccountsReporting.DeletionMark AS DeletionMark,
+	ChartOfAccountsReporting.Parent AS Parent,
+	ChartOfAccountsReporting.Description AS Description,
+	ChartOfAccountsReporting.Type AS Balance,
+	ChartOfAccountsReporting.OffBalance AS OffBalance,
+	ChartOfAccountsReporting.Name AS Name,
+	ChartOfAccountsReporting.ConceptType AS ConceptType,
+	ChartOfAccountsReporting.DataType AS DataType,
+	ChartOfAccountsReporting.TurnoversOnly AS TurnoversOnly,
+	ChartOfAccountsReporting.Predefined AS Predefined,
+	ChartOfAccountsReporting.PredefinedDataName AS PredefinedDataName,
+	ChartOfAccountsReporting.IsGroup AS IsGroup,
+	ChartOfAccountsReporting.IsAbstract AS IsAbstract,
+	ChartOfAccountsReporting.IsOverridden AS IsOverridden,
+	Axis1.Dimension AS Axis1,
+	Axis2.Dimension AS Axis2,
+	Axis3.Dimension AS Axis3,
+	Axis4.Dimension AS Axis4,
+	Axis5.Dimension AS Axis5,
+	Axis6.Dimension AS Axis6,
+	Axis7.Dimension AS Axis7,
+	Axis8.Dimension AS Axis8,
+	Axis9.Dimension AS Axis9,
+	Axis10.Dimension AS Axis10,
+	Axis11.Dimension AS Axis11,
+	Axis12.Dimension AS Axis12,
+	Axis13.Dimension AS Axis13,
+	Axis14.Dimension AS Axis14,
+	Axis15.Dimension AS Axis15,
+	Axis16.Dimension AS Axis16,
+	Axis17.Dimension AS Axis17,
+	Axis18.Dimension AS Axis18,
+	Axis19.Dimension AS Axis19,
+	Axis20.Dimension AS Axis20,
+	Axis21.Dimension AS Axis21,
+	Axis22.Dimension AS Axis22,
+	Axis23.Dimension AS Axis23,
+	Axis24.Dimension AS Axis24,
+	Axis25.Dimension AS Axis25
+FROM
+	ChartOfAccounts.Reporting AS ChartOfAccountsReporting
+		LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 1) AS Axis1
+		ON ChartOfAccountsReporting.Ref = Axis1.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 2) AS Axis2
+		ON ChartOfAccountsReporting.Ref = Axis2.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 3) AS Axis3
+		ON ChartOfAccountsReporting.Ref = Axis3.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 4) AS Axis4
+		ON ChartOfAccountsReporting.Ref = Axis4.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 5) AS Axis5
+		ON ChartOfAccountsReporting.Ref = Axis5.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 6) AS Axis6
+		ON ChartOfAccountsReporting.Ref = Axis6.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 7) AS Axis7
+		ON ChartOfAccountsReporting.Ref = Axis7.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 8) AS Axis8
+		ON ChartOfAccountsReporting.Ref = Axis8.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 9) AS Axis9
+		ON ChartOfAccountsReporting.Ref = Axis9.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 10) AS Axis10
+		ON ChartOfAccountsReporting.Ref = Axis10.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 11) AS Axis11
+		ON ChartOfAccountsReporting.Ref = Axis11.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 12) AS Axis12
+		ON ChartOfAccountsReporting.Ref = Axis12.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 13) AS Axis13
+		ON ChartOfAccountsReporting.Ref = Axis13.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 14) AS Axis14
+		ON ChartOfAccountsReporting.Ref = Axis14.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 15) AS Axis15
+		ON ChartOfAccountsReporting.Ref = Axis15.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 16) AS Axis16
+		ON ChartOfAccountsReporting.Ref = Axis16.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 17) AS Axis17
+		ON ChartOfAccountsReporting.Ref = Axis17.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 18) AS Axis18
+		ON ChartOfAccountsReporting.Ref = Axis18.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 19) AS Axis19
+		ON ChartOfAccountsReporting.Ref = Axis19.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 20) AS Axis20
+		ON ChartOfAccountsReporting.Ref = Axis20.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 21) AS Axis21
+		ON ChartOfAccountsReporting.Ref = Axis21.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 22) AS Axis22
+		ON ChartOfAccountsReporting.Ref = Axis22.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 23) AS Axis23
+		ON ChartOfAccountsReporting.Ref = Axis23.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 24) AS Axis24
+		ON ChartOfAccountsReporting.Ref = Axis24.Ref
+			LEFT JOIN (SELECT
+			ChartOfAccountsReportingSubconto.ExtDimensionType AS Dimension,
+			ChartOfAccountsReportingSubconto.ExtDimensionType.Description + CASE
+				WHEN ChartOfAccountsReportingSubconto.TurnoversOnly
+					THEN &quot; (об)&quot;
+				ELSE &quot;&quot;
+			END AS Subconto,
+			ChartOfAccountsReportingSubconto.Ref AS Ref
+		FROM
+			ChartOfAccounts.Reporting.ExtDimensionTypes AS ChartOfAccountsReportingSubconto
+		WHERE
+			ChartOfAccountsReportingSubconto.LineNumber = 25) AS Axis25
+		ON ChartOfAccountsReporting.Ref = Axis25.Ref</queryText>
+      <mainTable>ChartOfAccounts.velpo_Reporting</mainTable>
+      <dynamicDataRead>true</dynamicDataRead>
+      <autoFillAvailableFields>true</autoFillAvailableFields>
+      <customQuery>true</customQuery>
+      <autoSaveUserSettings>true</autoSaveUserSettings>
+      <getInvisibleFieldPresentations>true</getInvisibleFieldPresentations>
+    </extInfo>
+  </attributes>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+  <extInfo xsi:type="form:DynamicListFormExtInfo"/>
+</form:Form>
