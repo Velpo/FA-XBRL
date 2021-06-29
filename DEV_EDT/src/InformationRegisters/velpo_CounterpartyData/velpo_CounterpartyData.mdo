@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f3659329-5bcd-4d92-83d6-65611093eefe">
+  <producedTypes>
+    <selectionType typeId="60e10b9f-597e-4fa5-a153-fa1fb39a063a" valueTypeId="f87d1bcc-0067-4ff1-a317-48b2556435ea"/>
+    <listType typeId="362335cf-8422-4778-b84a-f672e37ca780" valueTypeId="6e3ee63b-b809-4bcf-b37b-6f47f37a0a1c"/>
+    <managerType typeId="d430bc6d-95a4-4c14-a05e-2320c2eadc11" valueTypeId="da4a948d-63e0-400d-a37f-83cebd10eb33"/>
+    <recordSetType typeId="087cf541-7215-4363-a4d9-8cbf40149ff6" valueTypeId="929145c8-c313-4212-b77c-1ac177adf78b"/>
+    <recordKeyType typeId="108bce4b-0a7f-4b54-b5fa-9a307749ca38" valueTypeId="ff0a35cb-657b-4e88-82fe-5ca24595568c"/>
+    <recordType typeId="618d5413-02f9-4879-8bd8-b378ccd88d1e" valueTypeId="7f9b7227-b65c-4ea0-999f-8842e1fdf390"/>
+    <recordManagerType typeId="5ea8d011-53a0-434a-a548-30b8572ce9ae" valueTypeId="9647e298-4403-4dfd-9999-4b51c19dcd5e"/>
+  </producedTypes>
+  <name>velpo_CounterpartyData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные контрагентов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Counterparty data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5b959fe1-7d9f-41a6-9307-2d4484aeab81">
+    <name>ConsolidatedRating</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводный рейтинг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Consolidated rating</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_ConsolidatedRatings</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="44a59b6b-89c5-42e7-bda9-ce73901c6890">
+    <name>CreditQualityGroup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы кредитного качества</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Credit quality group</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_CreditQualityGroups</types>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>19</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0f130701-7861-4656-9f91-b96fc19e0dd1">
+    <name>CreditRating</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сredit rating</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f0daa988-f1c0-4b89-85e2-34fc973a4a32">
+    <name>RatingAgency</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинговое агентство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rating agency</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_RatingAgencies</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0d348c5e-4f17-4990-b332-1fdbeae9860b">
+    <name>Risk2Category</name>
+    <synonym>
+      <key>en</key>
+      <value>Risk2 category</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_Risk2Categories</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="eb8462b2-05bb-426f-8f13-6dd8e17b784a">
+    <name>Account</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статья</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.velpo_Economic</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Filter.Ref</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>ChartOfAccounts.velpo_Economic.Counterparties</value>
+      </value>
+    </choiceParameters>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfAccounts.velpo_Economic.Counterparties</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="c4282a7d-c626-466e-bc91-0ccc8e7d4238">
+    <name>ObjectType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object type</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Filter.Ref</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.CounterpartyID</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.CounterpartyID</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="d2ff81f9-7de4-4ff2-af8d-a52e6bb2ac51">
+    <name>Status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="8f46d01e-f2c2-446a-9a72-77114f74923a">
+    <name>BusinessUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес единица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_BusinessUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="126ed960-eecd-460b-ad5a-98851cd1a2e1">
+    <name>ObjectID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор контрагента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object ID</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.velpo_CounterpartyData.Attribute.ObjectType</field>
+    </linkByType>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

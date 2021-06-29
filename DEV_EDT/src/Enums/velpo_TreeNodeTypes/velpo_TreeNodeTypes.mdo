@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1515e51-cb01-48d0-8f3f-65fc8855ebd4">
+  <producedTypes>
+    <refType typeId="43226122-9f07-4f16-a33c-186e5a4f1459" valueTypeId="0a582b49-4cf5-4fcb-8e8f-09f3f885db39"/>
+    <listType typeId="4d0aff6f-94e0-43f0-9c89-3dd9b8c3ee90" valueTypeId="dd785f14-d567-40f9-9090-14724ea728fd"/>
+    <managerType typeId="6faf570e-55d9-4925-9a47-50384033f6e6" valueTypeId="ee9901e4-9a40-4e33-9652-108d55bacf1c"/>
+  </producedTypes>
+  <name>velpo_TreeNodeTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип узла дерева</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Tree node types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="dd4ba2c7-84a6-4232-a43c-eb20f08cb425">
+    <name>Concept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b0e1b046-63aa-46e5-9db0-ab674e24b2d4">
+    <name>Hypercube</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оси</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Hypercube</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9b609c1-ce70-4b3a-9b69-b029ec286edc">
+    <name>Axis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оси</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Axis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="59b472a9-d755-4a33-8a54-763a6e7aca69">
+    <name>Domain</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ось</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Domain</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="aea0f281-55e4-4b7d-8b58-2de62d223cbf">
+    <name>Member</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ось</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Member</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

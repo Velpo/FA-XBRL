@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a45cc6d7-0b7f-425a-ae9f-9bb178f7fa63">
+  <producedTypes>
+    <objectType typeId="89b6768f-eb88-48b3-bca8-6918dae0b23d" valueTypeId="b1517e10-b3a1-4f48-8b8b-7064eeb4bbbf"/>
+    <refType typeId="d1edbda2-da4f-4504-9066-3a8115d4eb5d" valueTypeId="dc96a66d-6c2a-4253-903d-a4b58892eedc"/>
+    <selectionType typeId="381e3817-2d6a-4c41-a130-485032deb1c5" valueTypeId="d29e76f1-1217-4146-a21b-64ad1b6a9cdd"/>
+    <listType typeId="72d3815f-ffa0-417a-ac09-9de8fd417465" valueTypeId="496fc518-0e1d-457e-abb0-891ec0566ca5"/>
+    <managerType typeId="8d282a46-c72e-436e-98b7-182356ee9475" valueTypeId="c84335ce-6559-474b-9d9a-a9e505eb7747"/>
+  </producedTypes>
+  <name>velpo_DefinitionNodes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Структурные узлы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Definition nodes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.velpo_DefinitionNodes.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.velpo_DefinitionNodes.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Отбор.Владелец</name>
+      <field>Catalog.velpo_DefinitionNodes.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.velpo_Breakdowns</owners>
+  <owners>Catalog.velpo_Taxonomies</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="8203ca9d-64ce-4225-b84f-4d3eee1739fe">
+    <name>NodeType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип узла</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Node type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_DefinitionNodeTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ac8b1482-cd87-4f0a-8249-b1221dddab2b">
+    <name>ParentChildOrder</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок родитель-дочерний</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent-child order</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_ParentChildOrders</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d54d5adf-5bac-494b-902b-22449d8cc896">
+    <name>Priority</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="44f5e811-1942-431d-82d1-5f41843a2a7f">
+    <name>Order</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="1f4ea9ce-dafd-4a92-9d78-a744940d89a5">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25190f43-a0b0-42f6-b5fd-cac4daad9b3e">
+    <name>RoleType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Role type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_RoleTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Filter.Owner</name>
+      <field>Catalog.velpo_DefinitionNodes.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="8966c59d-01d6-40d3-9dd7-0bbc4e3ee4b2">
+    <producedTypes>
+      <objectType typeId="35ae895d-8e79-4677-8e7d-acf5acb949fc" valueTypeId="fb9027da-031c-4fb0-a460-ba0145c4f160"/>
+      <rowType typeId="32aae295-bb07-4db1-bce4-34edbe0e3e4b" valueTypeId="4cbb4a47-fc37-475c-84de-70f3e9a45f86"/>
+    </producedTypes>
+    <name>ConceptRelationshipNode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение показателей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept Relationship</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Concept relationship node</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="851a3c89-890d-4d7b-afbf-127299ad6396">
+    <producedTypes>
+      <objectType typeId="2300be40-6ecd-4cf4-a6d8-2f825cf1ee34" valueTypeId="7e43078f-c4bc-4443-b850-0b10cef289be"/>
+      <rowType typeId="5eb3bcf4-0cb9-4d98-bc10-5a2649847329" valueTypeId="b43eafae-5a48-45cf-b46a-ac424d02e718"/>
+    </producedTypes>
+    <name>DimensionRelationshipNode</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение измерений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dimension relationship node</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Dimension relationship node</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </tabularSections>
+  <tabularSections uuid="6c367a96-c27e-4bd0-a761-53713e7fa28b">
+    <producedTypes>
+      <objectType typeId="1c479569-41fb-4ead-a89b-1dc1b0a54a6b" valueTypeId="223af2eb-515d-43c3-8b5b-d6465c6ffaf1"/>
+      <rowType typeId="ddf783f2-5d1b-4d46-bf2b-7d3d5bac8952" valueTypeId="a6150a53-3469-40ca-ae56-b50223a96d96"/>
+    </producedTypes>
+    <name>AspectNode</name>
+    <synonym>
+      <key></key>
+      <value>Aspect node</value>
+    </synonym>
+    <attributes uuid="d41697e4-d130-426d-8f63-246fc22e9616">
+      <name>TagSelector</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тег селектор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Tag selector</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="0fa66ec5-d733-42bb-9a27-e6b2418f2e36">
+      <name>Axis</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Axis</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.velpo_HypercubeAxes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1527304a-6e65-4e0c-b044-761ae3b5251e">
+      <name>NamespaceURI</name>
+      <synonym>
+        <key>ru</key>
+        <value>QName</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>QName</value>
+      </synonym>
+      <synonym>
+        <key></key>
+        <value>Namespace URI</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="3c7aef99-9b54-46ab-b8e2-dcefb13980dc">
+      <name>LocalName</name>
+      <synonym>
+        <key></key>
+        <value>Local name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="41e0b3ec-ebde-4f32-9bfa-ae743bc26b37">
+      <name>AttributeType</name>
+      <synonym>
+        <key>ru</key>
+        <value>Атрибут</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Attribute</value>
+      </synonym>
+      <type>
+        <types>EnumRef.velpo_AttributeTypes</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="fac8a041-0ecc-4e37-b90b-2fb5d29491c2">
+    <producedTypes>
+      <objectType typeId="f9b452c4-7d3f-4b22-9675-5405aa5e31b5" valueTypeId="413ca231-4ba1-4f57-9994-85d22c20d558"/>
+      <rowType typeId="94745589-b4a7-4ee5-9a7a-3e71c6be8ea3" valueTypeId="a8165c53-f070-4abc-906c-9ed76bdab9ad"/>
+    </producedTypes>
+    <name>RuleNode</name>
+    <synonym>
+      <key></key>
+      <value>Rule node</value>
+    </synonym>
+    <attributes uuid="6965ba5d-1793-40e5-96dd-fc7b62c320f1">
+      <name>IsAbstract</name>
+      <synonym>
+        <key>ru</key>
+        <value>Абстрактный</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Abstract</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="4953b5fc-3c95-43fb-aa79-f49231cf8165">
+      <name>IsMerge</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объединенный</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Merge</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="774ff2c2-2114-4538-9d25-905291d67f4c">
+      <name>TagSelector</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тег селектор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Tag selector</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

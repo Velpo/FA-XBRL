@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7035d2a2-78a0-4df5-aaaf-4fbfea9087f8">
+  <name>velpo_http_www_xbrl_org_dtr_type_numeric</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://www.xbrl.org/dtr/type/numeric</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://www.xbrl.org/dtr/type/numeric</value>
+  </synonym>
+  <namespace>http://www.xbrl.org/dtr/type/numeric</namespace>
+</mdclass:XDTOPackage>

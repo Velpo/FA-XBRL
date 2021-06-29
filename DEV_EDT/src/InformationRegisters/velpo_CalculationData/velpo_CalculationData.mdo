@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d63598e-0810-438e-82c4-82fd790a4986">
+  <producedTypes>
+    <selectionType typeId="d10193db-530a-4adb-8e04-94bfca6b73cc" valueTypeId="b15516d0-9ca5-4b10-9249-293e6d0f3345"/>
+    <listType typeId="30280761-1163-4451-864c-06273dd43064" valueTypeId="84f2ca36-b0bf-4012-b5d8-24f5cdb5afb2"/>
+    <managerType typeId="9139df55-a463-4738-a3c2-9b9029a76c65" valueTypeId="b322d1ec-29ed-4a45-aa68-e01eee39a9b4"/>
+    <recordSetType typeId="aee6b3b4-c2fb-46d4-806d-494a44906ecf" valueTypeId="2b3d3444-b0f7-43f0-a4bc-a08d008be514"/>
+    <recordKeyType typeId="01d8da95-9693-44bf-9512-948fdc350b33" valueTypeId="a5531bd9-cc54-4de8-8e2f-f163d02f52da"/>
+    <recordType typeId="35f9ccd0-58cd-45c4-b25a-083fb441c2ee" valueTypeId="ae486bf9-59c7-4a31-896e-16ccf0975fe3"/>
+    <recordManagerType typeId="cde86234-e7e9-40c2-a6f8-5967e1336511" valueTypeId="aa277762-fb42-42b8-b3dc-86aa187fb0e4"/>
+  </producedTypes>
+  <name>velpo_CalculationData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные расчетов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Calculation data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="abc645f5-27df-4089-892a-1ee5e7d29b1d">
+    <name>Value</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_ResourceIndicators</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.velpo_CalculationData.Dimension.Indicator</field>
+    </linkByType>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="c5758e63-d1ea-42b0-a6e5-4c226765edf2">
+    <name>BusinessUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес единица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_BusinessUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="71e273aa-ac34-4f54-baa7-d1ae8665bb19">
+    <name>Account</name>
+    <synonym>
+      <key>en</key>
+      <value>Account</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.velpo_Economic</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="24f0ba5f-09f6-40de-8615-b2f6679607ad">
+    <name>RowNumber</name>
+    <synonym>
+      <key>ru</key>
+      <value>№</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="15889923-c9fa-41b0-bec4-0c966743cbe6">
+    <name>Resource</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ресурс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Resource</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_ObjectAttributes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Filter.Parent</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>ChartOfCharacteristicTypes.velpo_ObjectAttributes.Calculations</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c999245e-aa9a-4b17-8ab0-b7cbc76f7712">
+    <name>Indicator</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Indicator</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_ResourceIndicators</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameters>
+      <name>Filter.Parent</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.EntityIDs</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.EmptyRef</value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b6f3ae01-7c4e-4655-ad95-d0b94476a234">
+  <producedTypes>
+    <refType typeId="319d664a-56de-4a04-9b15-cc6a1c01a37e" valueTypeId="2a6f91ac-e6a6-41c1-a0be-821570d0570b"/>
+    <listType typeId="f0860b20-0412-484c-9488-ce88e4485ffa" valueTypeId="ae054ae9-cb33-4485-a055-c8867b53e6ed"/>
+    <managerType typeId="4414f6e4-ba09-4907-87fb-626e4b8b7d0c" valueTypeId="5a1b833f-8a49-4bfe-ab4a-29b695bd0b99"/>
+  </producedTypes>
+  <name>velpo_SeverityTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы степени серьезности</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Severity types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="4283b19a-a6b6-4011-8c5f-5e833b6608e4">
+    <name>Error</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Error</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="eb8e7956-602e-4bd3-94be-e04319f6f2af">
+    <name>Warning</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предупреждение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Warning</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ecc85267-9e24-419a-afac-2b67f2d37014">
+    <name>OK</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>OK</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

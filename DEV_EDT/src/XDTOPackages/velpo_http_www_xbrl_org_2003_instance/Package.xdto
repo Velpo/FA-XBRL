@@ -1,0 +1,373 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.xbrl.org/2003/instance" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.xbrl.org/2003/linkbase"/>
+	<import namespace="http://xbrl.org/2006/xbrldi"/>
+	<property name="context">
+		<typeDef xsi:type="ObjectType">
+			<property name="id" type="xs:ID" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="entity" type="d4p1:contextEntityType"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="period" type="d4p1:contextPeriodType"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="scenario" type="d4p1:contextScenarioType" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<property name="divide">
+		<typeDef xsi:type="ObjectType">
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="unitNumerator" type="d4p1:measuresType"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="unitDenominator" type="d4p1:measuresType"/>
+		</typeDef>
+	</property>
+	<property name="item">
+		<typeDef xsi:type="ObjectType">
+			<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="decimals" type="d4p1:decimalsType" lowerBound="0" form="Attribute"/>
+			<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+			<property name="unitRef" type="xs:IDREF" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" name="precision" type="d4p1:precisionType" lowerBound="0" form="Attribute"/>
+			<property name="__content" type="xs:string" lowerBound="0" form="Text"/>
+		</typeDef>
+	</property>
+	<property name="measure" type="xs:QName"/>
+	<property name="segment">
+		<typeDef xsi:type="ObjectType" open="true" sequenced="true"/>
+	</property>
+	<property name="tuple"/>
+	<property name="unit">
+		<typeDef xsi:type="ObjectType" ordered="false" sequenced="true">
+			<property name="id" type="xs:ID" lowerBound="1" form="Attribute"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" ref="d4p1:measure" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" ref="d4p1:divide" lowerBound="0"/>
+		</typeDef>
+	</property>
+	<property name="xbrl">
+		<typeDef xsi:type="ObjectType" open="true" ordered="false" sequenced="true">
+			<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/linkbase" ref="d4p1:schemaRef" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/linkbase" ref="d4p1:linkbaseRef" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/linkbase" ref="d4p1:roleRef" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/linkbase" ref="d4p1:arcroleRef" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" ref="d4p1:item" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" ref="d4p1:tuple" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" ref="d4p1:context" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/instance" ref="d4p1:unit" lowerBound="0" upperBound="-1"/>
+			<property xmlns:d4p1="http://www.xbrl.org/2003/linkbase" ref="d4p1:footnoteLink" lowerBound="0" upperBound="-1"/>
+		</typeDef>
+	</property>
+	<property name="balance" form="Attribute">
+		<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic">
+			<enumeration>debit</enumeration>
+			<enumeration>credit</enumeration>
+		</typeDef>
+	</property>
+	<property name="periodType" form="Attribute">
+		<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic">
+			<enumeration>instant</enumeration>
+			<enumeration>duration</enumeration>
+		</typeDef>
+	</property>
+	<valueType name="dateUnion" variety="Union" memberTypes="{http://www.w3.org/2001/XMLSchema}date {http://www.w3.org/2001/XMLSchema}dateTime"/>
+	<valueType name="decimalsType" variety="Union" memberTypes="{http://www.w3.org/2001/XMLSchema}integer">
+		<typeDef base="xs:string" variety="Atomic">
+			<enumeration>INF</enumeration>
+		</typeDef>
+	</valueType>
+	<valueType name="monetary" base="xs:decimal" variety="Atomic"/>
+	<valueType name="nonZeroDecimal" variety="Union">
+		<typeDef base="xs:decimal" variety="Atomic" minExclusive="0"/>
+		<typeDef base="xs:decimal" variety="Atomic" maxExclusive="0"/>
+	</valueType>
+	<valueType name="nonZeroNonInfiniteFloat" variety="Union">
+		<typeDef base="xs:decimal" variety="Atomic" minExclusive="0"/>
+		<typeDef base="xs:decimal" variety="Atomic" maxExclusive="0"/>
+	</valueType>
+	<valueType name="precisionType" variety="Union" memberTypes="{http://www.w3.org/2001/XMLSchema}nonNegativeInteger">
+		<typeDef base="xs:string" variety="Atomic">
+			<enumeration>INF</enumeration>
+		</typeDef>
+	</valueType>
+	<valueType name="pure" base="xs:decimal" variety="Atomic"/>
+	<valueType name="shares" base="xs:decimal" variety="Atomic"/>
+	<objectType name="NCNameItemType">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:NCName" form="Text"/>
+	</objectType>
+	<objectType name="NameItemType">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:Name" form="Text"/>
+	</objectType>
+	<objectType name="QNameItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:QName" form="Text"/>
+	</objectType>
+	<objectType name="stringItemType" open="false" sequenced="false">
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="anyURIItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:anyURI" form="Text"/>
+	</objectType>
+	<objectType name="base64BinaryItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:base64Binary" form="Text"/>
+	</objectType>
+	<objectType name="booleanItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:boolean" form="Text"/>
+	</objectType>
+	<objectType name="byteItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:byte" form="Text"/>
+	</objectType>
+	<objectType name="contextEntityType">
+		<property name="identifier">
+			<typeDef xsi:type="ObjectType">
+				<property name="scheme" lowerBound="1" form="Attribute">
+					<typeDef xsi:type="ValueType" base="xs:anyURI" variety="Atomic" minLength="1"/>
+				</property>
+				<property name="__content" type="xs:token" form="Text"/>
+			</typeDef>
+		</property>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" ref="d3p1:segment" lowerBound="0"/>
+	</objectType>
+	<objectType name="contextPeriodType" ordered="false" sequenced="true">
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="startDate" type="d3p1:dateUnion" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="endDate" type="d3p1:dateUnion" lowerBound="0"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="instant" type="d3p1:dateUnion" lowerBound="0"/>
+		<property name="forever" lowerBound="0">
+			<typeDef xsi:type="ObjectType"/>
+		</property>
+	</objectType>
+	<objectType name="contextScenarioType" open="true" ordered="false">
+		<d3p2:property xmlns:d3p1="http://xbrl.org/2006/xbrldi" xmlns:d3p2="http://v8.1c.ru/8.1/xdto" ref="d3p1:explicitMember" lowerBound="0" upperBound="-1" d3p2:qualified="false"/>
+		<property xmlns:d3p1="http://xbrl.org/2006/xbrldi" ref="d3p1:typedMember" lowerBound="0" upperBound="-1"/>
+	</objectType>
+	<objectType name="dateItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:date" form="Text"/>
+	</objectType>
+	<objectType name="dateTimeItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="__content" type="d3p1:dateUnion" form="Text"/>
+	</objectType>
+	<objectType name="decimalItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="doubleItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:double" form="Text"/>
+	</objectType>
+	<objectType name="durationItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:duration" form="Text"/>
+	</objectType>
+	<objectType name="floatItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:float" form="Text"/>
+	</objectType>
+	<objectType name="fractionItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="numerator" type="xs:decimal"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="denominator" type="d3p1:nonZeroDecimal"/>
+	</objectType>
+	<objectType name="gDayItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:gDay" form="Text"/>
+	</objectType>
+	<objectType name="gMonthDayItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:gMonthDay" form="Text"/>
+	</objectType>
+	<objectType name="gMonthItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:gMonth" form="Text"/>
+	</objectType>
+	<objectType name="gYearItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:gYear" form="Text"/>
+	</objectType>
+	<objectType name="gYearMonthItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:gYearMonth" form="Text"/>
+	</objectType>
+	<objectType name="hexBinaryItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:hexBinary" form="Text"/>
+	</objectType>
+	<objectType name="intItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:int" form="Text"/>
+	</objectType>
+	<objectType name="integerItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:integer" form="Text"/>
+	</objectType>
+	<objectType name="languageItemType">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:language" form="Text"/>
+	</objectType>
+	<objectType name="longItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:long" form="Text"/>
+	</objectType>
+	<objectType name="measuresType">
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" ref="d3p1:measure" upperBound="-1"/>
+	</objectType>
+	<objectType name="monetaryItemType" open="false" sequenced="false">
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:string" form="Text"/>
+	</objectType>
+	<objectType name="negativeIntegerItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:negativeInteger" form="Text"/>
+	</objectType>
+	<objectType name="nonNegativeIntegerItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:nonNegativeInteger" form="Text"/>
+	</objectType>
+	<objectType name="nonPositiveIntegerItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:nonPositiveInteger" form="Text"/>
+	</objectType>
+	<objectType name="normalizedStringItemType">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:normalizedString" form="Text"/>
+	</objectType>
+	<objectType name="positiveIntegerItemType">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:positiveInteger" form="Text"/>
+	</objectType>
+	<objectType name="pureItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="__content" type="d3p1:pure" form="Text"/>
+	</objectType>
+	<objectType name="sharesItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="__content" type="d3p1:shares" form="Text"/>
+	</objectType>
+	<objectType name="shortItemType" open="true" sequenced="true">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:short" form="Text"/>
+	</objectType>
+	<objectType name="timeItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:time" form="Text"/>
+	</objectType>
+	<objectType name="tokenItemType">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:token" form="Text"/>
+	</objectType>
+	<objectType name="unsignedByteItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:unsignedByte" form="Text"/>
+	</objectType>
+	<objectType name="unsignedIntItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:unsignedInt" form="Text"/>
+	</objectType>
+	<objectType name="unsignedLongItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:unsignedLong" form="Text"/>
+	</objectType>
+	<objectType name="unsignedShortItemType" open="false" sequenced="false">
+		<property name="contextRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property name="unitRef" type="xs:IDREF" lowerBound="1" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="precision" type="d3p1:precisionType" lowerBound="0" form="Attribute"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/instance" name="decimals" type="d3p1:decimalsType" lowerBound="0" form="Attribute"/>
+		<property name="id" type="xs:ID" lowerBound="0" form="Attribute"/>
+		<property name="__content" type="xs:unsignedShort" form="Text"/>
+	</objectType>
+</package>

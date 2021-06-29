@@ -1,0 +1,21 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2008/filter/match" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.xbrl.org/2003/XLink"/>
+	<import namespace="http://xbrl.org/2008/variable"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchConcept" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchDimension" type="d2p1:dimension.match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchEntityIdentifier" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchLocation" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchNonXDTScenario" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchNonXDTSegment" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchPeriod" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchScenario" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchSegment" type="d2p1:match.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/match" name="matchUnit" type="d2p1:match.model"/>
+	<objectType xmlns:d2p1="http://xbrl.org/2008/filter/match" name="dimension.match.model" base="d2p1:match.model" open="true" mixed="true" sequenced="true">
+		<property name="dimension" type="xs:QName" lowerBound="1" form="Attribute"/>
+	</objectType>
+	<objectType xmlns:d2p1="http://xbrl.org/2008/variable" name="match.model" base="d2p1:resource.type" open="true" mixed="true" sequenced="true">
+		<property name="variable" type="d2p1:QName" lowerBound="1" form="Attribute"/>
+		<property name="matchAny" type="xs:boolean" lowerBound="0" fixed="false" default="false" form="Attribute"/>
+	</objectType>
+</package>

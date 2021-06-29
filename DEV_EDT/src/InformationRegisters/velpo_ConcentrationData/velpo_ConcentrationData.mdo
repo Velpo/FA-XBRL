@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ed2fdfc-4077-495a-9d40-7616e2485a13">
+  <producedTypes>
+    <selectionType typeId="b9048161-e2c3-44e6-a338-142ce939f22d" valueTypeId="a8bd6a2b-c41f-403e-bee9-b2407eda0bbc"/>
+    <listType typeId="3a4af515-ebb7-47c0-a4be-9948bb8a1cee" valueTypeId="26680bc9-396c-495f-9474-92f0135c7cba"/>
+    <managerType typeId="7b807870-5606-43ea-9f38-f07291428661" valueTypeId="d1bdf4ce-b749-4ff9-bba9-71592ef2a2a0"/>
+    <recordSetType typeId="a62ed153-39c6-42d7-a3f6-6bee8373d81c" valueTypeId="6dd0e527-4107-4d7e-8772-2affc3bbf450"/>
+    <recordKeyType typeId="b30aa1cb-f547-433f-8a44-bdb6aee94d1e" valueTypeId="b2bc1490-356f-4777-8225-25a57975d98c"/>
+    <recordType typeId="3dc05658-fc13-4c3c-b18d-d400718ca65f" valueTypeId="2eac5460-2a2a-42e7-8d26-a2c0653b30b9"/>
+    <recordManagerType typeId="7f49afd4-2de2-4fea-a53e-7276452158dc" valueTypeId="60cf2b11-a08b-47c9-a8e5-439778d36a0f"/>
+  </producedTypes>
+  <name>velpo_ConcentrationData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные активов, обязательств и капитал</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Own fund data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="919b540d-10c9-41ba-ab42-17c3106c4032">
+    <name>ConcentrationRiskAssetValue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость активов для расчета концентрационного риска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concentration risk asset value</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b7113b5a-e85f-43ac-8e8e-80deddcbe64b">
+    <name>ConcentrationRiskImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние концентрационного риска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concentration risk impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a84f4213-2b7d-435a-9998-be01fbc8b6b1">
+    <name>ConcentrationFactor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Коэффициент концентрации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concentration factor</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2fe75723-9f44-44b3-b689-4801a44d7a0d">
+    <name>ObjectID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object ID</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.velpo_ConcentrationData.Attribute.ObjectType</field>
+    </linkByType>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27231698-fb2c-423e-b389-21ab102902ae">
+    <name>ObjectType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object type</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.EmptyRef</value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="cf26a9d4-4dda-48fd-818f-0a2ae755ac92">
+    <name>BusinessUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес единица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_BusinessUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="de2f9459-afba-4a32-becb-4ad03dbbe5fe">
+    <name>Account</name>
+    <synonym>
+      <key>en</key>
+      <value>Account</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.velpo_Economic</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="061b2ae5-0628-4d14-a54b-36266ffda04c">
+    <name>RowNumber</name>
+    <synonym>
+      <key>ru</key>
+      <value>№</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

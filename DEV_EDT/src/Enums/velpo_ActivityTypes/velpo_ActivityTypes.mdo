@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="311611d5-da05-4531-bcb7-c7e4ad7213f6">
+  <producedTypes>
+    <refType typeId="c9811a6c-e9e3-42e4-b4a1-30de9b648b35" valueTypeId="81f0ede7-c5e2-444b-b86f-5a30223b3705"/>
+    <listType typeId="59eed970-07ab-42d9-ba79-0cab380f422f" valueTypeId="b03181d2-1056-4890-9772-6ebb42fd7215"/>
+    <managerType typeId="ea0c9776-6b31-40bd-9677-226377058f8e" valueTypeId="6750ddd9-096e-4f81-b317-1736f0d5342e"/>
+  </producedTypes>
+  <name>velpo_ActivityTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды деятельности</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Activity types</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0517bcfe-df47-4047-bac6-d6130bcf3a28">
+    <name>OrgGosUprMestSamuprVoprObshhSoczEkKharMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Органы исполнительной власти, субъекты, органы местного самоуправления РФ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Local government bodies</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="78c44459-8a2d-4b47-8b55-f2c7124178d6">
+    <name>OrgOsushhDeyatDenPosrMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитные организации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Credit organizations</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0386a16f-b5f4-43a9-865d-b12385abe39a">
+    <name>OrgOsushhDeyatDenProchFinUslMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие финансовые посредники</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other financial intermediaries</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="436e3cc3-3522-4738-8351-6e03149635a8">
+    <name>OrgOsushhDeyatSpherStrPerestrMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Страховые организации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Insurance organizations</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="27ce36bb-8f86-4fe4-99ac-4dc60109de50">
+    <name>OrgOsushhProizvDeyatMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации осуществляющие добычу и производство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Extraction and production organizations</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d0e5a56-61ea-4190-ac3d-d709b4937739">
+    <name>P06_OrgosushhestvldeyatelnostoptrozntorgovliMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Организации оптовой и розничной торговли</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Wholesale and retail trade organizations</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3feb5b9d-b9d6-4dd2-b3ca-3c6ea1e6b058">
+    <name>P07_Inojviddeyatelnostiakczionera_Uchastnika_Member</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иной вид деятельности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other kind</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

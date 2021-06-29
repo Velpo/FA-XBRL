@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6da384c8-aa87-49fe-9783-df391fa8016c">
+  <name>GetFilesFromInternet</name>
+  <synonym>
+    <key>en</key>
+    <value>Get files from the Internet</value>
+  </synonym>
+  <help>
+    <pages>
+      <lang>en</lang>
+    </pages>
+  </help>
+  <content>CommonModule.velpo_GetFilesFromInternetClientServer</content>
+  <content>CommonModule.velpo_GetFilesFromInternet</content>
+  <content>Constant.velpo_ProxyServerSettings</content>
+  <content>CommonForm.velpo_ProxyServerParameters</content>
+  <content>CommonModule.velpo_GetFilesFromInternetClient</content>
+  <content>CommonCommand.velpo_ProxyServerCustomParameters</content>
+  <content>CommonForm.velpo_AdditionalProxyServerParameters</content>
+  <content>CommonModule.velpo_GetFilesFromInternetInternal</content>
+  <parentSubsystem>Subsystem.StandardSubsystems</parentSubsystem>
+</mdclass:Subsystem>

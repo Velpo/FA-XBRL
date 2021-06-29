@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17e04d19-94c4-40be-b8bb-77672f23c07b">
+  <name>velpo_http_xbrl_org_2008_filter_dimension</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://xbrl.org/2008/filter/dimension</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://xbrl.org/2008/filter/dimension</value>
+  </synonym>
+  <namespace>http://xbrl.org/2008/filter/dimension</namespace>
+</mdclass:XDTOPackage>

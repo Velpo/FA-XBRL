@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="894fcf1b-4cf1-4bf0-893f-f685dca7e727">
+  <producedTypes>
+    <selectionType typeId="4782a797-23b3-49ba-8013-8e8bcf0f3d3d" valueTypeId="86ab1b58-40b4-4ea1-936b-0b408b33912f"/>
+    <listType typeId="f671f197-8d48-43af-944c-71cf8fc37e75" valueTypeId="f3fb2b03-140d-4616-9101-75633f0e64f7"/>
+    <managerType typeId="569eac96-077f-4251-876a-c75674f564b1" valueTypeId="40fbbdaa-be70-4bdc-b537-b400bb03c488"/>
+    <recordSetType typeId="e23d9c74-9b70-405e-93c8-e98a6aaa4408" valueTypeId="2e7d3d3b-ed69-489c-af41-4e00b0d89661"/>
+    <recordKeyType typeId="9cbe8c09-c689-44b9-ab3e-3ed79ed8b4a2" valueTypeId="3364d58f-67f2-4eeb-bd9e-f7724b021b22"/>
+    <recordType typeId="9af023bb-0196-4710-97a8-f285d923a4eb" valueTypeId="aba780b0-bca4-46f2-ad5a-f09d5af5d6e1"/>
+    <recordManagerType typeId="21d4d309-dbf5-463d-9863-cb699b33b294" valueTypeId="9d1d2333-19c6-43cb-9d1d-409c90568ede"/>
+  </producedTypes>
+  <name>velpo_OwnFundData</name>
+  <synonym>
+    <key>ru</key>
+    <value>Данные активов, обязательств и капитал</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Own fund data</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b0fd8414-c21b-4e4d-ba42-2ae75ba39103">
+    <name>BookValue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Балансовая стоимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Book value</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="aa0e355f-fe62-46c1-ac1c-5ad12fc822f7">
+    <name>ConsolidatedRating</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сводный рейтинг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Consolidated rating</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_ConsolidatedRatings</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="64d020e4-d1d6-4965-a8f0-5f86c2a60325">
+    <name>CreditQualityGroup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы кредитного качества</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Credit quality group</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_CreditQualityGroups</types>
+    </type>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>19</value>
+    </maxValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6828e780-90c3-4ba8-aee0-b11775a2f4f6">
+    <name>CreditRating</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинг</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сredit rating</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f5fe23e6-1272-4b9f-9a60-97596713241e">
+    <name>CreditSpreadImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменения кредитного спреда</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Credit spread impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4e3970d6-a66e-4c38-8565-d92febba2e79">
+    <name>DefaultRefundPrice</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена возмещения при дефолте</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Default refund price</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="6d42d99c-f577-41ce-bf80-0eefb365763f">
+    <name>EquityCover</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость актива, принимаемого для покрытия собственных средств (капитала)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Equity cover</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="70ea5147-09ba-4e40-aef4-d58e28091ac8">
+    <name>ExchangeRateGrowthImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменений валютного курса (рост курса)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Exchange rate growth impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="357c0eb0-6faf-4301-9af3-79a17b2184ec">
+    <name>ExchangeRateReductionImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменений валютного курса (снижение курса)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Exchange rate reduction impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="901ea4f8-9b8b-48e8-bff6-87c44bdf452b">
+    <name>ImpairmentAllowance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв на обесценение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Impairment allowance</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bc08361f-1793-4fe3-8168-7b4a5f4cd94a">
+    <name>InterestRateGrowthImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменения процентных ставок (рост ставок)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Interest rate growth impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="844f18dd-e57e-42f5-af05-286939384921">
+    <name>InterestRateReductionImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменения процентных ставок (снижение ставок)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Interest rate reduction impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="05af4d12-3edf-4927-a4e3-37f1c8ce56e6">
+    <name>ItemValue</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Item value</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9a0f3fd4-9f77-4310-b85d-3ff19ceed5fa">
+    <name>MarketRate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рыночная ставка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Market rate</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>21</precision>
+        <scale>6</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="31db6ff0-eaad-409b-be4b-71d72a43319a">
+    <name>MathematicalReserve</name>
+    <synonym>
+      <key>ru</key>
+      <value>Математический резерв</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Mathematical reserve</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bd6f4216-7069-4625-a9d8-a4e3415ae29c">
+    <name>OtherAssetPriceChangeImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменения цен на иные активы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other asset price change impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="12b863d8-b16e-4ad5-a504-4972d551e095">
+    <name>OverdueDebt</name>
+    <synonym>
+      <key>ru</key>
+      <value>Просроченная задолженность (п. 3.1.13)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Overdue debt</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="da2303c5-5e55-4662-adec-f6d289a57270">
+    <name>Quantity</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Quantity</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>6</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b263c0b7-c27a-4a05-b856-81d26c2d4e63">
+    <name>RatingAgency</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рейтинговое агентство</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Rating agency</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_RatingAgencies</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7a3c0afe-0de3-45f8-a15e-2daf6a7ff710">
+    <name>RealEstatePriceChangeImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменений цен на недвижимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Real estate price change impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d9f9d724-6a8d-4d23-9f47-6d4bfa5ef076">
+    <name>ReservesCover</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость актива, принимаемого для покрытия резервов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reserves cover</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="616cf000-1596-4976-add0-2aa606d6be85">
+    <name>UnearnedPremiumReserve</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резерв незаработанной премии</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unearned premium reserve</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="e5bccff6-cbcf-41c8-a1bb-e1a451cfd053">
+    <name>ValueShareChangeImpact</name>
+    <synonym>
+      <key>ru</key>
+      <value>Влияние риска изменения стоимости акций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value share change impact</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="34b20c52-8d60-49c4-9cc4-0aae754af2f2">
+    <name>ObjectID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object ID</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <linkByType>
+      <field>InformationRegister.velpo_OwnFundData.Attribute.ObjectType</field>
+    </linkByType>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="bbfeb3c0-310e-4fd6-a823-b2a48945aa2d">
+    <name>ObjectType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object type</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.EmptyRef</value>
+    </fillValue>
+  </attributes>
+  <attributes uuid="6309cf8e-67bc-48e7-b2d3-b3b151ab99ad">
+    <name>Status</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Status</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="cfdbb3a7-1bb3-4a37-8d55-980d0549b71b">
+    <name>BusinessUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес единица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_BusinessUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="af15adc5-e36d-4137-afb3-fa5e32e0126c">
+    <name>Account</name>
+    <synonym>
+      <key>en</key>
+      <value>Account</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.velpo_Economic</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <indexing>Index</indexing>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a4255bac-91a4-493f-a804-cad7832eb3ee">
+    <name>RowNumber</name>
+    <synonym>
+      <key>ru</key>
+      <value>№</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>№</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

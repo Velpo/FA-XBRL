@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3817353-f8f0-4621-9443-386149583c51">
+  <name>velpo_BusinessReportingServer</name>
+  <synonym>
+    <key>ru</key>
+    <value>Velpo business reporting server</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Business reporting server</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

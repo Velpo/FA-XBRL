@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec302746-3b4a-4ef2-bed5-74b9f4748609">
+  <name>velpo_http_velpo_com_source_query_components_settings</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://velpo.com/source-query-components-settings</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://velpo.com/source-query-components-settings</value>
+  </synonym>
+  <namespace>http://velpo.com/source-query-components-settings</namespace>
+</mdclass:XDTOPackage>

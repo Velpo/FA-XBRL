@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ec11474-09e1-49e0-9786-c4bd93ffdead">
+  <producedTypes>
+    <objectType typeId="f7098ec5-ff15-485b-83a8-2350aa56f879" valueTypeId="33f10cc9-7a07-4b92-91e4-0ba98e5c7990"/>
+    <managerType typeId="ba52c82b-34b1-44ed-9988-4e5c3a7b0e4e" valueTypeId="f938c721-1047-460d-8c07-2628daead4f8"/>
+  </producedTypes>
+  <name>velpo_InstanceManager</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление отчетами</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Instance manager</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.velpo_InstanceManager.Form.Form</defaultForm>
+  <attributes uuid="a1d77099-c9cd-48d2-b606-9cda78c85633">
+    <name>BusinessUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес единица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_BusinessUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="32f04689-734e-404b-a653-4720b02b949d">
+    <name>Taxonomy</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таксономия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Taxonomy</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_Taxonomies</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="a9102e20-8dee-451d-9519-eb0a7d05c6e0">
+    <name>EntryPoint</name>
+    <synonym>
+      <key>ru</key>
+      <value>Точка входа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entry point</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_EntryPoints</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Filter.Owner</name>
+      <field>DataProcessor.velpo_InstanceManager.Attribute.Taxonomy</field>
+    </choiceParameterLinks>
+  </attributes>
+  <attributes uuid="2a6c7bc3-d906-445d-85f1-68f5238384c2">
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="01ee8b32-2743-45d7-b140-1dedbcef9581">
+    <name>Form</name>
+    <synonym>
+      <key></key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bb007cda-8718-464f-ad9e-cdacbc547764">
+    <name>ФормаПроверки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проверки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5140b8b8-e290-4e3c-bda9-2c9a0fad48db">
+    <name>ФормаТекстПротокола</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма текст протокола</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d19d3402-60d5-4269-9316-ed0aeefe673c">
+    <name>FormZipPackage</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пакет Zip</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Zip package</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="940dd048-2ccb-47b7-8e70-d55512ff0484">
+    <name>OpenInstanceManager</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление отчетам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instance manager</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9aa23667-81ea-47b0-9fac-5e07baebd17c">
+  <producedTypes>
+    <refType typeId="5a4c22ca-70fc-4636-9dc2-d3e8959d4289" valueTypeId="8d6f2e67-3053-47e0-8179-74a3284aba3a"/>
+    <listType typeId="7aee0697-7260-4ee4-98ce-da74eebe1c26" valueTypeId="e09ede25-4325-42fa-8d7a-6c61b1306900"/>
+    <managerType typeId="dd5c46de-e96c-4cc7-8d3a-c3b08a13bcc0" valueTypeId="bac9ba6e-92cb-4b84-8e20-722b033e490e"/>
+  </producedTypes>
+  <name>velpo_ConcentrationTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы концентрации</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Concentration types</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eebd7caf-1d14-4ae8-b032-a08fcea18acd">
+    <name>ObligatoryEntity</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обязательное лицо</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Obligatory entity</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a6f2c89c-175f-48d9-9b00-7f2c955f8b1a">
+    <name>RealEstate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недвижимость</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Real estate</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="950ad8d7-e477-4dd4-8706-a8a7f3f50bf5">
+    <name>Reinsurer</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перестраховщик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Reinsurer</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

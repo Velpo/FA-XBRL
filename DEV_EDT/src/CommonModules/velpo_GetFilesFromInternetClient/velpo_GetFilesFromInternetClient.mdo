@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7dda5947-b988-40f6-ba32-8e167c4282f5">
+  <name>velpo_GetFilesFromInternetClient</name>
+  <synonym>
+    <key>en</key>
+    <value>Get files from the Internet client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

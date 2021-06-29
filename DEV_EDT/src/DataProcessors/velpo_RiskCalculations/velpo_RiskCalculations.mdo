@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="af895f7d-eecb-4401-beff-02b119f3cca8">
+  <producedTypes>
+    <objectType typeId="61ae4a9f-1056-400e-91e3-f4e298aa7e1e" valueTypeId="75fb8c48-56c3-4a68-8f21-783d35e24004"/>
+    <managerType typeId="78d9d00a-39ca-4478-9f6f-01b484b5dd01" valueTypeId="a2a8a264-7c9c-46b3-b270-dc0ea834b071"/>
+  </producedTypes>
+  <name>velpo_RiskCalculations</name>
+  <synonym>
+    <key>ru</key>
+    <value>Калькуляция рисков</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Risk calculations</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.velpo_RiskCalculations.Form.Form</defaultForm>
+  <attributes uuid="44cc7136-ee02-41fc-8546-ad12da4d3b25">
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <attributes uuid="b4e227f7-bd01-40ef-8e16-88531962ad9c">
+    <name>BusinessUnit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бизнес единица</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Business unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_BusinessUnits</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+  </attributes>
+  <forms uuid="3660490b-daad-461f-8cdf-811161482855">
+    <name>Form</name>
+    <synonym>
+      <key></key>
+      <value>Form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b6c56922-bc8a-4dee-bc26-3689875cac52">
+    <name>OpenRiskCalculations</name>
+    <synonym>
+      <key>ru</key>
+      <value>Калькуляция рисков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Risk calculations</value>
+    </synonym>
+    <group>NavigationPanelImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

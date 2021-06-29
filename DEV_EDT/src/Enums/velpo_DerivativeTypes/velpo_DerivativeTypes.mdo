@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7c4a79e1-3170-4379-a5f7-5a0c3a312377">
+  <producedTypes>
+    <refType typeId="ff8ebe73-2635-401e-b5f4-63fd55ecd0a2" valueTypeId="a0f74c16-b771-49d9-bdbd-cb2f9bd91a92"/>
+    <listType typeId="0f9eb32e-f11b-4ad0-93bc-ad010082deea" valueTypeId="11b6f881-194a-445b-95fa-c88e0dff40e4"/>
+    <managerType typeId="d4068c72-8eb8-493f-aa0e-3ac02b6c1cdb" valueTypeId="549df2bc-6592-4a1a-bfa6-52a1022d1d2d"/>
+  </producedTypes>
+  <name>velpo_DerivativeTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы деривативов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Derivative types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24a8b253-a039-419e-a3ff-bd2dbcda3cd4">
+    <name>Forward</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форвард</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Forward</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="03ec391d-9eb4-46d5-be88-cd02d7fc113c">
+    <name>Option</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опцион</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Option</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a8829b6e-0515-4122-95de-aa5cee70b18d">
+    <name>Futures</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фьючерс</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Futures</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66543dbc-aea6-4c13-8422-49dbbceaf75c">
+    <name>Swap</name>
+    <synonym>
+      <key>ru</key>
+      <value>Своп</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Swap</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="efb75576-7057-4d9a-aac7-40bcb36497f8">
+    <name>Other</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочие сделки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Other</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

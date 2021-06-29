@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c05ae3b-5ad8-464f-86fa-d6b4564154c8">
+  <producedTypes>
+    <refType typeId="d7de2276-7779-4b52-90c5-4f5ed3c851f1" valueTypeId="463cba3f-2e72-4bc5-9d6f-1162bbe25e9e"/>
+    <listType typeId="1d6576fb-3f5a-4e51-b65b-574eb3668db0" valueTypeId="066afc18-6a77-4817-a880-bed63f7bc4ff"/>
+    <managerType typeId="45b3ee4d-19d7-4a15-805a-39e16a9882e1" valueTypeId="1716b322-bb27-4b9d-ba19-937b867e2034"/>
+  </producedTypes>
+  <name>velpo_PeriodTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы периодов показателей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Period types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f91ce130-e5fc-481e-bc53-43adf6cd45aa">
+    <name>Instant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Момент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instant</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cb96564f-5a67-4aa3-9ad6-946ee4cbe0a8">
+    <name>Duration</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT-segment</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

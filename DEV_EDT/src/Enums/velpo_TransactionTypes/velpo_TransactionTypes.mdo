@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dfb3aa8d-6c23-4ca1-9529-c057476ab1da">
+  <producedTypes>
+    <refType typeId="701d0fd0-ea18-42d4-93a6-dd0f82146c46" valueTypeId="fa6d35cc-2495-400e-8eef-555ea828b972"/>
+    <listType typeId="d206aed2-0290-4015-9142-13aa58ee67c1" valueTypeId="ea5d0441-86b4-4c99-8674-a4181467849b"/>
+    <managerType typeId="2f1e7a4e-6d1d-4409-a2dd-745cf0a408d2" valueTypeId="e82fece1-3091-41a7-a6bf-883f129913ff"/>
+  </producedTypes>
+  <name>velpo_TransactionTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обращаемость на бирже</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Transaction types</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c9dc4ad3-bc2c-4543-9ba0-610018b7dd1c">
+    <name>Exchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биржевой</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Exchange</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41b15d1b-42e3-442f-86fd-1f12ff6935b4">
+    <name>NonExchange</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внебиржевой</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non exchange</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

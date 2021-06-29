@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60b2293f-4916-488b-a607-cedd76b9e6e6">
+  <name>velpo_ReportConstructor</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор отчетов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Report constructor</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <content>Catalog.velpo_FieldQueryLinks</content>
+  <content>Enum.velpo_ComponetQueryTypes</content>
+  <content>Enum.velpo_FieldQueryLinkTypes</content>
+  <content>Enum.velpo_ComparisonQueryTypes</content>
+  <content>ChartOfCharacteristicTypes.velpo_SourceQueryComponents</content>
+  <content>Enum.velpo_FilterQueryTypes</content>
+  <content>ChartOfCharacteristicTypes.velpo_UserDefinedParameters</content>
+  <content>Catalog.velpo_AspectRules</content>
+  <content>Catalog.velpo_Breakdowns</content>
+  <content>Catalog.velpo_CalculationTrees</content>
+  <content>Catalog.velpo_BusinessUnits</content>
+  <content>Catalog.velpo_DataValues</content>
+  <content>Catalog.velpo_DefinitionNodes</content>
+  <content>Catalog.velpo_EntryPoints</content>
+  <content>Catalog.velpo_FilterDefinitions</content>
+  <content>Catalog.velpo_AssertionFormulaDefinitions</content>
+  <content>Catalog.velpo_Languages</content>
+  <content>Catalog.velpo_MemberValues</content>
+  <content>Catalog.velpo_ParameterDefinitions</content>
+  <content>Catalog.velpo_PresentationTrees</content>
+  <content>Catalog.velpo_ReferenceParts</content>
+  <content>Catalog.velpo_RoleTables</content>
+  <content>Catalog.velpo_RoleTypes</content>
+  <content>Catalog.velpo_RuleSets</content>
+  <content>Catalog.velpo_Taxonomies</content>
+  <content>Catalog.velpo_Units</content>
+  <content>Catalog.velpo_VaribleDefinitions</content>
+  <content>Catalog.velpo_DefinitionTrees</content>
+  <content>Enum.velpo_AspectRuleType</content>
+  <content>Enum.velpo_AttributeTypes</content>
+  <content>Enum.velpo_AxisBreakdowns</content>
+  <content>Enum.velpo_BaseDataTypes</content>
+  <content>Enum.velpo_BalanceTypes</content>
+  <content>Enum.velpo_PeriodTypes</content>
+  <content>Enum.velpo_ConceptSubstitutionGroups</content>
+  <content>Enum.velpo_ConceptTypes</content>
+  <content>Enum.velpo_CoverTypes</content>
+  <content>Enum.velpo_DefinitionNodeTypes</content>
+  <content>Enum.velpo_FilterTypes</content>
+  <content>Enum.velpo_AssertionFormulaTypes</content>
+  <content>Enum.velpo_OCCTypes</content>
+  <content>Enum.velpo_ParentChildOrders</content>
+  <content>Enum.velpo_TreeNodeTypes</content>
+  <content>Enum.velpo_SeverityTypes</content>
+  <content>Enum.velpo_VariableTypes</content>
+  <content>Enum.velpo_WhiteSpaceTypes</content>
+  <content>DataProcessor.velpo_InstanceManager</content>
+  <content>DataProcessor.velpo_InstanceFileUnload</content>
+  <parentSubsystem>Subsystem.velpo_FA_XBRL.Subsystem.velpo_BusinessReporting</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d0b7f80f-1d09-4652-b5cd-c2cff25b62ce">
+  <producedTypes>
+    <refType typeId="366c2e62-f31c-47a6-85fd-ce9c15795edb" valueTypeId="8dfde840-114a-4141-8e71-5f148d6a565a"/>
+    <listType typeId="3759b029-06d5-4bb9-8d19-2deb99dfbdd8" valueTypeId="d2ca87c5-f8c7-48b1-b2c1-989a68e9ba41"/>
+    <managerType typeId="d7c2992f-2b5b-46b7-94e6-eb0c2a47d651" valueTypeId="f39d9f5e-a14e-4199-9923-8f79269f5a00"/>
+  </producedTypes>
+  <name>velpo_RelatedParties</name>
+  <synonym>
+    <key>ru</key>
+    <value>Связанные стороны</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Related parties</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="02d34670-e786-4437-b564-43b63f268979">
+    <name>OsnObshhGrSvyazLiczMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основное общество группы связанных со страховщиком лиц</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main company</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6b53439c-fd21-4a17-abb8-510c43d82cb8">
+    <name>SvyazLiczKrOsnObshhGrMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Связанное лицо, кроме основного общества группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Party except main company</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c64d8eaa-acdc-4d28-a36c-8f99368975ba">
+    <name>NeYavlSvyazStorMember</name>
+    <synonym>
+      <key>ru</key>
+      <value>Не является связанной стороной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Not party</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

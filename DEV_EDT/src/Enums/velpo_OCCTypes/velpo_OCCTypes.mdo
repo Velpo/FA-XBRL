@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1d29973-41f9-4689-b766-a99dd5cff86d">
+  <producedTypes>
+    <refType typeId="c84858c8-7209-4d72-a873-02d86d83262e" valueTypeId="69a50070-a16d-4afe-9252-92467580481b"/>
+    <listType typeId="51c3282d-44a0-4fe9-bb98-5f3f86f9394b" valueTypeId="672b6587-6104-409a-be82-1a200101b708"/>
+    <managerType typeId="dcec8149-9370-40dc-8ea2-78cd3b8443ba" valueTypeId="4383d6e0-d233-4d67-9689-26bfe8f622cc"/>
+  </producedTypes>
+  <name>velpo_OCCTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>ОКК типы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>OCC rule types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="aafd7dc2-dd45-4cc6-9a3f-cf7af573f752">
+    <name>Segment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Segment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82785d79-0214-4319-a16a-5c9a1c35424f">
+    <name>Scenario</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scenario</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
