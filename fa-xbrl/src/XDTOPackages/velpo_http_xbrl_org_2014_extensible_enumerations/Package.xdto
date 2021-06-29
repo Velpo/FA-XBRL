@@ -1,7 +1,0 @@
-<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2014/extensible-enumerations" elementFormQualified="true" attributeFormQualified="false">
-	<import namespace="http://www.xbrl.org/2003/instance"/>
-	<property name="domain" type="xs:QName" form="Attribute"/>
-	<property name="headUsable" type="xs:boolean" fixed="false" default="false" form="Attribute"/>
-	<property name="linkrole" type="xs:anyURI" form="Attribute"/>
-	<objectType xmlns:d2p1="http://www.xbrl.org/2003/instance" name="enumerationItemType" base="d2p1:QNameItemType"/>
-</package>

@@ -1,4 +1,0 @@
-<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2010/message/validation" elementFormQualified="true" attributeFormQualified="false">
-	<import namespace="http://xbrl.org/2008/generic"/>
-	<import namespace="http://www.xbrl.org/2003/XLink"/>
-</package>

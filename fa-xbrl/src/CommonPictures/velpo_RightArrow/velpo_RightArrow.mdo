@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a319eb54-c94e-4b89-aee8-a9958ae7bda2">
-  <name>velpo_RightArrow</name>
-  <synonym>
-    <key>en</key>
-    <value>Right arrow</value>
-  </synonym>
-</mdclass:CommonPicture>
