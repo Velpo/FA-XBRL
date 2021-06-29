@@ -1,9 +1,0 @@
-<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.frc.org.uk/general/2019-01-01/ref" elementFormQualified="true" attributeFormQualified="false">
-	<property name="AlternativeCode" type="xs:string"/>
-	<property name="Code" type="xs:string"/>
-	<property name="HomeCountry" type="xs:string"/>
-	<property name="ISOName" type="xs:string"/>
-	<property name="Part" type="xs:string"/>
-	<property name="Schedule" type="xs:string"/>
-	<property name="Year" type="xs:string"/>
-</package>

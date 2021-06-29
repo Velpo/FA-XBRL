@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3686991-e5d7-4a0c-8ae5-0daf453ebb05">
-  <name>velpo_FullAccess</name>
-  <synonym>
-    <key>en</key>
-    <value>Full access</value>
-  </synonym>
-</mdclass:Role>
