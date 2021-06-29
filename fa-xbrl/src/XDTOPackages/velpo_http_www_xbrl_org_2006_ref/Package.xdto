@@ -1,0 +1,25 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://www.xbrl.org/2006/ref" elementFormQualified="true" attributeFormQualified="false">
+	<property name="Appendix" type="xs:string"/>
+	<property name="Article" type="xs:string"/>
+	<property name="Chapter" type="xs:string"/>
+	<property name="Clause" type="xs:string"/>
+	<property name="Example" type="xs:string"/>
+	<property name="Exhibit" type="xs:string"/>
+	<property name="Footnote" type="xs:string"/>
+	<property name="IssueDate" type="xs:string"/>
+	<property name="Name" type="xs:string"/>
+	<property name="Note" type="xs:string"/>
+	<property name="Number" type="xs:string"/>
+	<property name="Page" type="xs:string"/>
+	<property name="Paragraph" type="xs:string"/>
+	<property name="Publisher" type="xs:string"/>
+	<property name="Section" type="xs:string"/>
+	<property name="Sentence" type="xs:string"/>
+	<property name="Subclause" type="xs:string"/>
+	<property name="Subparagraph" type="xs:string"/>
+	<property name="Subsection" type="xs:string"/>
+	<property name="URI" type="xs:anyURI"/>
+	<property name="URIDate">
+		<typeDef xsi:type="ValueType" variety="Union" memberTypes="{http://www.w3.org/2001/XMLSchema}date {http://www.w3.org/2001/XMLSchema}dateTime"/>
+	</property>
+</package>

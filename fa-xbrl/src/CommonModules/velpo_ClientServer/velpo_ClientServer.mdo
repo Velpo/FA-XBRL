@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="160618ee-7d11-4705-98b1-6881d9efe642">
+  <name>velpo_ClientServer</name>
+  <synonym>
+    <key>en</key>
+    <value>Client,server cache</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+</mdclass:CommonModule>

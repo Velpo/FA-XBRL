@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d3ec5b67-28ac-4081-a961-bcb6b4a4ff35">
+  <name>velpo_http_www_xbrl_org_2003_XLink</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://www.xbrl.org/2003/XLink</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://www.xbrl.org/2003/XLink</value>
+  </synonym>
+  <namespace>http://www.xbrl.org/2003/XLink</namespace>
+</mdclass:XDTOPackage>

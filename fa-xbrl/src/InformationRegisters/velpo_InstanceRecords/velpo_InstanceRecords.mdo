@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="64a37167-ab8a-4037-b58b-8658a5cfaa74">
+  <producedTypes>
+    <selectionType typeId="691468d6-5682-4369-a35f-55d67d74e715" valueTypeId="801a9216-871f-40ac-a2a9-80a1dc637d17"/>
+    <listType typeId="e6d22ccf-f716-4ef8-8887-e309ceb81cb5" valueTypeId="c628c5f3-bd52-4ebd-92d6-5e68ea67a82e"/>
+    <managerType typeId="5b99aebc-2dcd-4826-ab14-13597fda7219" valueTypeId="5a42bd97-d8b0-4145-8e06-f659aca11702"/>
+    <recordSetType typeId="0a72d8aa-0e66-4ad4-bc06-49bc5b291868" valueTypeId="3ce7712a-39bc-4d60-b0f5-61cad1a2f079"/>
+    <recordKeyType typeId="f428bee1-1091-4c3c-abe7-401cbc9edf2c" valueTypeId="76c7e1d6-110d-43be-9eb0-5fbb63fe47d2"/>
+    <recordType typeId="dc61d8d8-ed84-4485-af2a-53738a8cf585" valueTypeId="bcdabadb-7bc8-4cdc-a7b6-2a986c14e942"/>
+    <recordManagerType typeId="cd2af014-1083-4a81-8996-d6afee8b2b88" valueTypeId="2e8e520e-d89c-4990-aac1-60c3093c3a53"/>
+  </producedTypes>
+  <name>velpo_InstanceRecords</name>
+  <synonym>
+    <key>ru</key>
+    <value>Записи отчета</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Instance records</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="057b00fd-08e9-4726-a712-f0f58022cb67">
+    <name>Concept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.velpo_Reporting</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="fe88c4d4-8ea8-4b51-ad1a-e7a9590e1a0e">
+    <name>Unit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ед. изм.</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_Units</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7e77ab14-664a-4d81-a3e4-304ac0774a11">
+    <name>Value</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_ValueDataTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c9e5cbe9-54a0-4998-b795-c54afb6c92be">
+    <name>Text</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовое значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Text</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полный текст строкового дополнительного реквизита</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="67db8830-c3bc-4b5d-b647-db723d7a741a">
+    <name>PeriodID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор периода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period ID</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb3aef69-dbb0-4901-9f11-751bd39a60b1">
+    <name>ScenarioID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scenario ID</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="39d3d964-6e5c-47bd-8748-55d890072e9f">
+    <name>Instance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instance</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.velpo_Instance</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="96370f6e-215d-4b02-af66-db486ea16178">
+    <name>RecordID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record ID</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

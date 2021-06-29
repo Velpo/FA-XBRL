@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17280b51-cd75-41de-8a0a-4781cf81c9b8">
+  <name>velpo_http_xbrl_org_2008_filter_concept</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://xbrl.org/2008/filter/concept</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://xbrl.org/2008/filter/concept</value>
+  </synonym>
+  <namespace>http://xbrl.org/2008/filter/concept</namespace>
+</mdclass:XDTOPackage>

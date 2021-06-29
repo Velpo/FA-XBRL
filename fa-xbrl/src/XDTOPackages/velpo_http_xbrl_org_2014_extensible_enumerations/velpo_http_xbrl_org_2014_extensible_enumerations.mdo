@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c77d6749-c0e5-4488-806a-dcabb77a738d">
+  <name>velpo_http_xbrl_org_2014_extensible_enumerations</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://xbrl.org/2014/extensible-enumerations</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://xbrl.org/2014/extensible-enumerations</value>
+  </synonym>
+  <namespace>http://xbrl.org/2014/extensible-enumerations</namespace>
+</mdclass:XDTOPackage>

@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfAccounts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b11e04c2-9827-4db7-8acf-06be96c8fa9f">
+  <producedTypes>
+    <objectType typeId="9bcaf1fe-3a50-48c3-98a3-8f671f97a987" valueTypeId="c2164f77-aee1-41c0-8601-7c8301c5b8a7"/>
+    <refType typeId="c9ed41c6-0b8d-4f11-8074-11d7e7e9fdec" valueTypeId="bfd0ff59-fbc9-4095-9f1c-7266787248cb"/>
+    <selectionType typeId="208740d5-dee6-4df2-af29-48da694d70d7" valueTypeId="a7894941-9886-4862-8db3-5c6b0fc24e90"/>
+    <listType typeId="c67fa2fe-75a7-4af2-8fff-153807b518f5" valueTypeId="257277a0-8d59-4f69-b9f3-1ea56977914b"/>
+    <managerType typeId="09a82d90-7b06-4e17-96d0-ec716eb5fa15" valueTypeId="047ea9e9-6485-4e5a-a4d8-9c5e3d42bf16"/>
+    <extDimensionTypes typeId="35e9182a-8b4d-43e3-a3d8-6715c5e907b2" valueTypeId="d6713272-d3b6-493d-8c9a-5fbd0ff0b74a"/>
+    <extDimensionTypesRow typeId="f13f0929-b59e-4f06-ac8b-5f000f6abd4e" valueTypeId="dae33101-db71-44a0-8024-8f6948179bd3"/>
+  </producedTypes>
+  <name>velpo_Reporting</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели отчетности</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Reporting XBRL</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfAccounts.velpo_Reporting.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfAccounts.velpo_Reporting.Attribute.Name</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>OffBalance</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Type</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Balance</value>
+    </synonym>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Показатель отчетности</value>
+  </objectPresentation>
+  <extDimensionTypes>ChartOfCharacteristicTypes.velpo_HypercubeAxes</extDimensionTypes>
+  <maxExtDimensionCount>25</maxExtDimensionCount>
+  <descriptionLength>150</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <standardTabularSections>
+    <name>ExtDimensionTypes</name>
+    <synonym>
+      <key></key>
+      <value>Виды субконто</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>TurnoversOnly</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>Predefined</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>ExtDimensionType</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+  </standardTabularSections>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="79772ba1-f175-46f6-b1ec-e42d3400a0fc">
+    <name>DataType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип значения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Data type</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_ValueDataTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="f8d7b12c-066c-449c-adc6-b2ea1e14818d">
+    <name>ConceptType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип показателя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_ConceptTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbc88188-9c18-41ea-a71b-299affc2721e">
+    <name>IsGroup</name>
+    <synonym>
+      <key>ru</key>
+      <value>Это группа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is group</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ec31655c-458d-44b5-8b1d-8799602f10f0">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="7ff53f9f-b326-4207-8228-c6e4ea3377bf">
+    <name>ExtDimensionCount</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество видов осей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dimension count</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="396ea78e-3110-44a8-b345-a8891327803d">
+    <name>IsAbstract</name>
+    <synonym>
+      <key>ru</key>
+      <value>Абстрактный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Abstract</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6c1daa05-48f0-4447-9f2f-9e930238392c">
+    <name>IsNillable</name>
+    <synonym>
+      <key>ru</key>
+      <value>Может быть неопределен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Nillable</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e85d04f1-8756-4d81-bf91-124a242dbf27">
+    <name>OverridesRef</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переопреляет ссылку</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Overrides ref</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.velpo_Reporting</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4a4c8e66-a70f-4647-b024-5951bf75390a">
+    <name>IsOverridden</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переопределено</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Overridden</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="32dd9273-3bfc-4974-b8fa-ea25cdccdcfd">
+    <name>NamespaceURI</name>
+    <synonym>
+      <key>ru</key>
+      <value>QName</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>QName</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Namespace URI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c23bd710-f50c-4e85-9a1c-c492dba7ff79">
+    <name>QName</name>
+    <synonym>
+      <key>ru</key>
+      <value>QName</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="4bdff86a-7506-49df-944e-892713341d36">
+    <producedTypes>
+      <objectType typeId="e4ea6b69-5252-4aed-9aed-9c5ea31b1647" valueTypeId="f84256ce-e5ef-401f-9741-17f8a793abdc"/>
+      <rowType typeId="f63a5d48-31ff-442d-be5a-0f01e150ad14" valueTypeId="c078d450-cf24-4361-b0d9-458b0631fecb"/>
+    </producedTypes>
+    <name>Tuple</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кортеж</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Tuple</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="abc68e57-4f46-4dfc-aec6-ab5bff942d04">
+      <name>Concept</name>
+      <synonym>
+        <key>ru</key>
+        <value>Показатель</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Concept</value>
+      </synonym>
+      <type>
+        <types>ChartOfAccountsRef.velpo_Reporting</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="02c32b4d-07c1-4789-8f11-23b5769cbf99">
+      <name>Choice</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа выбора</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Choice</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <accountingFlags uuid="bace03d0-ee1c-4592-bbf3-2c4effe81b40">
+    <name>TurnoversOnly</name>
+    <synonym>
+      <key>ru</key>
+      <value>Только обороты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Turnovers only</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <forms uuid="971ff363-d575-49ff-b86a-4db43a149458">
+    <name>ListForm</name>
+    <synonym>
+      <key>ru</key>
+      <value>List form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfAccounts>

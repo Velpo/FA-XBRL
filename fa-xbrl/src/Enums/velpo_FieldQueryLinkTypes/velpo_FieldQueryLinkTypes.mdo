@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e145f325-2ef8-43c7-a0d2-06789cee8dc7">
+  <producedTypes>
+    <refType typeId="37d99e64-723f-4b0e-8a73-5c6f52cad8e8" valueTypeId="14ec8d04-de28-49c6-8b89-f9f155b97328"/>
+    <listType typeId="c1fd69b2-50de-48d1-b982-16e2634fd84f" valueTypeId="51492632-30d8-46a4-9cb0-65bd51c34e22"/>
+    <managerType typeId="63846671-7a8b-462a-b9ee-d0b207d6bf43" valueTypeId="0ccb0c7f-9693-44f8-9b6d-e39c2e1f07a6"/>
+  </producedTypes>
+  <name>velpo_FieldQueryLinkTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тип полей запроса</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Field query link types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="157ca434-7ce7-4592-8963-63bdde8221e7">
+    <name>Axis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ось</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Axis</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="76478593-f5bc-4578-a9d9-278ed3050fca">
+    <name>Concept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

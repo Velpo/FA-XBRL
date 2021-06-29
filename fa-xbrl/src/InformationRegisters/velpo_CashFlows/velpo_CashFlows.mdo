@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="df5f89cc-3fbe-49e3-a89d-dc64aa3ea6e4">
+  <producedTypes>
+    <selectionType typeId="eb921aed-0976-49dd-9303-5fb9aeb7c49d" valueTypeId="29aa8725-1077-4997-9c89-d8d6961bf7c7"/>
+    <listType typeId="bd7a02de-8184-4a7b-9560-84b3da0cf736" valueTypeId="d6d22570-90c6-421a-be3c-c1b9c3ea09dc"/>
+    <managerType typeId="ba87fff2-90bf-413c-a857-dc5991e261f8" valueTypeId="cfca4d63-6fb0-4b46-911b-f48b3fe7e354"/>
+    <recordSetType typeId="4683189e-5c9b-4544-8b13-04bd01063d85" valueTypeId="61fad464-5d77-4647-ae1b-084925e21921"/>
+    <recordKeyType typeId="4b773127-48f4-489c-992a-203177b00ab7" valueTypeId="7a68eeb9-e7a9-4eab-8da0-dbea6344fd69"/>
+    <recordType typeId="78b16318-27fc-4445-9fd3-318c4f60f7ee" valueTypeId="ec3b9713-0973-4884-bb6e-63cbde65cc2e"/>
+    <recordManagerType typeId="83460846-a20a-49a2-9c49-a130f2e041e3" valueTypeId="26ff8687-631d-4916-9211-dbc33b03d0fa"/>
+  </producedTypes>
+  <name>velpo_CashFlows</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потоки денежных средств</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сash flows</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.velpo_CashFlows.Form.ListFormByObject</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <resources uuid="85853546-76c7-40f0-a105-6ac8a14ff1aa">
+    <name>CashFlow</name>
+    <synonym>
+      <key>ru</key>
+      <value>Денежный поток</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cash flow</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="4e424f0e-3ad5-4837-b25f-edbe83d459c0">
+    <name>Void</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недействителен</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Void</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="4c1defaf-5367-400c-9720-da8143141f8c">
+    <name>ObjectID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Object ID</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_DimensionIDTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cd1c44e8-1701-492c-ae44-ec1cc69ba7a9">
+    <name>ScheduleDate</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата графика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Schedule date</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="feddf66d-89fd-443b-8544-b62281a341c7">
+    <name>ListFormByObject</name>
+    <synonym>
+      <key>en</key>
+      <value>List form by object</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a6250729-ca7f-4157-9c37-fe13eadc2062">
+    <name>ListFormHistory</name>
+    <synonym>
+      <key>en</key>
+      <value>List form history</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed526d09-c7d9-41ee-be45-c5f5a6101034">
+    <name>FormAutoFill</name>
+    <synonym>
+      <key>ru</key>
+      <value>Денежные потоки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Cash flows</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

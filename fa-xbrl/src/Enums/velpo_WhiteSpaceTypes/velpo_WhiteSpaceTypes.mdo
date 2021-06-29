@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="271e9993-52c9-4b0e-aea7-a337174f305c">
+  <producedTypes>
+    <refType typeId="4955e83a-6df7-46f2-b10b-5b428f4ed72c" valueTypeId="1dd8cc9c-bbe1-4b9a-b6bf-97912fe8e97e"/>
+    <listType typeId="e8267080-99c0-4488-8452-301e0e67120c" valueTypeId="4f4ef1e7-c327-4b21-903f-7f330e6ead6c"/>
+    <managerType typeId="ef2afe56-c91f-42d8-a48d-ceca42f26f64" valueTypeId="6e3b1347-dce1-4090-931f-c004561bda14"/>
+  </producedTypes>
+  <name>velpo_WhiteSpaceTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы пробельных символов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>White space types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="db3bf19e-d728-4b54-8f65-c09e93b5b7e7">
+    <name>Preserve</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Preserve</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f1adda08-df57-4414-8fed-def39f8c0546">
+    <name>Replace</name>
+    <synonym>
+      <key>ru</key>
+      <value>Замена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Replace</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba1f4bf7-45b2-47a5-83b5-d19542efc81d">
+    <name>Сollapse</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свертка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сollapse</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

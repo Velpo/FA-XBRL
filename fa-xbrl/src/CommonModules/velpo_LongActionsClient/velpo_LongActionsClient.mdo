@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="522a77bc-2798-47d7-8668-8210fb709470">
+  <name>velpo_LongActionsClient</name>
+  <synonym>
+    <key>en</key>
+    <value>Velpo long actions client</value>
+  </synonym>
+  <clientManagedApplication>true</clientManagedApplication>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

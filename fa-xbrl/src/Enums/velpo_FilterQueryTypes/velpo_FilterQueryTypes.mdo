@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec34d712-16b4-4756-bb67-9818e14214cc">
+  <producedTypes>
+    <refType typeId="5a565759-bbf4-41e4-aa2f-2952de999604" valueTypeId="27c2dc20-684f-4a5b-b4ab-b74266d5d23d"/>
+    <listType typeId="103a132e-84e8-4a7c-a116-ecff238759ec" valueTypeId="ed9bacda-1b9a-4095-9bbc-f79186923581"/>
+    <managerType typeId="5fd9cf10-d2aa-4855-8e68-0dda48287141" valueTypeId="a6222899-64f1-4ad3-bc45-da285bca26d0"/>
+  </producedTypes>
+  <name>velpo_FilterQueryTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы фильтров</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Filter query types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="96322f8a-989d-449a-9759-4462a1f23b79">
+    <name>And</name>
+    <synonym>
+      <key>ru</key>
+      <value>И</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>And</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f6342555-4af4-48bd-aec2-402519d23c7f">
+    <name>Or</name>
+    <synonym>
+      <key>ru</key>
+      <value>Или</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Or</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

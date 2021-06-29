@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b33af8e-b59c-4e92-a2cc-1cc89e4194c3">
+  <producedTypes>
+    <refType typeId="1f3373eb-3e2b-4f92-8abb-3af615cf72d3" valueTypeId="bbf8627d-54a7-480f-87cc-6a6015aa5137"/>
+    <listType typeId="648ce569-340b-459e-9627-01fbd96dadd9" valueTypeId="42e34ce3-f090-404a-8a05-68b28dd8ced4"/>
+    <managerType typeId="467ef524-f48d-47ae-a3ed-f094b541b024" valueTypeId="3fa22132-e86f-431c-b0b8-67e8cc7f8567"/>
+  </producedTypes>
+  <name>velpo_AspectRuleType</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы правил аспектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Aspect rule type</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="24b3f5f2-85f3-4b08-a7b2-6fa4d794fd2c">
+    <name>Concept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="56c24223-1367-4cb8-96ef-ab86da53c576">
+    <name>EntityIdentifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entity identifier</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8a8e9ef3-f07c-41f6-bd3e-1c2301b59e6b">
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Period</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d880feb4-9a84-4f77-9af9-be5687b056f8">
+    <name>ExplicitDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Явное измерение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Explicit dimension</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e7c7c522-e648-4382-b904-0ee550dad878">
+    <name>TypedDimension</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открытое измерение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Typed dimension</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="98dba655-a6df-4133-8eb0-df85eaf93a28">
+    <name>SegmentOCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент ОКК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Segment OCC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3fc8d894-6927-4eb1-bea7-cb1bc6a1e2a4">
+    <name>ScenarioOCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сценарий ОКК</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scenario OCC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="39dec01f-21e4-42f9-b40c-ef6f0b612b0f">
+    <name>Unit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Unit</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

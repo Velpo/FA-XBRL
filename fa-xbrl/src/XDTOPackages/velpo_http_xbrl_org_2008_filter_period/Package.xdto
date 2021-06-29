@@ -1,0 +1,28 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://xbrl.org/2008/filter/period" elementFormQualified="true" attributeFormQualified="false">
+	<import namespace="http://www.xbrl.org/2003/XLink"/>
+	<import namespace="http://xbrl.org/2008/variable"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/variable" name="forever" type="d2p1:resource.type"/>
+	<property name="instantDuration">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/variable" xsi:type="ObjectType" base="d3p1:resource.type" open="true" mixed="true" sequenced="true">
+			<property name="variable" type="d3p1:QName" lowerBound="1" form="Attribute"/>
+			<property name="boundary" lowerBound="1" form="Attribute">
+				<typeDef xsi:type="ValueType" base="xs:token" variety="Atomic">
+					<enumeration>start</enumeration>
+					<enumeration>end</enumeration>
+				</typeDef>
+			</property>
+		</typeDef>
+	</property>
+	<property name="period">
+		<typeDef xmlns:d3p1="http://xbrl.org/2008/variable" xsi:type="ObjectType" base="d3p1:resource.type" open="true" mixed="true" sequenced="true">
+			<property name="test" type="d3p1:expression" lowerBound="1" form="Attribute"/>
+		</typeDef>
+	</property>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/period" name="periodEnd" type="d2p1:date-time.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/period" name="periodInstant" type="d2p1:date-time.model"/>
+	<property xmlns:d2p1="http://xbrl.org/2008/filter/period" name="periodStart" type="d2p1:date-time.model"/>
+	<objectType xmlns:d2p1="http://xbrl.org/2008/variable" name="date-time.model" base="d2p1:resource.type" open="true" mixed="true" sequenced="true">
+		<property name="date" type="d2p1:expression" lowerBound="1" form="Attribute"/>
+		<property name="time" type="d2p1:expression" lowerBound="0" form="Attribute"/>
+	</objectType>
+</package>

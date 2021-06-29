@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ec2e8b9c-a525-47dd-9b07-77baefd40150">
+  <name>velpo_BusinessReporting</name>
+  <synonym>
+    <key>ru</key>
+    <value>Деловая отчетность</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Business reporting</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.velpo_Taxonomies</content>
+  <content>CommonModule.velpo_TaxonomyUpdateServerCall</content>
+  <content>AccountingRegister.velpo_InfoEntries</content>
+  <content>Catalog.velpo_EntryPoints</content>
+  <content>Document.velpo_Fact</content>
+  <content>ChartOfCharacteristicTypes.velpo_ValueDataTypes</content>
+  <content>ChartOfCharacteristicTypes.velpo_HypercubeAxes</content>
+  <content>Enum.velpo_ConceptTypes</content>
+  <content>Catalog.velpo_RoleTables</content>
+  <content>ChartOfAccounts.velpo_Reporting</content>
+  <content>XDTOPackage.velpo_http_xbrl_org_2008_generic</content>
+  <content>AccountingRegister.velpo_MeasureEntries</content>
+  <content>Catalog.velpo_MemberValues</content>
+  <content>CommonModule.velpo_TaxonomyUpdate</content>
+  <content>InformationRegister.velpo_UnloadIdentificators</content>
+  <content>Catalog.velpo_RoleTypes</content>
+  <content>CommonModule.velpo_BusinessReportingCashed</content>
+  <content>CommonModule.velpo_BusinessReporting</content>
+  <content>CommonModule.velpo_BusinessReportingServer</content>
+  <content>DataProcessor.velpo_InstanceManager</content>
+  <content>DataProcessor.velpo_InstanceFileUnload</content>
+  <content>Enum.velpo_BalanceTypes</content>
+  <content>DataProcessor.velpo_TaxonomyImport</content>
+  <content>Catalog.velpo_BusinessUnits</content>
+  <content>CommonModule.velpo_BusinessReportingClient</content>
+  <content>CommonModule.velpo_TaxonomyUpdateClientServerCached</content>
+  <content>XDTOPackage.velpo_http_velpo_com_generic</content>
+  <content>XDTOPackage.velpo_http_velpo_com_source_query_components_settings</content>
+  <content>XDTOPackage.velpo_http_www_cbr_ru_xbrl_ext_cbr_ref</content>
+  <content>XDTOPackage.velpo_http_www_w3_org_1998_Math_MathML</content>
+  <content>XDTOPackage.velpo_http_www_w3_org_1999_xlink</content>
+  <content>XDTOPackage.velpo_http_www_w3_org_XML_1998_namespace</content>
+  <content>Catalog.velpo_EqualityDefinitions</content>
+  <content>Catalog.velpo_FunctionDefinitions</content>
+  <content>Catalog.velpo_PreconditionDefinitions</content>
+  <content>Enum.velpo_AxisRelationTypes</content>
+  <content>Enum.velpo_BoundaryTypes</content>
+  <content>Enum.velpo_HypercubeAxisTypes</content>
+  <content>Enum.velpo_MessageTypes</content>
+  <content>DataProcessor.velpo_ReportConstruction</content>
+  <content>InformationRegister.velpo_EnumLinks</content>
+  <content>InformationRegister.velpo_InstancePeriods</content>
+  <content>InformationRegister.velpo_InstanceRecords</content>
+  <content>InformationRegister.velpo_InstanceScenarios</content>
+  <content>InformationRegister.velpo_LabelLinks</content>
+  <content>InformationRegister.velpo_MessageLinks</content>
+  <content>InformationRegister.velpo_ReferenceLinks</content>
+  <content>Document.velpo_Instance</content>
+  <subsystems>velpo_ReportConstructor</subsystems>
+  <parentSubsystem>Subsystem.velpo_FA_XBRL</parentSubsystem>
+</mdclass:Subsystem>

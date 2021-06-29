@@ -1,0 +1,121 @@
+<package xmlns="http://v8.1c.ru/8.1/xdto" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" targetNamespace="http://velpo.com/generic">
+	<import namespace="http://www.xbrl.org/2003/linkbase"/>
+	<import namespace="http://xbrl.org/2014/table"/>
+	<import namespace="http://xbrl.org/2008/generic"/>
+	<import namespace="http://xbrl.org/2008/validation"/>
+	<import namespace="http://xbrl.org/2008/variable"/>
+	<import namespace="http://xbrl.org/2010/message"/>
+	<import namespace="http://xbrl.org/2008/label"/>
+	<import namespace="http://xbrl.org/2016/assertion-severity"/>
+	<import namespace="http://xbrl.org/2008/assertion/value"/>
+	<import namespace="http://xbrl.org/2008/assertion/existence"/>
+	<import namespace="http://xbrl.org/2008/assertion/consistency"/>
+	<import namespace="http://xbrl.org/2008/formula"/>
+	<import namespace="http://xbrl.org/2008/filter/boolean"/>
+	<import namespace="http://xbrl.org/2008/filter/concept"/>
+	<import namespace="http://xbrl.org/2008/filter/dimension"/>
+	<import namespace="http://xbrl.org/2008/filter/entity"/>
+	<import namespace="http://xbrl.org/2008/filter/general"/>
+	<import namespace="http://xbrl.org/2008/filter/match"/>
+	<import namespace="http://xbrl.org/2008/filter/period"/>
+	<import namespace="http://xbrl.org/2008/filter/relative"/>
+	<import namespace="http://xbrl.org/2008/filter/segment-scenario"/>
+	<import namespace="http://xbrl.org/2008/filter/tuple"/>
+	<import namespace="http://xbrl.org/2008/filter/unit"/>
+	<import namespace="http://xbrl.org/2008/filter/value"/>
+	<import namespace="http://xbrl.org/2010/filter/aspect-cover"/>
+	<import namespace="http://xbrl.org/2010/filter/concept-relation"/>
+	<property xmlns:d2p1="http://velpo.com/generic" name="link" type="d2p1:linkTypeWithOpenAttrs"/>
+	<objectType xmlns:d2p1="http://xbrl.org/2008/generic" name="linkTypeWithOpenAttrs" base="d2p1:linkTypeWithOpenAttrs" open="true" sequenced="true">
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:loc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:calculationArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:definitionArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:footnoteArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:footnote" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:labelArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/label" ref="d3p1:label" lowerBound="0" upperBound="-1" form="Element"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:referenceArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:reference" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://www.xbrl.org/2003/linkbase" ref="d3p1:presentationArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:aspectNode" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:aspectNodeFilterArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:breakdown" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:breakdownTreeArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:conceptRelationshipNode" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:definitionNodeSubtreeArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:dimensionRelationshipNode" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:entityIdentifierAspect" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:ruleNode" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:table" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:tableBreakdownArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:tableFilterArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2014/table" ref="d3p1:tableParameterArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/validation" ref="d3p1:assertion" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/validation" ref="d3p1:assertionSet" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/validation" ref="d3p1:variableSetAssertion" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/assertion/value" ref="d3p1:valueAssertion" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/assertion/existence" ref="d3p1:existenceAssertion" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/assertion/consistency" ref="d3p1:consistencyAssertion" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/formula" ref="d3p1:formula" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:equalityDefinition" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:factVariable" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:filter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:function" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:generalVariable" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:parameter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:precondition" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:variable" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:variableArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:variableFilterArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:variableSet" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/variable" ref="d3p1:variableSetFilterArc" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2010/message" ref="d3p1:message" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2016/assertion-severity" ref="d3p1:warning" lowerBound="0" upperBound="1"/>
+		<property xmlns:d3p1="http://xbrl.org/2016/assertion-severity" ref="d3p1:ok" lowerBound="0" upperBound="1"/>
+		<property xmlns:d3p1="http://xbrl.org/2016/assertion-severity" ref="d3p1:error" lowerBound="0" upperBound="1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/boolean" ref="d3p1:andFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/boolean" ref="d3p1:orFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/concept" ref="d3p1:conceptBalance" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/concept" ref="d3p1:conceptCustomAttribute" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/concept" ref="d3p1:conceptDataType" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/concept" ref="d3p1:conceptName" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/concept" ref="d3p1:conceptPeriodType" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/concept" ref="d3p1:conceptSubstitutionGroup" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/dimension" ref="d3p1:explicitDimension" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/dimension" ref="d3p1:typedDimension" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/entity" ref="d3p1:identifier" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/entity" ref="d3p1:regexpIdentifier" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/entity" ref="d3p1:regexpScheme" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/entity" ref="d3p1:specificIdentifier" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/entity" ref="d3p1:specificScheme" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/general" ref="d3p1:general" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchConcept" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchDimension" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchEntityIdentifier" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchLocation" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchNonXDTScenario" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchNonXDTSegment" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchPeriod" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchScenario" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/match" ref="d3p1:matchUnit" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/period" ref="d3p1:forever" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/period" ref="d3p1:instantDuration" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/period" ref="d3p1:period" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/period" ref="d3p1:periodEnd" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/period" ref="d3p1:periodInstant" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/period" ref="d3p1:periodStart" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/relative" ref="d3p1:relativeFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/segment-scenario" ref="d3p1:scenario" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/segment-scenario" ref="d3p1:segment" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/tuple" ref="d3p1:ancestorFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/tuple" ref="d3p1:locationFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/tuple" ref="d3p1:parentFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/tuple" ref="d3p1:siblingFilter" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/unit" ref="d3p1:generalMeasures" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/unit" ref="d3p1:singleMeasure" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/value" ref="d3p1:nil" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2008/filter/value" ref="d3p1:precision" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2010/filter/aspect-cover" ref="d3p1:aspectCover" lowerBound="0" upperBound="-1"/>
+		<property xmlns:d3p1="http://xbrl.org/2010/filter/concept-relation" ref="d3p1:conceptRelation" lowerBound="0" upperBound="-1"/>
+	</objectType>
+</package>

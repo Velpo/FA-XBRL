@@ -1,0 +1,1611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="377b6a97-559f-4098-9f85-3984e2634a54">
+  <producedTypes>
+    <objectType typeId="ff291094-812a-43fd-a2ec-2f5ccc0ab98e" valueTypeId="ce6f87b5-3b53-4461-bf79-c3b96cc6c57e"/>
+    <refType typeId="f18993aa-2c9e-4317-aab2-5ca9c0e1a8cb" valueTypeId="68dc7b38-2e27-484a-be69-8584c87704e0"/>
+    <selectionType typeId="31a59b56-9732-4a5d-b2f1-fe4ba8ca2f8a" valueTypeId="0d0795b1-0cc0-48cf-9e20-9008d31b29f1"/>
+    <listType typeId="0ee446d3-8377-4ed9-8d7b-f4bc5f230f4c" valueTypeId="b262c152-3ad5-4c4b-824b-793daa796c42"/>
+    <managerType typeId="8ec6d485-7850-44da-9eee-c5798cb2152e" valueTypeId="dce75580-8d61-43f6-8830-c803fadbfc53"/>
+    <containerType typeId="d95c08cf-ef99-492b-9267-89af957e191b" valueTypeId="0e04d68f-e0aa-4b22-bcbf-306942bd441f"/>
+  </producedTypes>
+  <name>velpo_ObjectAttributes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Реквизиты объектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Object attributes</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.velpo_ObjectAttributes.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.velpo_ObjectAttributes.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>EnumRef.velpo_MoodysInvestorsService</types>
+    <types>EnumRef.velpo_AM_Best</types>
+    <types>EnumRef.velpo_YesNoNone</types>
+    <types>EnumRef.velpo_RelatedParties</types>
+    <types>EnumRef.velpo_CreditQualityGroups</types>
+    <types>Boolean</types>
+    <types>CatalogRef.velpo_InsuranceReserves</types>
+    <types>EnumRef.velpo_ACRA</types>
+    <types>EnumRef.velpo_TransactionTypes</types>
+    <types>EnumRef.velpo_FrequencyTypes</types>
+    <types>EnumRef.velpo_ThingCategories</types>
+    <types>EnumRef.velpo_CountryСodes</types>
+    <types>EnumRef.velpo_CounterpartyTypes</types>
+    <types>EnumRef.velpo_ExpertRA</types>
+    <types>String</types>
+    <types>EnumRef.velpo_RatingAgencies</types>
+    <types>Date</types>
+    <types>Number</types>
+    <types>EnumRef.velpo_ConsolidatedRatings</types>
+    <types>EnumRef.velpo_ActivityTypes</types>
+    <types>EnumRef.velpo_CurrencyCodes</types>
+    <types>EnumRef.velpo_PaymentTypes</types>
+    <types>EnumRef.velpo_StandardAndPoors</types>
+    <types>EnumRef.velpo_FitchRatings</types>
+    <types>EnumRef.velpo_Risk2Categories</types>
+    <types>EnumRef.velpo_DerivativeTypes</types>
+    <numberQualifiers>
+      <precision>21</precision>
+      <scale>6</scale>
+    </numberQualifiers>
+    <stringQualifiers>
+      <length>1024</length>
+    </stringQualifiers>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
+  </type>
+  <hierarchical>true</hierarchical>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>3</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>150</descriptionLength>
+  <codeSeries>WithinSubordination</codeSeries>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <predefined>
+    <items id="6df83a4b-c017-4e2f-aac4-802f06713e0a">
+      <name>Counterparties</name>
+      <description>Реестр контрагентов</description>
+      <isFolder>true</isFolder>
+      <code>001</code>
+      <type/>
+      <content id="af9967f1-5edc-479e-ad39-26b38b658768">
+        <name>FullDescription</name>
+        <description>Наименование контрагента</description>
+        <code>01</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="e2d6c397-d1c5-42ea-9108-25b79c640f91">
+        <name>Surname</name>
+        <description>Фамилия</description>
+        <code>02</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="7f6cab49-ebb9-4238-9682-b66d1e5db9ee">
+        <name>Name</name>
+        <description>Имя</description>
+        <code>03</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="3904e723-4b25-40e1-bf29-b320dffda24e">
+        <name>Patronymic</name>
+        <description>Отчество (при наличии)</description>
+        <code>04</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="120ab966-2ef6-4447-a595-2716eb829f80">
+        <name>INN</name>
+        <description>Идентификационный номер налогоплательщика (ИНН)</description>
+        <code>05</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>12</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="fc49f032-fac9-4a12-976c-4be4be8a3cb1">
+        <name>TIN</name>
+        <description>TIN</description>
+        <code>06</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="1fe843d6-48c3-4048-bee4-42882bc573ee">
+        <name>OGRN</name>
+        <description>Основной государственный регистрационный номер (ОГРН)</description>
+        <code>07</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="3fce20ce-c0e6-4c91-a71e-5b819a88bc9a">
+        <name>OGRNIP</name>
+        <description>Основной государственный регистрационный номер индивидуального предпринимателя (ОГРНИП)</description>
+        <code>08</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="384df93f-b4b2-4aa7-bdda-8abfed572c41">
+        <name>EGRSSD</name>
+        <description>Регистрационный номер записи в едином государственном реестре субъектов страхового дела</description>
+        <code>09</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>50</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="c9f622d3-3946-4bd6-97ee-3bbfb03c7b33">
+        <name>DocumentNumber</name>
+        <description>Серия, номер документа физ. лица</description>
+        <code>10</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="246fed9b-97fa-4d86-bc60-08604b379360">
+        <name>CountryСode</name>
+        <description>Код страны</description>
+        <code>11</code>
+        <type>
+          <types>EnumRef.velpo_CountryСodes</types>
+        </type>
+      </content>
+      <content id="01cf5cba-f8fc-4688-aec3-5f39c8f92123">
+        <name>CounterpartyType</name>
+        <description>Вид контрагента</description>
+        <code>12</code>
+        <type>
+          <types>EnumRef.velpo_CounterpartyTypes</types>
+        </type>
+      </content>
+      <content id="b62daba1-d2ce-43fc-a6d2-e80329ca152e">
+        <name>ActivityType</name>
+        <description>Вид деятельности</description>
+        <code>13</code>
+        <type>
+          <types>EnumRef.velpo_ActivityTypes</types>
+        </type>
+      </content>
+      <content id="da527ea5-bfda-4246-a260-ad34f65b96a7">
+        <name>RelatedParty</name>
+        <description>Группа связанных лиц</description>
+        <code>14</code>
+        <type>
+          <types>EnumRef.velpo_RelatedParties</types>
+        </type>
+      </content>
+      <content id="2ab740a4-8aa0-4a75-b6bd-8bfdb92baa2c">
+        <name>IsLloydSyndicates</name>
+        <description>Относится к синдикатам Ллойда</description>
+        <code>15</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="97e1a194-9662-4712-a909-9a982994f082">
+        <name>IsReinsurerPaymentTransferred</name>
+        <description>Является перестраховщиком, которому передано в перестрахование обязательство по страховой выплате</description>
+        <code>16</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="67e3d86e-1a8f-4d20-b548-ca486d308602">
+        <name>IsInfrastructureOrganization</name>
+        <description>Относится к системно значимой инфраструктурной организации</description>
+        <code>17</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="d81fd2d1-db89-42f2-9330-04fdad6015c7">
+        <name>IsMedicalOrganization</name>
+        <description>Относится к санаторно-курортному учреждению</description>
+        <code>18</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="04e54ba8-e5b7-450a-ac90-e0d75ee3130a">
+        <name>CounterpartyClause_3_1_14</name>
+        <description>Контрагент соответствует п. 3.1.14</description>
+        <code>19</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="88620c88-243d-451a-9435-1140cb09cd26">
+        <name>InsuranceNumber</name>
+        <description>СНИЛС</description>
+        <code>20</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="93e24a25-4fbf-439a-878f-1af4377f1453">
+        <name>NonResidentCode</name>
+        <description>Код нерезидента</description>
+        <code>21</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>9</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="0bac0f2a-5b9f-4641-9b36-5849c963e4a4">
+        <name>IsNationalReinsuranceCompany</name>
+        <description>Национальная перестраховочная компания</description>
+        <code>22</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="d145f9c4-bbee-46ce-a2fb-f55115fae8ad">
+        <name>IsRussianFederation</name>
+        <description>Российская Федерация</description>
+        <code>23</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="210e652b-312a-49bd-a859-40bec5df3272">
+        <name>IsMemberOECD</name>
+        <description>Перестраховщик, является членом ОЭСР</description>
+        <code>24</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="338967c9-f6fc-4de7-8a97-22d2cb3af041">
+        <name>HasLifeInsuranceLicense</name>
+        <description>Cтраховая организация, имеeт лицензию на добровольное страхование жизни</description>
+        <code>25 </code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+    </items>
+    <items id="53b18707-ae76-4bfc-a00c-b82956851ba5">
+      <name>AssetsLiabilities</name>
+      <description>Отдельные виды активов и обязательств</description>
+      <isFolder>true</isFolder>
+      <code>002</code>
+      <type/>
+      <content id="0a1a2361-5a4c-44cf-9807-bb7ce6ccead5">
+        <name>CompulsoryHealthInsuranceClause_1_2_1</name>
+        <description>Средства по ОМС удовлетворяют п. 1.2.1</description>
+        <code>01</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="af3ba0df-0167-4614-acba-fa88ce354ca8">
+        <name>RiskClause_1_2_2</name>
+        <description>Все риски по активу переданы на страхователя/выгодоприобретателя (п. 1.2.2)</description>
+        <code>02</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="d0604532-090e-44b4-a4ba-d4b8c2525120">
+        <name>ClaimRightClause_1_2_3</name>
+        <description>Права требования в размере обязательств соответствуют п.1.2.3</description>
+        <code>03</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b37d3c08-2339-447b-88a6-c1076a780a69">
+        <name>CompulsoryHealthInsuranceClause_1_3_1</name>
+        <description>Обязательства страховщика по ОМС удовлетворяют п. 1.3.1</description>
+        <code>04</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="0338445b-0cee-44cf-8f5e-bd05672e306f">
+        <name>AssetValueChangeClause_1_3_2</name>
+        <description>Обязательства по выплате выгодоприобретателю величины изменения стоимости активов соответствуют п. 1.3.2</description>
+        <code>05</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1e8f6e0e-3784-4b6b-ad6e-b894640d54cc">
+        <name>OtherOffBalanceLiabilitiesClause_1_3_3</name>
+        <description>Внебалансовые обязательства удовлетворяют п 1.3.3</description>
+        <code>06</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="c1d5d23d-1edb-43ad-8cfa-ed2b1c485c1a">
+        <name>LiabilitiesClause_1_3_4</name>
+        <description>Обязательства, обусловленные исполнение трований удовлетворяют п 1.3.4</description>
+        <code>07</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="df31f06b-8812-4728-afa2-750a910739a0">
+        <name>SecurityClause_3_1_1</name>
+        <description>Акции и паи инвестиционных фондов, удовлетворяют исключению п. 3.1.1</description>
+        <code>08</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="43940da5-efa0-4f3a-8e38-5feee2e8dae5">
+        <name>SecurityClause_3_1_2</name>
+        <description>Акции, товары, а также акции и паи иностранных инвестиционных фондов удовлетворяют исключению п. 3.1.2</description>
+        <code>09</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ff7a438a-8aaf-41b3-8c34-ec825c47a438">
+        <name>PercentInAuthorizedCapital</name>
+        <description>Доля в общем объеме уставного капитала акционерного общества, в % (п. 3.1.3)</description>
+        <code>10</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>10</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="44a67681-86f0-4624-826e-7f547ccd51ae">
+        <name>ShareClause_3_1_4</name>
+        <description>Акции российского или иностранного эмитента, являющегося основным по отношению к страховой организации (п. 3.1.4)</description>
+        <code>11</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="9be5c3f7-0369-4380-94e1-742bd5dbdc35">
+        <name>MutualFundClause_3_1_6</name>
+        <description>ИПИФ попадает подпадает под исключение пункта 3.1.6</description>
+        <code>12</code>
+        <type>
+          <types>EnumRef.velpo_YesNoNone</types>
+        </type>
+      </content>
+      <content id="3728ea8a-8e68-47db-8dee-7039825c6845">
+        <name>MutualFundClause_3_1_7</name>
+        <description>Инвестиционные паи закрытых паевых инвестиционных фондов (п. 3.1.7)</description>
+        <code>13</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="08387324-af3e-4844-a1ef-450920a04af3">
+        <name>GuaranteeClause_3_1_8</name>
+        <description>Гарантия/поручительство соответствует требованиям положения (определено в п. 3.1.8)</description>
+        <code>14</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="441dc5f5-1f00-44b0-a699-3997684325fc">
+        <name>SubordinatedDepositLoanClause_3_1_9</name>
+        <description>Субординированный депозит, займ удовлетворяет исключению 3.1.9</description>
+        <code>15</code>
+        <type>
+          <types>EnumRef.velpo_YesNoNone</types>
+        </type>
+      </content>
+      <content id="a79b8a5b-4c09-4919-8ac4-1746305390ef">
+        <name>ClaimRightClause_3_1_12_2</name>
+        <description>Права требования удовлетворяют п. 3.1.12.2</description>
+        <code>16</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="856f6bf8-a5fc-4758-8529-bf87cd9030e4">
+        <name>ClaimRightClause_3_1_12_3</name>
+        <description>Права требования удовлетворяют п. 3.1.12.3</description>
+        <code>17</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="306875d2-3873-4a34-b45b-29456b1a61a3">
+        <name>ClaimRightClause_3_1_12_4</name>
+        <description>Права требования удовлетворяют п. 3.1.12.4</description>
+        <code>18</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7f50384c-41ad-44d9-ac12-298410200116">
+        <name>ClaimRightClause_3_1_12_5</name>
+        <description>Права требования удовлетворяют п. 3.1.12.5</description>
+        <code>19</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="31a9f4af-a8df-45c6-af62-f86f150993a4">
+        <name>ClaimRightClause_3_1_12_6</name>
+        <description>Права требования удовлетворяют п. 3.1.12.6</description>
+        <code>20</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ad21b31e-d34f-46ef-be57-9aa933b7f62b">
+        <name>PremiumTransferDeadline</name>
+        <description>Предельный срок перечисления премии агентов/брокером (п. 3.1.12.7)</description>
+        <code>21</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>3</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="70eef8de-bb62-40e3-8d7a-4e8c68121d0f">
+        <name>ClaimRightClause_3_1_12_9</name>
+        <description>Права требования удовлетворяют п. 3.1.12.9</description>
+        <code>22</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="e59b04bf-31ca-4fc3-8f27-00811179fa3f">
+        <name>IsOSGOP</name>
+        <description>Актив по договору ОСГОП (аб. 1 п. 3.1.12.11)</description>
+        <code>23</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="a2e5cbe4-3d43-44af-bed3-4531372eef51">
+        <name>IsOSOPO</name>
+        <description>Актив по договору ОСОПО (аб. 1 п. 3.1.12.11)</description>
+        <code>24</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="25f099b0-52f2-4a59-81e0-22621470572f">
+        <name>SettlementClause_3_1_12_11_2_3</name>
+        <description>Расчеты осуществляются в соответствии аб. 2. и 3 п. 3.1.12.11</description>
+        <code>25</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7ccc65ae-38c4-4233-99ef-f473bbbfa288">
+        <name>CourtDecisionClause_3_1_12_11_3</name>
+        <description>Вынесено решение суда о возмещении, с момента вступления в силу прошло не более 10 рабочих дней (аб. 3 п 3.1.12.11)</description>
+        <code>26</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="8fca5f49-41bd-4897-ae32-986d4b437401">
+        <name>ClaimRightClause_3_1_12_14</name>
+        <description>Права требования удовлетворяют п. 3.1.12.14</description>
+        <code>27</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="523c9b88-7320-40fd-9fee-96a079b4c126">
+        <name>ClaimRightClause_3_1_12_15</name>
+        <description>Права требования удовлетворяют п. 3.1.12.15</description>
+        <code>28</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="b89295f2-3587-44a5-9822-1e9be465409c">
+        <name>ReinsuranceShareReserveClause_3_1_12_16_1</name>
+        <description>Доля перестраховщика в резервах по договорам гражданско-правовой ответственности за убытки и вред, в рамках пулов ядерных рисков (аб.1 п.3.1.12.16)</description>
+        <code>29</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="772c3466-e9bd-4544-b4ed-ec4ca36ad1f3">
+        <name>CashDepositClause_3_1_15</name>
+        <description>Обязательная информация о денежных средствах/вкладе НЕ передана в спец деп. (п. 3.1.15)</description>
+        <code>30</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="c61c239d-c9ce-49a3-85f4-45ad5146bb7a">
+        <name>MonetaryReturnClause</name>
+        <description>Предусмотрена возврата в денежных формах (пп. 3.1.12.12, 3.1.17)</description>
+        <code>31</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="4d3c1b85-e2c5-4e99-857c-ce697cf33ccf">
+        <name>ArrestClause_3_1_23</name>
+        <description>Наложен арест, иное обременение или обеспечительные меры (п. 3.1.23)</description>
+        <code>32</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="00a947c1-0081-49c5-84db-2cc5a00e0eff">
+        <name>FinancialInstrumentClause_3_1_24</name>
+        <description>Иностранный финансовый инструмент квалифицирован в качестве ценной бумаги на территории РФ (п. 3.1.24)</description>
+        <code>33</code>
+        <type>
+          <types>EnumRef.velpo_YesNoNone</types>
+        </type>
+      </content>
+      <content id="bbc559b0-df8f-4af3-b4cf-3291cb8750b4">
+        <name>NominalValue</name>
+        <description>Номинальная стоимость</description>
+        <code>34</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="4c5aee5f-8c4c-4fd8-a866-c3253ec954f4">
+        <name>OpenDate</name>
+        <description>Дата открытия</description>
+        <code>35</code>
+        <type>
+          <types>Date</types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="7b9e70e9-5410-4989-9b6d-5d379d00f3d4">
+        <name>CloseDate</name>
+        <description>Дата возврата  (ближайшая из даты погашения и даты оферты)</description>
+        <code>36</code>
+        <type>
+          <types>Date</types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="310ab19c-8a48-44e7-82a3-4346cff73c85">
+        <name>InterestRate</name>
+        <description>Ставка по договору</description>
+        <code>37</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>8</precision>
+            <scale>6</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="2ca29cf3-0ddb-46fc-a6d1-5b26eaf20696">
+        <name>FrequencyType</name>
+        <description>Периодичность платежей</description>
+        <code>38</code>
+        <type>
+          <types>EnumRef.velpo_FrequencyTypes</types>
+        </type>
+      </content>
+      <content id="1bcecb80-a09e-4c5f-a61e-01ef2ebf56ca">
+        <name>PaymentType</name>
+        <description>Тип платежа</description>
+        <code>39</code>
+        <type>
+          <types>EnumRef.velpo_PaymentTypes</types>
+        </type>
+      </content>
+      <content id="2b8afd8d-6d56-43d0-93e2-30c5bfc7e6aa">
+        <name>ReturnDepositClause_3_2</name>
+        <description>Условия досрочного возврата депозита (можно отозвать в течение 5 рабочих дней без потери номинала) (п. 3.2)</description>
+        <code>40</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="7e7def0c-d56a-4fc4-8f32-6b5164ad2627">
+        <name>ReturnRate</name>
+        <description>Ставка при досрочном прекращении</description>
+        <code>41</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>21</precision>
+            <scale>6</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="ee162a9d-bb1c-47ba-ad45-a53570ffe771">
+        <name>RealEstateClause_3_6</name>
+        <description>Недвижимое имущество, удовлетворяет требованиям п. 3.6</description>
+        <code>43</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="1eb64ca1-f135-462f-987f-4f993ae7a785">
+        <name>BondClause_3_7</name>
+        <description>Облигация, удовлетворяет требованиям п. 3.7</description>
+        <code>44</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="459e7918-be0e-4dbe-a232-a422f705bf59">
+        <name>MinimumPayment</name>
+        <description>Минимально возможная выплата</description>
+        <code>45</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="fe020c63-bb6c-43fc-9bdd-16231dce1c6b">
+        <name>MainContractLiabilityClause_3_9</name>
+        <description>Размер обязательста СК по основному договору</description>
+        <code>46</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="80e50c7e-9d0f-48d4-92f9-73206603cb16">
+        <name>EstimatorClause_3_13</name>
+        <description>Оценщик, удовлетворяющего п. 3.13</description>
+        <code>47</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="ba85c9b4-54a1-41d9-a075-638a58ab878c">
+        <name>EstimationReportDate</name>
+        <description>Дата отчета оценщика на основании которого определена стоимость</description>
+        <code>48</code>
+        <type>
+          <types>Date</types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+      <content id="8f9e8577-4c6f-4437-ae17-fba4a40c0925">
+        <name>IsPledged</name>
+        <description>Наличие залога</description>
+        <code>49</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="c66afd8d-532e-44c9-bfe9-0a33a6c01d8e">
+        <name>TransactionType</name>
+        <description>Обращаемость на бирже</description>
+        <code>50</code>
+        <type>
+          <types>EnumRef.velpo_TransactionTypes</types>
+        </type>
+      </content>
+      <content id="c455af04-b67d-4c02-b541-445bdbf62118">
+        <name>IsDerivativeAsset</name>
+        <description>Срочная сделка, классифицируется как актив по ОСБУ</description>
+        <code>51</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="f20fff06-7bea-4086-bff5-5780b08a880a">
+        <name>DerivativeType</name>
+        <description>Тип инструмента</description>
+        <code>52</code>
+        <type>
+          <types>EnumRef.velpo_DerivativeTypes</types>
+        </type>
+      </content>
+      <content id="9dbd828d-b5de-4d23-9adf-d4e3b7fa4291">
+        <name>IsCashDebtPayment</name>
+        <description>Оплата задолженности денежными средствами</description>
+        <code>53</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="548c699c-baf6-4299-a9c8-2b70c70d5a21">
+        <name>IsStructuredInstrument</name>
+        <description>Структурный инструмент</description>
+        <code>54</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="5a070ec1-9b2a-4552-904a-472f4b86f899">
+        <name>ThingCategories</name>
+        <description>Категория вещи</description>
+        <code>55</code>
+        <type>
+          <types>EnumRef.velpo_ThingCategories</types>
+        </type>
+      </content>
+      <content id="5174d1bc-2377-4acf-88ff-132d3706975d">
+        <name>IsLocatedInRussia</name>
+        <description>Актив расположен на территории РФ</description>
+        <code>56</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="c714a7b0-fa02-453f-9c51-3cc403ed94db">
+        <name>IsIncludedInNumerator</name>
+        <description>Входит в числитель нормативного соотношения</description>
+        <code>59</code>
+        <type>
+          <types>Boolean</types>
+        </type>
+      </content>
+      <content id="9759f8dc-b110-44ce-af00-370e0a56e00b">
+        <name>RealEstateValue</name>
+        <description>Стоимость объекта недвижимости</description>
+        <code>60 </code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="71557649-427a-4585-8ca2-8bf7fcaf0ed3">
+      <name>Ratings</name>
+      <description>Рейтинги</description>
+      <isFolder>true</isFolder>
+      <code>003</code>
+      <type/>
+      <content id="d6dee08b-567f-4393-b8c1-d3b8508d0e73">
+        <name>StandardAndPoors</name>
+        <description>Standard &amp; Poor's</description>
+        <code>01</code>
+        <type>
+          <types>EnumRef.velpo_StandardAndPoors</types>
+        </type>
+      </content>
+      <content id="4f1ab6a2-a35c-4032-a971-e77f833cc45a">
+        <name>MoodysInvestorsService</name>
+        <description>Moody's Investors Service</description>
+        <code>02</code>
+        <type>
+          <types>EnumRef.velpo_MoodysInvestorsService</types>
+        </type>
+      </content>
+      <content id="37336f99-e3e9-4c46-bacc-91e100a0eda2">
+        <name>FitchRatings</name>
+        <description>Fitch Ratings</description>
+        <code>03</code>
+        <type>
+          <types>EnumRef.velpo_FitchRatings</types>
+        </type>
+      </content>
+      <content id="c71432a1-34cb-4c86-a4cb-77a865aac057">
+        <name>ExpertRA</name>
+        <description>Expert RA</description>
+        <code>04</code>
+        <type>
+          <types>EnumRef.velpo_ExpertRA</types>
+        </type>
+      </content>
+      <content id="936a8dc3-d9ac-4a65-b872-c38f29bc6fa3">
+        <name>ACRA</name>
+        <description>АКРА</description>
+        <code>05</code>
+        <type>
+          <types>EnumRef.velpo_ACRA</types>
+        </type>
+      </content>
+      <content id="09051806-a0b4-4f15-97c8-96d6e6ef03a8">
+        <name>AM_Best</name>
+        <description>A.M. Best</description>
+        <code>06</code>
+        <type>
+          <types>EnumRef.velpo_AM_Best</types>
+        </type>
+      </content>
+    </items>
+    <items id="d9b7d31b-f4bf-4f69-aa00-359499a545bc">
+      <name>Calculations</name>
+      <description>Калькуляции</description>
+      <isFolder>true</isFolder>
+      <code>004</code>
+      <type/>
+      <content id="9751ae5e-10d4-4479-b60b-a5fc67865176">
+        <name>MarketRate</name>
+        <description>Рыночная ставка</description>
+        <code>01</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>21</precision>
+            <scale>6</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="f5640d66-f06d-450e-932a-99cad842ed10">
+        <name>Quantity</name>
+        <description>Количество</description>
+        <code>02</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>10</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="eea6b720-7045-4cfa-b8a5-e8c08014c425">
+        <name>ImpairmentAllowance</name>
+        <description>Резерв на обесценение</description>
+        <code>03</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="a1779250-f941-49b9-96cf-5f890e357036">
+        <name>OverdueDebt</name>
+        <description>Просроченная задолженность (п. 3.1.13)</description>
+        <code>04</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="12732008-1613-473c-93c0-4c0c5b2bd468">
+        <name>UnearnedPremiumReserve</name>
+        <description>Резерв незаработанной премии</description>
+        <code>05</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="d85e352f-fa54-463f-9cae-11afbf6ad627">
+        <name>MathematicalReserve</name>
+        <description>Математический резерв</description>
+        <code>06</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="87fc6c06-6889-49ba-9a28-84974b4e96cc">
+        <name>BookValue</name>
+        <description>Стоимость по данным БУ</description>
+        <code>07</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="4f17c95b-d38e-4449-8332-49dbc389d01b">
+        <name>ItemValue</name>
+        <description>Стоимость по Положению 710-П</description>
+        <code>08</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="b4d68178-0a78-4c0f-bd73-4004e4d4e936">
+        <name>ReservesCover</name>
+        <description>Стоимость актива, принимаемого для покрытия резервов</description>
+        <code>09</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="0c0c203f-2e8d-4f4c-8459-1715d8755592">
+        <name>EquityCover</name>
+        <description>Стоимость актива, принимаемого для покрытия собственных средств (капитала)</description>
+        <code>10</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="6b42f3cb-36ad-4439-a989-70ba221e9346">
+        <name>CreditRating</name>
+        <description>Кредитный рейтинг</description>
+        <code>11</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>10</length>
+          </stringQualifiers>
+        </type>
+      </content>
+      <content id="586038d0-d399-4051-b8e9-bc03e1ad2f7c">
+        <name>RatingAgency</name>
+        <description>Полное наименование кредитного рейтингового агентства, присвоившего кредитный рейтинг контрагента</description>
+        <code>12</code>
+        <type>
+          <types>EnumRef.velpo_RatingAgencies</types>
+        </type>
+      </content>
+      <content id="7a181105-1b1a-4573-a45d-0c731d9d2b8a">
+        <name>ConsolidatedRating</name>
+        <description>Консолидированный рейтинг</description>
+        <code>13</code>
+        <type>
+          <types>EnumRef.velpo_ConsolidatedRatings</types>
+        </type>
+      </content>
+      <content id="31890530-3bd7-46f9-b6e3-c1b43e07581e">
+        <name>CreditQualityGroup</name>
+        <description>Группа кредитного качества</description>
+        <code>14</code>
+        <type>
+          <types>EnumRef.velpo_CreditQualityGroups</types>
+        </type>
+      </content>
+      <content id="c878c4a2-cbd4-4f88-a273-7c78eb370a3a">
+        <name>Risk2Category</name>
+        <description>Категория контрагентов для оценки риска 2</description>
+        <code>15</code>
+        <type>
+          <types>EnumRef.velpo_Risk2Categories</types>
+        </type>
+      </content>
+      <content id="45db76ce-5a02-4889-860a-031ad078eb8f">
+        <name>ValueShareChangeImpact</name>
+        <description>Влияние риска изменения стоимости акций</description>
+        <code>18</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="dda24460-e2af-4b9c-b790-c31b9bdc4c70">
+        <name>ExchangeRateGrowthImpact</name>
+        <description>Влияние риска изменений валютного курса (рост курса)</description>
+        <code>19</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="04c70704-3a28-4bd3-ba4a-e5cdeb89c28b">
+        <name>ExchangeRateReductionImpact</name>
+        <description>Влияние риска изменений валютного курса (снижение курса)</description>
+        <code>20</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="9b71ec59-0343-447a-95cc-7de09ea951a4">
+        <name>CreditSpreadImpact</name>
+        <description>Влияние риска изменения кредитного спреда</description>
+        <code>21</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="a56e623b-e65a-41a1-ad86-0415f80ab18f">
+        <name>InterestRateGrowthImpact</name>
+        <description>Влияние риска изменения процентных ставок (рост ставок)</description>
+        <code>22</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="d5a410bf-ed5a-42f3-8447-ffc25c72e033">
+        <name>InterestRateReductionImpact</name>
+        <description>Влияние риска изменения процентных ставок (снижение ставок)</description>
+        <code>23</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="83084a81-4e2d-4bde-8582-655a0df3ea17">
+        <name>RealEstatePriceChangeImpact</name>
+        <description>Влияние риска изменений цен на недвижимость</description>
+        <code>24</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="1ad0e36f-12fd-49a2-83fe-a4ad79e384e9">
+        <name>OtherAssetPriceChangeImpact</name>
+        <description>Влияние риска изменения цен на иные активы</description>
+        <code>25</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="e6cf5e59-c47c-4f65-bf78-42ce7c57aa49">
+        <name>DefaultRefundPrice</name>
+        <description>Цена возмещения при дефолте</description>
+        <code>26</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="a44076d1-889d-4f8b-ae48-89aa83ae0563">
+        <name>FirstIndicator</name>
+        <description>Первый показатель</description>
+        <code>27</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="69d4e1af-570e-4503-b466-e5147983a9c7">
+        <name>SecondIndicator</name>
+        <description>Второй показатель</description>
+        <code>28</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="4ad9c683-3619-4458-9762-ab87ade5f955">
+        <name>CorrectionFactor</name>
+        <description>Поправочный показатель</description>
+        <code>29</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>6</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="83e0e94c-111f-480b-9d9b-03ea61465d51">
+        <name>ConcentrationRiskAssetValue</name>
+        <description>Стоимость активов для расчета концентрационного риска</description>
+        <code>30</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="8bf58b40-ed76-4a57-82fa-34fd6e849da1">
+        <name>ConcentrationFactor</name>
+        <description>Коэффициент концентрации</description>
+        <code>31</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>2</precision>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="bd5ff9de-d655-4135-9299-336f6fcde7a5">
+        <name>ConcentrationRiskImpact</name>
+        <description>Влияние концентрационного риска</description>
+        <code>32</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+            <nonNegative>true</nonNegative>
+          </numberQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="b8efb94a-7fad-4b2b-8e9b-ef5813aa292f">
+      <name>Unload</name>
+      <description>Выгрузка</description>
+      <isFolder>true</isFolder>
+      <code>005</code>
+      <type/>
+      <content id="23ff18d4-76a5-4633-899d-d217d268d07e">
+        <name>Identificator</name>
+        <description>Идентификатор выгрузки</description>
+        <code>01</code>
+        <type>
+          <types>String</types>
+          <stringQualifiers>
+            <length>254</length>
+          </stringQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="17c5028d-b0ac-4726-adb6-37f7d61ccc4e">
+      <name>SolvencyMargin</name>
+      <description>Нормативный размер маржи платежеспособности</description>
+      <isFolder>true</isFolder>
+      <code>006</code>
+      <type/>
+      <content id="7e15a271-ea4f-4ca4-a96b-f8b2093bfd49">
+        <name>Premium_12Month</name>
+        <description>Страховые премии (взносы) за 12 месяцев, предшествующих отчетной дате</description>
+        <code>01</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="f77f776a-ae23-4104-b6c8-b196f7dd9296">
+        <name>ReinsurancePremium_12Month</name>
+        <description>Страховые премии (взносы) по переданному страховому портфелю за 12 месяцев, предшествующих отчетной дате</description>
+        <code>02</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="540297e6-546b-4858-acac-4e4992f1fbb2">
+        <name>IncomingReinsurancePremium_12Month</name>
+        <description>Страховые премии (взносы) по принятому страховому портфелю за 12 месяцев, предшествующих отчетной дате</description>
+        <code>03</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="a2336af6-1598-4e09-bee0-46f9b717cb73">
+        <name>Deduction_12Month</name>
+        <description>Сумма отчислений от страховых премий (взносов) по договорам страхования, уменьшающая первый показатель в соответствии с Положением за 12 месяцев, пред</description>
+        <code>04</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="d180372b-374f-440e-9956-8f838fe47e76">
+        <name>ClaimPayment_36Month</name>
+        <description>Сумма фактических выплат за 36 месяцев предшествующих отчетной дате</description>
+        <code>05</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="4eb4b772-12a5-4099-8b09-da16e1439cf2">
+        <name>SubrogationRegression_36Months</name>
+        <description>Суммы, начисленные по субрагационным и регрессным требованиям за 36 месяцев, предшествующих отчетной дате</description>
+        <code>06</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="87a4574c-bbdb-498e-be0c-cf9a353d5b66">
+        <name>OutstandingClaimsReserve</name>
+        <description>Резерв заявленных убытков на отчетную дату</description>
+        <code>07</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="57163343-2d10-4400-905f-4d5e202b5861">
+        <name>OutstandingClaimsReserve_36Month</name>
+        <description>Резерв заявленных убытков на дату, предшествующую отчетной дате на 36 месяцев</description>
+        <code>08</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="0799a3eb-55fa-4766-98ac-aca6cc23261b">
+        <name>IncurredButNotReportedReserve</name>
+        <description>Резерв произошедших, но незаявленных убытков на отчетную дату</description>
+        <code>09</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="1186ece6-94e8-4946-95f5-70eaf02bcbe8">
+        <name>IncurredButNotReportedReserve_36Month</name>
+        <description>Резерв произошедших, но незаявленных убытков на дату, предшествующую отчетной дате  на 36 месяцев</description>
+        <code>10</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="96daadcb-4928-4cb0-b126-99ece10775c3">
+        <name>ClaimPayment_12Month</name>
+        <description>Сумма фактических выплат за 12 меяцев, предшествующих отчетной дате</description>
+        <code>11</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="ee83c11a-4744-4fbd-abb6-2de1252d0668">
+        <name>ReinsuranceShareClaimPayment_12Month</name>
+        <description>Доля перестраховщиков в сумме фактических выплат за 12 меяцев, предшествующих отчетной дате</description>
+        <code>12</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="1e19c0e4-4542-4933-9cc2-3dca0539b20f">
+        <name>OutstandingClaimsReserve_12Month</name>
+        <description>Резерв заявленных убытков на дату, предшествующую отчетнуой дате на12 месяцев</description>
+        <code>13</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="9269d767-ff3c-427a-85d5-6c99161a8636">
+        <name>ReinsuranceShareOutstandingClaimsReserve_12Month</name>
+        <description>Доля перестраховщиков в резерве заявленных убытков на дату, предшествующую отчетнуой дате на12 месяцев</description>
+        <code>14</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="68cff6e1-b2ca-482b-82d2-d3fa5d5ca256">
+        <name>IncurredButNotReportedReserve_12Month</name>
+        <description>Резерв произошедших, но незаявленных убытков на дату, предшествующую отчетной дате на 12 месяцев</description>
+        <code>15</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="e11aa0bb-5d78-4037-a927-c9d2d9a5a7a0">
+        <name>ReinsuranceShareIncurredButNotReportedReserve_12Months</name>
+        <description>Доля перестраховщиков в резерве произошедших, но незаявленных убытков на дату, предшествующую отчетной дате  на 12 месяцев</description>
+        <code>16</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="9a67a7d0-fd0a-4745-8394-3a281d446efd">
+        <name>ReinsuranceShareOutstandingClaimsReserve</name>
+        <description>Доля перестраховщиков в резерве заявленных убытков на отчетную дату</description>
+        <code>17</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="69db11ec-e564-4dae-a6d1-cca587f91e3a">
+        <name>ExceedOperatorLiability</name>
+        <description>Сумма рассчитанных в отношении каждого туроператора превышений совокупного объема ответственности нетто-перестрахования по всем действующим на отчетну</description>
+        <code>18</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="fa9a58ce-ffc4-4e67-9dd6-ec3eb7964121">
+        <name>ReinsuranceShareIncurredButNotReportedReserve</name>
+        <description>Доля перестраховщиков в резерве произошедших, но незаявленных убытков на отчетную дату</description>
+        <code>19</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+    </items>
+    <items id="277d4ed7-0a17-4dd2-a553-befc818ed1b5">
+      <name>CashFlows</name>
+      <description>Денежные потоки</description>
+      <isFolder>true</isFolder>
+      <code>007</code>
+      <type/>
+      <content id="aee4b8a7-c345-4d9b-b3ed-497e83ccf893">
+        <name>CashFlow</name>
+        <description>Денежный поток</description>
+        <code>01</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
+      <content id="1aebf504-97a7-4b8c-845d-16308e17aa06">
+        <name>ScheduleDate</name>
+        <description>Дата графика</description>
+        <code>02</code>
+        <type>
+          <types>Date</types>
+          <dateQualifiers>
+            <dateFractions>Date</dateFractions>
+          </dateQualifiers>
+        </type>
+      </content>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

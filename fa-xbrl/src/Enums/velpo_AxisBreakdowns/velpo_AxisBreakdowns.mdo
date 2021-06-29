@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="93907a08-69bd-4053-a4a6-eff35dd2d054">
+  <producedTypes>
+    <refType typeId="fef0a776-5972-4805-b14b-9dace2585fa7" valueTypeId="72f7cfee-c031-4850-9946-90d555d90a60"/>
+    <listType typeId="b74e54ff-2b30-4677-8d19-7a19e98d3188" valueTypeId="3af7324d-3ccd-4116-a5aa-80efed5abd7c"/>
+    <managerType typeId="d4a92666-9460-4b5f-9406-fbb9a8eb944c" valueTypeId="9661c41e-1eef-46a8-9d6f-6ca137f03c01"/>
+  </producedTypes>
+  <name>velpo_AxisBreakdowns</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вариант оси</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Axis breakdowns</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="44f5ec07-d6bf-46a1-a194-07b3cead2055">
+    <name>Z</name>
+    <synonym>
+      <key>ru</key>
+      <value>Z</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="be3533c0-01ac-4887-8b0f-2dfcc9762dc3">
+    <name>Y</name>
+    <synonym>
+      <key>ru</key>
+      <value>Y</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4d0fbee-cc34-43de-8566-a9da894c2fc6">
+    <name>X</name>
+    <synonym>
+      <key>ru</key>
+      <value>X</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

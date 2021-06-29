@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b08af51c-59be-4a29-911b-d5bae592d894">
+  <producedTypes>
+    <refType typeId="aece1c83-0bd9-4e40-aef5-63f9e5e026a2" valueTypeId="bf061f15-18e4-46a6-acbb-582a9f454632"/>
+    <listType typeId="f4ab38d7-0047-4508-b999-4d76701a227a" valueTypeId="874fe116-d43e-4139-9e41-01dc67fd0ad7"/>
+    <managerType typeId="9b7ae538-152f-4949-8e4c-f19c254eb242" valueTypeId="efcce73b-eb20-4529-a46a-f6fa1e60b3a8"/>
+  </producedTypes>
+  <name>velpo_AxisRelationTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы отношений осей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Axis relation types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="d8ccfedd-59f9-4cf9-a10c-e9ef66e89276">
+    <name>Ancestor</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ancestor</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="255d5e33-dacd-4a69-947d-3227c4d43e52">
+    <name>AncestorOrSelf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Предок и сам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ancestor-or-self</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6c43ea9c-42e5-40ff-9b43-84a22967bd99">
+    <name>Child</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дочерний</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Child</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bdea5a6-59d1-4d96-8d84-8b3c00c2e290">
+    <name>СhildOrSelf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дочерний или сам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Child-or-self</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="df115646-f2eb-44f3-a076-fed5d9ae7219">
+    <name>Descendant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потомок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Descendant</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="726c8b8e-a89a-444c-91d3-43fe3d60eb10">
+    <name>DescendantOrSelf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Потомок или сам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Descendant-or-self</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b8e9f49-f1be-429f-b2e2-977e0241de6a">
+    <name>Parent</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="255d5d58-2bb5-479f-9e6c-77e85f95ba37">
+    <name>ParentOrSelf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Родитель или сам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Parent-or-self</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b373d8d2-b115-444d-8bcf-3d5c6b3c5fb0">
+    <name>Sibling</name>
+    <synonym>
+      <key>ru</key>
+      <value>Братья</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sibling</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de2662ab-2fa5-49df-a503-3daf2e0b21bc">
+    <name>SiblingOrDescendant</name>
+    <synonym>
+      <key>ru</key>
+      <value>Братья или потомки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sibling-or-descendant</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5f741785-baf1-4751-8c93-fe353c5002c1">
+    <name>SiblingOrSelf</name>
+    <synonym>
+      <key>ru</key>
+      <value>Братья или сам</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sibling-or-self</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

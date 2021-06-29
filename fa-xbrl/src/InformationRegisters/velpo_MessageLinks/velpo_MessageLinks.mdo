@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4a3d9161-8739-418c-ac92-027d1f983d3f">
+  <producedTypes>
+    <selectionType typeId="4945dd11-7251-4f5f-8770-b1da90859062" valueTypeId="7141e736-2313-4ada-95a5-a0617c33c9cb"/>
+    <listType typeId="6b1f18b7-d4b9-47d3-acd8-dd5e18051dcd" valueTypeId="5e59da19-c688-4476-a779-d7113e16b290"/>
+    <managerType typeId="ded3017e-9b1a-4df8-a2b3-d6c3f34acd3d" valueTypeId="ab57f307-ae31-4aeb-b836-2915e818befe"/>
+    <recordSetType typeId="efa7efb0-23ab-4858-a0dd-cbea874ee655" valueTypeId="e7e9c204-a7fa-404e-bd2f-8d4a6238a258"/>
+    <recordKeyType typeId="300ede1f-21ec-44e4-aa46-daf8780572fe" valueTypeId="26312204-d661-41ab-8b85-12de1e0742af"/>
+    <recordType typeId="d5c5b40b-6ae6-4be4-ae19-1d7ca9c1d229" valueTypeId="20422b31-ee07-4860-b362-dd22122e936c"/>
+    <recordManagerType typeId="eef8c6c5-071f-4065-8d5a-2ccbb1dcd1b3" valueTypeId="3afc18a4-afd5-411c-bcf9-326390a17e71"/>
+  </producedTypes>
+  <name>velpo_MessageLinks</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сообщения контроля</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Message links</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5a892925-0ddb-4d97-a0dd-10c853f8815a">
+    <name>Separator</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разделитель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Separator</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="a76d824c-d02a-4118-acab-1d01f4c24e94">
+    <name>Message</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Message</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <resources uuid="ba19a45d-67ad-47a0-ab95-ab4511695eab">
+    <name>Order</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Order</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="dbdc2793-fe13-44c9-a015-f272e5e461e6">
+    <name>Priority</name>
+    <synonym>
+      <key>ru</key>
+      <value>Приоритет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Priority</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="656035df-db42-40ff-8984-5d496c74e653">
+    <name>Taxonomy</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таксономия</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Taxonomy</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_Taxonomies</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="0feaa580-68b4-4164-9508-cc733f1e9ed7">
+    <name>Owner</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Owner</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Owner</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_AssertionFormulaDefinitions</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="015b5a1a-d47f-4451-a949-dea9d943b975">
+    <name>Language</name>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Language</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_Languages</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="86cbe955-dbf1-46a1-a16e-ecca5dcbc077">
+    <name>RoleType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Role type</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Role type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_RoleTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <choiceParameterLinks>
+      <name>Filter.Owner</name>
+      <field>InformationRegister.velpo_MessageLinks.Attribute.Taxonomy</field>
+    </choiceParameterLinks>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d90d1529-d7cc-45e3-967e-31e2c6c4fe5e">
+    <name>MessageType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Message type</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Message type</value>
+    </synonym>
+    <type>
+      <types>EnumRef.velpo_MessageTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73f499c7-4b5c-4afa-bd69-25833ede2c08">
+  <producedTypes>
+    <refType typeId="b0a0592e-bbb6-402e-b7b4-6c4e29bb517e" valueTypeId="b23c0bde-c717-4a1a-9597-7d4f99cefce2"/>
+    <listType typeId="d38c06fc-2e26-4c2d-8cdf-ce6b1a05ad04" valueTypeId="8d9a8a42-1f54-421b-89d3-5c5420e84a6f"/>
+    <managerType typeId="aa51a837-d889-436a-a2fa-c3391cdae5f3" valueTypeId="9b33e704-e7aa-4745-a37b-f4d58d6ef665"/>
+  </producedTypes>
+  <name>velpo_CoverTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы покрытий</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сover types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="eca7cf8e-fc2d-456d-95f4-ed28c08e4250">
+    <name>All</name>
+    <synonym>
+      <key>ru</key>
+      <value>Все</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>All</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0430eeb8-6c73-4a8c-a5dc-e3be122818f3">
+    <name>СompleteScenario</name>
+    <synonym>
+      <key>ru</key>
+      <value>Весь сценирий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Complete-scenario</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7045214f-77ae-487a-84d3-2eb062b1e749">
+    <name>СompleteSegment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Весь сегмент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Complete-segment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4a4734c5-37ce-48c9-a874-a9a3624f6944">
+    <name>Concept</name>
+    <synonym>
+      <key>ru</key>
+      <value>Показатель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Concept</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c1c681f0-f7c4-42f3-bcc4-c0e2ed2b9021">
+    <name>Dimensions</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Dimensions</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a38e30c5-f3f0-44c1-bba7-1b6b8f1f1683">
+    <name>EntityIdentifier</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сущности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Entity identifier</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5b14b5f4-3be2-4c08-97d3-8a84515ab9cf">
+    <name>Location</name>
+    <synonym>
+      <key>ru</key>
+      <value>Местонахождение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Location</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7e8e0e41-ce8b-444f-8450-83252a9c45e6">
+    <name>NonXDTScenario</name>
+    <synonym>
+      <key>ru</key>
+      <value>Cценарий без XDT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT-scenario</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3ca34def-7db2-4992-bda8-46a13e202d7b">
+    <name>NonXDTSegment</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сегмент без XDT</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT-segment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="3c4a5d90-11ea-41c1-aac7-2b844af1a686">
+    <name>Period</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT-segment</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9143d1f8-1260-4f50-aeec-32b2b4d526bb">
+    <name>Unit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Единица измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Non-XDT-segment</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

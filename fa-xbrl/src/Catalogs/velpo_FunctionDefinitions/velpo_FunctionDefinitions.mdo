@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6237c769-a5f9-4008-8d27-69fbffd00c56">
+  <producedTypes>
+    <objectType typeId="39ec4a9e-964f-4bf8-aef1-7e3d135d84fe" valueTypeId="8af08c74-6652-4905-8c2d-1eb6f9e728fe"/>
+    <refType typeId="e857e6d2-52cc-4315-b1f8-edc5c8ae563a" valueTypeId="66c621af-8df6-45a2-90a4-e81720b99bce"/>
+    <selectionType typeId="cd18f59b-8d22-49f3-826c-66dddb993e7f" valueTypeId="1044d704-2278-4476-accd-998881f2d2c3"/>
+    <listType typeId="57f59fe7-69e1-4b12-99b5-361017e09b5f" valueTypeId="50c76ff9-d042-474d-bbcf-0202b6e83414"/>
+    <managerType typeId="00abd7f0-8c18-42ba-a0ef-678e0516ebaf" valueTypeId="1d4ce77e-f9c4-4c6e-b149-d1f22338f247"/>
+  </producedTypes>
+  <name>velpo_FunctionDefinitions</name>
+  <synonym>
+    <key>ru</key>
+    <value>Определения функций</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Function definitions</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.velpo_FunctionDefinitions.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.velpo_Taxonomies</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="ce6c943b-156a-4eeb-bf9f-b52f2730ba68">
+    <name>Output</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Output</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d27327d9-0f61-4198-813c-19ff60a7a978">
+    <name>Name</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="be438d6e-3630-4818-9327-bf12653f4e70">
+    <name>ID</name>
+    <synonym>
+      <key>ru</key>
+      <value>ID</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ID</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>500</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="69e4212d-e86c-4ab2-96da-3c54c8ccf32d">
+    <name>RoleType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Role type</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.velpo_RoleTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameterLinks>
+      <name>Filter.Owner</name>
+      <field>Catalog.velpo_FunctionDefinitions.StandardAttribute.Owner</field>
+    </choiceParameterLinks>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="cdca354d-76a7-4d5d-97e2-16605d798445">
+    <producedTypes>
+      <objectType typeId="86c812dc-a545-42e4-b634-e6f137bdd250" valueTypeId="c3fa9377-0d63-4af6-addc-17b07e7530c2"/>
+      <rowType typeId="f93cc1df-b1ce-4657-98e8-f63129e64376" valueTypeId="6a99b07c-64f3-4625-a37f-06dff878dd01"/>
+    </producedTypes>
+    <name>Inputs</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Inputs</value>
+    </synonym>
+    <synonym>
+      <key></key>
+      <value>Inputs</value>
+    </synonym>
+    <attributes uuid="092973fa-4b12-4eed-b18b-75b219a3bdd1">
+      <name>Input</name>
+      <synonym>
+        <key></key>
+        <value>Input</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="8d9c0736-02e4-4a6b-b3c6-330343838169">
+    <producedTypes>
+      <objectType typeId="3d76e48d-1ec6-489c-b92c-7f90fae26d57" valueTypeId="f82cba79-2095-4486-b69a-bcf150b55e09"/>
+      <rowType typeId="9387240b-4ae1-4678-966f-996cf6fc07ed" valueTypeId="9b487419-7351-4a96-8e44-1b4eb7f16216"/>
+    </producedTypes>
+    <name>Implementation</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Implementation</value>
+    </synonym>
+    <attributes uuid="884caeb4-6680-4e21-afa8-04656d583845">
+      <name>Step</name>
+      <synonym>
+        <key></key>
+        <value>Step</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="11356906-b688-4f06-9afd-2ee8e619c375">
+      <name>Expression</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Expression</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

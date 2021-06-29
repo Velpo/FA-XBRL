@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17c1fcba-2a3c-47a5-baaf-b04902f6cd14">
+  <producedTypes>
+    <selectionType typeId="58f46907-df8f-48f4-9d6c-b0962e745aef" valueTypeId="8bd45032-4ddf-4666-9f7c-7030d31724db"/>
+    <listType typeId="2fc63c93-76c4-4e70-a6de-18a63fc84ced" valueTypeId="7eebf486-ae08-4eea-b4f7-5cdcc30a3300"/>
+    <managerType typeId="4060699d-7bde-465e-9d61-19cfa1f39fb8" valueTypeId="70cac85e-0b5a-4225-bbba-9ddc6a474da5"/>
+    <recordSetType typeId="e45c36e3-a207-4b71-9d7d-a4be603b2be9" valueTypeId="47263e42-f230-4f38-a5fb-e844d4cce152"/>
+    <recordKeyType typeId="f8f1e4b5-4c74-49a3-9bd9-ec8dbc8c2f3c" valueTypeId="db3dbb60-3704-4df2-b1e5-fd081224de56"/>
+    <recordType typeId="331fdfec-6cf6-428f-a008-8d4fcae72d16" valueTypeId="8a58f10e-8d3e-441d-96e4-8095746a4486"/>
+    <recordManagerType typeId="613b3ff0-5e40-44b6-af44-776abec8ff82" valueTypeId="c4babd51-4280-47c9-9011-d1ff8417e2e5"/>
+  </producedTypes>
+  <name>velpo_InstanceScenarios</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сценарии отчета</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Instance scenarios</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cb3f51fb-6b91-4fa8-87b7-37271d750f25">
+    <name>Axis</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид оси</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Axis</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.velpo_HypercubeAxes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="71567cbf-e23b-41ea-898c-e0ec16d2f7cb">
+    <name>Value</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>Characteristic.velpo_ValueDataTypes</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="679ff277-3ea2-4616-95f1-7d4452f4f5a7">
+    <name>Instance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Instance</value>
+    </synonym>
+    <type>
+      <types>DocumentRef.velpo_Instance</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a52193d0-5fd5-434d-96c9-86f23377bc24">
+    <name>ScenarioID</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор сценария</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Scenario ID</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="d995b3af-25b1-4a01-a1bf-eb8d88e4616a">
+    <name>Number</name>
+    <synonym>
+      <key>en</key>
+      <value>Number</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

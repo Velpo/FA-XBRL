@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae1e5d8c-7e02-4ac9-b4c5-6e962b176a6d">
+  <producedTypes>
+    <refType typeId="915689da-198d-4098-ac22-d48288e9085f" valueTypeId="285097b0-8bf8-4550-9292-31892a7f9fa5"/>
+    <listType typeId="30a75f68-3c00-4255-a5c8-095c97deb99f" valueTypeId="f025fd49-c901-4425-a644-fb065a2e4b74"/>
+    <managerType typeId="8ba0d7f4-963b-46b2-b3ca-7a839e93fb98" valueTypeId="a4b416cb-dab1-4e40-8686-adf50f020427"/>
+  </producedTypes>
+  <name>velpo_ExpertRA</name>
+  <synonym>
+    <key>ru</key>
+    <value>Эксперт РА</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Expert RA</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="34cef3cd-54dd-45a7-8151-bd8020d6f21c">
+    <name>ruAAA</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruAAA</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruAAA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ae06eae9-7f09-4c5b-a1f5-e5c5ba68e206">
+    <name>ruAA_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruAA+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruAA+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d0aef00a-6ca6-41f0-95b4-1a84e12ebd29">
+    <name>ruAA</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruAA</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruAA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a4a29530-a503-411b-8c96-8b997094884a">
+    <name>ruAA_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruAA-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruAA-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="29ab64ef-0bb6-4d35-ab62-50d5492e9832">
+    <name>ruA_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruA+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruA+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f8084d27-489e-4423-81c0-6a9e84372c5e">
+    <name>ruA</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruA</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruA</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="529f1da1-4626-4036-96f0-9b3e082d7d8d">
+    <name>ruA_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruA-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruA-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="563cf39e-2faa-4990-ae1c-606720203daa">
+    <name>ruBBB_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruBBB+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruBBB+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f5dafe97-b88c-434e-b0e3-dca9d0ca8027">
+    <name>ruBBB</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruBBB</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruBBB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a761c500-22bf-443a-aa7d-d059495fb2ec">
+    <name>ruBBB_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruBBB-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruBBB-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ad06f19-cb2c-493a-851b-c9ca6166b4ee">
+    <name>ruBB_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruBB+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruBB+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="f41ebd95-933d-4c01-b46c-4aa85385cbc6">
+    <name>ruBB</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruBB</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruBB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0b22eb39-63f7-480d-9f28-9d3933c14217">
+    <name>ruBB_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruBB-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruBB-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bead1dab-ba68-433b-8cab-ac20eebc6d67">
+    <name>ruB_plus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruB+</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruB+</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e75b3426-a25c-4691-b609-f7eeeb1e25e5">
+    <name>ruB</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruB</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruB</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9653923f-27c6-4821-a0a4-ffc024029f9e">
+    <name>ruB_minus</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruB-</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruB-</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bf84b58e-1f83-4bed-8aa7-53a88977bc1c">
+    <name>ruCCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruCCC</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruCCC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="46b19df0-bec5-4f0c-89b9-180f70b90c64">
+    <name>ruCC</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruCC</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruCC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ebed040f-9421-4e32-b09b-0b3db1e89416">
+    <name>ruC</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruC</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruC</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0a440801-edc2-4896-b632-26bb8244bafc">
+    <name>ruRD</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruRD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruRD</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="303a1b72-6782-4c80-9cd6-179010a6eca9">
+    <name>ruD</name>
+    <synonym>
+      <key>ru</key>
+      <value>ruD</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ruD</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

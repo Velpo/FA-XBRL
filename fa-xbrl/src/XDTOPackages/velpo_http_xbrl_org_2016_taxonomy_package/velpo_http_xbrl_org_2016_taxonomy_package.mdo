@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:XDTOPackage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f52f9c97-dbf8-42b5-be42-b481c5a990c1">
+  <name>velpo_http_xbrl_org_2016_taxonomy_package</name>
+  <synonym>
+    <key>ru</key>
+    <value>http://xbrl.org/2016/taxonomy-package</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>http://xbrl.org/2016/taxonomy-package</value>
+  </synonym>
+  <namespace>http://xbrl.org/2016/taxonomy-package</namespace>
+</mdclass:XDTOPackage>
