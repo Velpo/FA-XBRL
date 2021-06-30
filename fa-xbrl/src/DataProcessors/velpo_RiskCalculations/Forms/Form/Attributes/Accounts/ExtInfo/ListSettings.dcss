@@ -7,6 +7,7 @@
 			<right xsi:type="dcscor:DesignTimeValue">ChartOfAccounts.velpo_Economic.Counterparties</right>
 			<right xsi:type="dcscor:DesignTimeValue">ChartOfAccounts.velpo_Economic.NonLifeSolvencyMargin</right>
 			<right xsi:type="dcscor:DesignTimeValue">ChartOfAccounts.velpo_Economic.NormativeRatio</right>
+			<right xsi:type="dcscor:DesignTimeValue">ChartOfAccounts.velpo_Economic.Concentration</right>
 		</item>
 		<viewMode>Normal</viewMode>
 	</filter>

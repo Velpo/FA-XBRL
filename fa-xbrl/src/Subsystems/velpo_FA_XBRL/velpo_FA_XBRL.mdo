@@ -3,11 +3,11 @@
   <name>velpo_FA_XBRL</name>
   <synonym>
     <key>ru</key>
-    <value>Velpo.FA-XBRL</value>
+    <value>FA-XBRL</value>
   </synonym>
   <synonym>
     <key>en</key>
-    <value>Velpo.FA-XBRL</value>
+    <value>FA-XBRL</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>

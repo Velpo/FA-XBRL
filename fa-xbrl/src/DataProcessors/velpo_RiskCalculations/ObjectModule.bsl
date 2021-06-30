@@ -1015,11 +1015,11 @@ Procedure FillRegisterData(RegisterName, AccountStructure)
 		
 	BeginTransaction();
 	
-	MainSet = InitializeRegisterSet(RegisterMain, True, AccountStructure.Ref);
+	MainSet = InitializeRegisterSet(RegisterMain, True);
 	
 	If IsOwnFunds Then
-		DimensionSet = InitializeRegisterSet(RegisterDimensionData, True, AccountStructure.Ref);
-		CalculationSet = InitializeRegisterSet(RegisterCalculationData, True, AccountStructure.Ref);
+		DimensionSet = InitializeRegisterSet(RegisterDimensionData, True);
+		CalculationSet = InitializeRegisterSet(RegisterCalculationData, True);
 		CashFlowSet = InitializeRegisterSet(RegisterCashFlows);
 	EndIf;
 	
@@ -2165,7 +2165,7 @@ Procedure CalculateOwnFundCreditQuility(AccountRef, RowArray = Undefined) Export
 		
 		BeginTransaction();
 
-		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure);
+		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure.Ref);
 		
 		For Each RowData In TableData Do
 			
@@ -2232,7 +2232,7 @@ Procedure CalculateMarketRate(AccountRef, RowArray = Undefined) Export
 		
 		BeginTransaction();
 
-		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure);
+		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure.Ref);
 		
 		For Each RowData In TableData Do
 			
@@ -2291,8 +2291,8 @@ Procedure CalculateItemValue(AccountRef, RowArray = Undefined) Export
 		
 		BeginTransaction();
 			
-		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure);
-		TableCalculationSet = InitializeRegisterSet(RegisterCalculationData, Not HasRowArray, AccountStructure);
+		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure.Ref);
+		TableCalculationSet = InitializeRegisterSet(RegisterCalculationData, Not HasRowArray, AccountStructure.Ref);
 		
 		For Each RowData In TableData Do
 			
@@ -2355,8 +2355,8 @@ Procedure CalculateOwnFunds(AccountRef, RowArray = Undefined) Export
 		
 		BeginTransaction();
 
-		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure);
-		TableCalculationSet = InitializeRegisterSet(RegisterCalculationData, Not HasRowArray, AccountStructure);
+		TableOwnFundSet = InitializeRegisterSet(RegisterOwnFund, Not HasRowArray, AccountStructure.Ref);
+		TableCalculationSet = InitializeRegisterSet(RegisterCalculationData, Not HasRowArray, AccountStructure.Ref);
 		
 		For Each RowData In TableData Do
 			

@@ -144,6 +144,7 @@
   <codeSeries>WithinSubordination</codeSeries>
   <checkUnique>true</checkUnique>
   <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
   <predefined>
     <items id="6df83a4b-c017-4e2f-aac4-802f06713e0a">
       <name>Counterparties</name>

@@ -59,6 +59,10 @@
   <resources uuid="a2db580c-587d-45ab-a7ff-dfeb44ffeebd">
     <name>LessThan30</name>
     <synonym>
+      <key>ru</key>
+      <value>Меньше 30 дней</value>
+    </synonym>
+    <synonym>
       <key>en</key>
       <value>Less than 30 days</value>
     </synonym>

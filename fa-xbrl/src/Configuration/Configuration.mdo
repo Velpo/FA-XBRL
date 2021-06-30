@@ -21,7 +21,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <defaultRoles>Role.velpo_FullAccess</defaultRoles>
   <vendor>Paul Tarasov (Velpo)</vendor>
-  <version>1.0.290621</version>
+  <version>1.0.210630</version>
   <help>
     <pages>
       <lang>en</lang>
