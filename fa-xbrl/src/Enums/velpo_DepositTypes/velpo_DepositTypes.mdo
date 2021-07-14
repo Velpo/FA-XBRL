@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89240446-8827-4ef0-804f-b547fc5f08ed">
+  <producedTypes>
+    <refType typeId="11c46bf8-7eb8-4b7a-a93c-2bef1bb839bd" valueTypeId="4098a618-89ee-4781-8b57-bc467cd78608"/>
+    <listType typeId="7570edb4-3525-490c-9829-2bfc5d83a93b" valueTypeId="b1bf4439-12d8-441d-952c-23814118527b"/>
+    <managerType typeId="50d41a27-5d2f-440d-bfd4-3f054f63db71" valueTypeId="bcdc0e93-b269-4239-9607-44bc497d6763"/>
+  </producedTypes>
+  <name>velpo_DepositTypes</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды депозиты</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Deposit types</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="17a86cd2-5d0c-42d9-b03a-402e1f8f3483">
+    <name>TermDeposit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Срочный депозит</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Term deposit</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="40715d91-cc51-45cb-89f8-aca41afbc827">
+    <name>IrreducibleBalance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Неснижаемый остаток</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Irreducible balance</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d97bb208-6ad9-4d38-b56c-84a6b62f0389">
+    <name>DemandDeposit</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вклад до востребования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Demand deposit</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
