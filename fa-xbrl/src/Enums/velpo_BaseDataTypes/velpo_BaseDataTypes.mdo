@@ -35,10 +35,6 @@
   <enumValues uuid="88e91560-a13f-45ed-a6b4-b0b5895d0bd9">
     <name>AnyURIItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Любой URI</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>anyURI</value>
     </synonym>
@@ -46,13 +42,13 @@
       <key></key>
       <value>Any URIItem type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Любой URI</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="591ef059-c94d-4660-89ef-ce92b211b438">
     <name>Base64BinaryItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>Бинарный (Base64)</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>base64Binary</value>
@@ -61,13 +57,13 @@
       <key></key>
       <value>Base64 binary item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Бинарный (Base64)</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="3ebfaea0-8c53-498e-9872-b000dbbcd40a">
     <name>BlockItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>Текст</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Block item type</value>
@@ -75,45 +71,45 @@
     <synonym>
       <key></key>
       <value>Block item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Текст</value>
     </synonym>
   </enumValues>
   <enumValues uuid="2db018de-0a66-463b-98c7-c51b757311bb">
     <name>BooleanItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Булево</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Boolean item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Boolean item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
     </synonym>
   </enumValues>
   <enumValues uuid="fe955a1a-6f4f-4846-adab-81db9265995d">
     <name>ByteItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Байт</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Byte item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Byte item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Байт</value>
     </synonym>
   </enumValues>
   <enumValues uuid="2f30b4e2-ff42-4df0-b9d5-04ee91056ff8">
     <name>DateItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Дата</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Date item type</value>
     </synonym>
@@ -121,13 +117,13 @@
       <key></key>
       <value>Date item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="c3a42c48-e95b-4fe0-b4ac-0e7099f4ed3b">
     <name>DateTimeItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата, время</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Date, time</value>
@@ -136,13 +132,13 @@
       <key></key>
       <value>Date time item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата, время</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="0a3b9da4-4efb-4f6d-9379-f2ef52861648">
     <name>DecimalItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>Число</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Decimal item type</value>
@@ -150,90 +146,90 @@
     <synonym>
       <key></key>
       <value>Decimal item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
     </synonym>
   </enumValues>
   <enumValues uuid="e41565d4-d2a6-4451-b2f2-70fa59a79261">
     <name>DoubleItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Double item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Double item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Double item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Double item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="00800a77-680f-4a17-8528-834a200bf40b">
     <name>DurationItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Диапазон</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Duration item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Duration item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Диапазон</value>
     </synonym>
   </enumValues>
   <enumValues uuid="5cdfd156-5b5d-466e-a703-afbf16056ace">
     <name>EnumerationItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Перечисление</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Enumeration item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Enumeration item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Перечисление</value>
     </synonym>
   </enumValues>
   <enumValues uuid="ad2d8ebe-9315-413f-a7c5-ed4249f22fc2">
     <name>EscapedItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Неэкранированная строка</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Escaped item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Escaped item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Неэкранированная строка</value>
     </synonym>
   </enumValues>
   <enumValues uuid="f1c44b11-675f-422b-a30a-a3d7f2723f07">
     <name>FloatItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Float item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Float item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Float item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Float item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="ee616ad2-4d3c-4e2c-b9fd-63edaa31a921">
     <name>FractionItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Фракция</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Fraction item type</value>
     </synonym>
@@ -241,13 +237,13 @@
       <key></key>
       <value>Fraction item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фракция</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="6c7dafa9-11b3-4c74-973a-39c5c1aa65eb">
     <name>gDayItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>gDay</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>gDay</value>
@@ -256,13 +252,13 @@
       <key></key>
       <value>G day item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>gDay</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="e74c5a1d-4465-4e6e-9de5-4c87178765a7">
     <name>gMonthItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>gMonth</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>gMonth</value>
@@ -271,13 +267,13 @@
       <key></key>
       <value>G month item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>gMonth</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="43f98263-0fac-4d72-aaae-4ba83d2e2992">
     <name>gMonthDayItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>gMonthDay</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>gMonthDay</value>
@@ -286,13 +282,13 @@
       <key></key>
       <value>G month day item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>gMonthDay</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="ddd3f0ad-df99-4a6d-ba7d-bd85202a948c">
     <name>gYearItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>gYear</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>gYear</value>
@@ -301,13 +297,13 @@
       <key></key>
       <value>G year item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>gYear</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="b108218e-a6cd-4966-9d8c-60e2a3700158">
     <name>gYearMonthItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>gYearMonth</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>gYearMonth</value>
@@ -316,19 +312,23 @@
       <key></key>
       <value>G year month item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>gYearMonth</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="5efdb27b-3af2-430e-a469-c24a5544285a">
     <name>HexBinaryItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>Hex binary item type</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Hex binary item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Hex binary item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Hex binary item type</value>
     </synonym>
   </enumValues>
@@ -339,231 +339,227 @@
       <value>Int item type</value>
     </synonym>
     <synonym>
-      <key>ru</key>
+      <key></key>
       <value>Int item type</value>
     </synonym>
     <synonym>
-      <key></key>
+      <key>ru</key>
       <value>Int item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3206cab9-8a03-48f7-bd3c-34011a9be8b0">
     <name>IntegerItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Integer item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Integer item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Integer item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Integer item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="43270041-33a1-4d9c-9c7c-b835c42d5db1">
     <name>LanguageItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Язык</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Language item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Language item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Язык</value>
     </synonym>
   </enumValues>
   <enumValues uuid="fc17f2dd-c838-4dd3-9c51-1f2860cd2abe">
     <name>LongItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Long item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Long item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Long item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Long item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3d838154-e702-4536-a27c-95f1d9895d29">
     <name>MeasuresItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Measures item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Measures item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Measures item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Measures item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="fc8c1384-5dd8-4ec7-ba0d-52fa0827002b">
     <name>MonetaryItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Деньги</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Monetary item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Monetary item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Деньги</value>
     </synonym>
   </enumValues>
   <enumValues uuid="a7fd40c6-3b6d-44b0-a858-cbad8eff1785">
     <name>NameItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Имя</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Name item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Name item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
     </synonym>
   </enumValues>
   <enumValues uuid="7d4ca49d-b498-41db-b21d-cfab8ef676d9">
     <name>NCNameItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>NCName item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>NCName item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>NCName item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>NCName item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="f5683598-6fe8-4d82-a334-57aaf1532114">
     <name>NegativeIntegerItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Negative integer item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Negative integer item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Negative integer item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Negative integer item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="21599dd1-5352-472c-a8ac-aafd8d14292e">
     <name>NonNegativeIntegerItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Non negative integer item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Non negative integer item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Non negative integer item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Non negative integer item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="e098425e-067f-40d9-a9e2-6db820934da8">
     <name>NonPositiveIntegerItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Non positive integer item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Non positive integer item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Non positive integer item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Non positive integer item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="b03e9c79-a008-4474-9146-f4c72e460f01">
     <name>NormalizedStringItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Нормализовая строка</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Normalized string item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Normalized string item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Нормализовая строка</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3c3a741d-ece2-4197-85d9-95dd670cf55f">
     <name>PercentItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Процент</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Percent item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Percent item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Процент</value>
     </synonym>
   </enumValues>
   <enumValues uuid="9a9693a3-a4d6-4978-98cd-3a7d69994677">
     <name>PerShareItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>На акцию</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Per share item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Per share item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>На акцию</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3a666060-e73d-4e19-a2e6-e35447518af4">
     <name>PositiveIntegerItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Positive integer item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Positive integer item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Positive integer item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Positive integer item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="e5a35406-5095-42a2-aea9-fbaa0a5f256a">
     <name>PureItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Pure item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Pure item type</value>
     </synonym>
@@ -571,13 +567,13 @@
       <key></key>
       <value>Pure item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Pure item type</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="96763163-755f-4c19-a88b-099e8666b922">
     <name>QNameItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>QName</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>QName</value>
@@ -586,13 +582,13 @@
       <key></key>
       <value>Q name item type</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>QName</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="4112d1fe-d8ba-4a1e-8a7e-8ca9a5a6c5f9">
     <name>SharesItemType</name>
-    <synonym>
-      <key>ru</key>
-      <value>Акции</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Shares item type</value>
@@ -600,125 +596,129 @@
     <synonym>
       <key></key>
       <value>Shares item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Акции</value>
     </synonym>
   </enumValues>
   <enumValues uuid="3dad201c-be80-4ee9-b83b-bbf4328ece2b">
     <name>ShortItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Short item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Short item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Short item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Short item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="1b7148d6-7403-40cd-b81f-6ec50408b314">
     <name>StringItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Строка</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>String item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>String item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Строка</value>
     </synonym>
   </enumValues>
   <enumValues uuid="331697de-8f4b-40e2-97ee-9faccbfac109">
     <name>TimeItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Время</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Time item type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Time item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Время</value>
     </synonym>
   </enumValues>
   <enumValues uuid="896a20f1-658d-476a-9c8a-c9cde815060a">
     <name>TokenItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Token item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Token item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Token item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Token item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="6cb649fb-9996-472d-9f68-56cc86e52dc3">
     <name>UnsignedByteItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Unsigned byte item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Unsigned byte item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Unsigned byte item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Unsigned byte item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="2b99b0c3-a727-42e0-a1c9-1f4dd2712de4">
     <name>UnsignedIntItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Unsigned int item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Unsigned int item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Unsigned int item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Unsigned int item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="95330765-5357-48db-bd2b-31b1b4ffc1f8">
     <name>UnsignedLongItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Unsigned long item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Unsigned long item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Unsigned long item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Unsigned long item type</value>
     </synonym>
   </enumValues>
   <enumValues uuid="2d195935-e35f-4aa1-83d9-a1465bd791d1">
     <name>UnsignedShortItemType</name>
     <synonym>
-      <key>ru</key>
-      <value>Unsigned short item type</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Unsigned short item type</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Unsigned short item type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Unsigned short item type</value>
     </synonym>
   </enumValues>
@@ -747,25 +747,21 @@
   <enumValues uuid="d31bb4d5-3860-4d85-9e62-00c878d8a3fe">
     <name>Boolean</name>
     <synonym>
-      <key>ru</key>
-      <value>Булево</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Boolean</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Boolean</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Булево</value>
     </synonym>
   </enumValues>
   <enumValues uuid="59537a00-0577-464a-9925-b533f369d997">
     <name>Date</name>
     <synonym>
-      <key>ru</key>
-      <value>Дата</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Date</value>
     </synonym>
@@ -773,13 +769,13 @@
       <key></key>
       <value>Date</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="247e11dd-3e26-4bf1-b7db-ca4c3b363a4d">
     <name>DateTime</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата, время</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Date, time</value>
@@ -788,13 +784,13 @@
       <key></key>
       <value>Date time</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дата, время</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="a77a0b4e-5bfb-493f-ba07-76d1b14cafdb">
     <name>Decimal</name>
-    <synonym>
-      <key>ru</key>
-      <value>Число</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Decimal</value>
@@ -802,20 +798,24 @@
     <synonym>
       <key></key>
       <value>Decimal</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Число</value>
     </synonym>
   </enumValues>
   <enumValues uuid="d875f391-e6b7-48fb-8c3d-5d3e3ca0142e">
     <name>Integer</name>
     <synonym>
-      <key>ru</key>
-      <value>Integer</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Integer</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Integer</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Integer</value>
     </synonym>
   </enumValues>
@@ -826,26 +826,26 @@
       <value>Int</value>
     </synonym>
     <synonym>
-      <key>ru</key>
+      <key></key>
       <value>Int</value>
     </synonym>
     <synonym>
-      <key></key>
+      <key>ru</key>
       <value>Int</value>
     </synonym>
   </enumValues>
   <enumValues uuid="d2b0051a-3532-437b-b468-d458c395e1af">
     <name>Float</name>
     <synonym>
-      <key>ru</key>
-      <value>Float</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Float</value>
     </synonym>
     <synonym>
       <key></key>
+      <value>Float</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
       <value>Float</value>
     </synonym>
   </enumValues>

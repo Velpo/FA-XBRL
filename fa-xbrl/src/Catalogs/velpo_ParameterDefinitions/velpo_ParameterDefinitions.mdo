@@ -114,16 +114,16 @@
   <attributes uuid="a66f7889-6909-4e6b-a9bb-441650741175">
     <name>_As</name>
     <synonym>
-      <key>ru</key>
-      <value>Как</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>As</value>
     </synonym>
     <synonym>
       <key></key>
       <value>As</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Как</value>
     </synonym>
     <type>
       <types>String</types>

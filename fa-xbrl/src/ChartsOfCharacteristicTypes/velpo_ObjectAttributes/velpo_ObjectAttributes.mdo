@@ -101,6 +101,7 @@
   <type>
     <types>EnumRef.velpo_MoodysInvestorsService</types>
     <types>EnumRef.velpo_AM_Best</types>
+    <types>EnumRef.velpo_DepositTypes</types>
     <types>EnumRef.velpo_YesNoNone</types>
     <types>EnumRef.velpo_RelatedParties</types>
     <types>EnumRef.velpo_CreditQualityGroups</types>
@@ -814,10 +815,18 @@
           </dateQualifiers>
         </type>
       </content>
+      <content id="7ecbd64c-a730-429e-8d71-2be2e164dbc7">
+        <name>DepositType</name>
+        <description>Вид депозита</description>
+        <code>49</code>
+        <type>
+          <types>EnumRef.velpo_DepositTypes</types>
+        </type>
+      </content>
       <content id="8f9e8577-4c6f-4437-ae17-fba4a40c0925">
         <name>IsPledged</name>
         <description>Наличие залога</description>
-        <code>49</code>
+        <code>50</code>
         <type>
           <types>Boolean</types>
         </type>
@@ -825,7 +834,7 @@
       <content id="c66afd8d-532e-44c9-bfe9-0a33a6c01d8e">
         <name>TransactionType</name>
         <description>Обращаемость на бирже</description>
-        <code>50</code>
+        <code>51</code>
         <type>
           <types>EnumRef.velpo_TransactionTypes</types>
         </type>
@@ -833,7 +842,7 @@
       <content id="c455af04-b67d-4c02-b541-445bdbf62118">
         <name>IsDerivativeAsset</name>
         <description>Срочная сделка, классифицируется как актив по ОСБУ</description>
-        <code>51</code>
+        <code>52</code>
         <type>
           <types>Boolean</types>
         </type>
@@ -841,7 +850,7 @@
       <content id="f20fff06-7bea-4086-bff5-5780b08a880a">
         <name>DerivativeType</name>
         <description>Тип инструмента</description>
-        <code>52</code>
+        <code>53</code>
         <type>
           <types>EnumRef.velpo_DerivativeTypes</types>
         </type>
@@ -849,7 +858,7 @@
       <content id="9dbd828d-b5de-4d23-9adf-d4e3b7fa4291">
         <name>IsCashDebtPayment</name>
         <description>Оплата задолженности денежными средствами</description>
-        <code>53</code>
+        <code>54</code>
         <type>
           <types>Boolean</types>
         </type>
@@ -857,7 +866,7 @@
       <content id="548c699c-baf6-4299-a9c8-2b70c70d5a21">
         <name>IsStructuredInstrument</name>
         <description>Структурный инструмент</description>
-        <code>54</code>
+        <code>55</code>
         <type>
           <types>Boolean</types>
         </type>
@@ -865,7 +874,7 @@
       <content id="5a070ec1-9b2a-4552-904a-472f4b86f899">
         <name>ThingCategories</name>
         <description>Категория вещи</description>
-        <code>55</code>
+        <code>56</code>
         <type>
           <types>EnumRef.velpo_ThingCategories</types>
         </type>
@@ -873,7 +882,7 @@
       <content id="5174d1bc-2377-4acf-88ff-132d3706975d">
         <name>IsLocatedInRussia</name>
         <description>Актив расположен на территории РФ</description>
-        <code>56</code>
+        <code>57</code>
         <type>
           <types>Boolean</types>
         </type>
@@ -881,7 +890,7 @@
       <content id="c714a7b0-fa02-453f-9c51-3cc403ed94db">
         <name>IsIncludedInNumerator</name>
         <description>Входит в числитель нормативного соотношения</description>
-        <code>59</code>
+        <code>58</code>
         <type>
           <types>Boolean</types>
         </type>
@@ -889,7 +898,7 @@
       <content id="9759f8dc-b110-44ce-af00-370e0a56e00b">
         <name>RealEstateValue</name>
         <description>Стоимость объекта недвижимости</description>
-        <code>60 </code>
+        <code>59</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -985,10 +994,22 @@
           </numberQualifiers>
         </type>
       </content>
+      <content id="8bd86490-4cc2-4e5b-aef9-fc647fb18968">
+        <name>Balance</name>
+        <description>Остаток</description>
+        <code>03</code>
+        <type>
+          <types>Number</types>
+          <numberQualifiers>
+            <precision>17</precision>
+            <scale>2</scale>
+          </numberQualifiers>
+        </type>
+      </content>
       <content id="eea6b720-7045-4cfa-b8a5-e8c08014c425">
         <name>ImpairmentAllowance</name>
         <description>Резерв на обесценение</description>
-        <code>03</code>
+        <code>04</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1000,7 +1021,7 @@
       <content id="a1779250-f941-49b9-96cf-5f890e357036">
         <name>OverdueDebt</name>
         <description>Просроченная задолженность (п. 3.1.13)</description>
-        <code>04</code>
+        <code>05</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1013,7 +1034,7 @@
       <content id="12732008-1613-473c-93c0-4c0c5b2bd468">
         <name>UnearnedPremiumReserve</name>
         <description>Резерв незаработанной премии</description>
-        <code>05</code>
+        <code>06</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1026,7 +1047,7 @@
       <content id="d85e352f-fa54-463f-9cae-11afbf6ad627">
         <name>MathematicalReserve</name>
         <description>Математический резерв</description>
-        <code>06</code>
+        <code>07</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1039,7 +1060,7 @@
       <content id="87fc6c06-6889-49ba-9a28-84974b4e96cc">
         <name>BookValue</name>
         <description>Стоимость по данным БУ</description>
-        <code>07</code>
+        <code>08</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1052,7 +1073,7 @@
       <content id="4f17c95b-d38e-4449-8332-49dbc389d01b">
         <name>ItemValue</name>
         <description>Стоимость по Положению 710-П</description>
-        <code>08</code>
+        <code>09</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1065,7 +1086,7 @@
       <content id="b4d68178-0a78-4c0f-bd73-4004e4d4e936">
         <name>ReservesCover</name>
         <description>Стоимость актива, принимаемого для покрытия резервов</description>
-        <code>09</code>
+        <code>10</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1078,7 +1099,7 @@
       <content id="0c0c203f-2e8d-4f4c-8459-1715d8755592">
         <name>EquityCover</name>
         <description>Стоимость актива, принимаемого для покрытия собственных средств (капитала)</description>
-        <code>10</code>
+        <code>11</code>
         <type>
           <types>Number</types>
           <numberQualifiers>
@@ -1091,7 +1112,7 @@
       <content id="6b42f3cb-36ad-4439-a989-70ba221e9346">
         <name>CreditRating</name>
         <description>Кредитный рейтинг</description>
-        <code>11</code>
+        <code>12</code>
         <type>
           <types>String</types>
           <stringQualifiers>
@@ -1102,7 +1123,7 @@
       <content id="586038d0-d399-4051-b8e9-bc03e1ad2f7c">
         <name>RatingAgency</name>
         <description>Полное наименование кредитного рейтингового агентства, присвоившего кредитный рейтинг контрагента</description>
-        <code>12</code>
+        <code>13</code>
         <type>
           <types>EnumRef.velpo_RatingAgencies</types>
         </type>
@@ -1110,7 +1131,7 @@
       <content id="7a181105-1b1a-4573-a45d-0c731d9d2b8a">
         <name>ConsolidatedRating</name>
         <description>Консолидированный рейтинг</description>
-        <code>13</code>
+        <code>14</code>
         <type>
           <types>EnumRef.velpo_ConsolidatedRatings</types>
         </type>
@@ -1118,7 +1139,7 @@
       <content id="31890530-3bd7-46f9-b6e3-c1b43e07581e">
         <name>CreditQualityGroup</name>
         <description>Группа кредитного качества</description>
-        <code>14</code>
+        <code>15</code>
         <type>
           <types>EnumRef.velpo_CreditQualityGroups</types>
         </type>
@@ -1126,7 +1147,7 @@
       <content id="c878c4a2-cbd4-4f88-a273-7c78eb370a3a">
         <name>Risk2Category</name>
         <description>Категория контрагентов для оценки риска 2</description>
-        <code>15</code>
+        <code>16</code>
         <type>
           <types>EnumRef.velpo_Risk2Categories</types>
         </type>
@@ -1551,9 +1572,9 @@
           </numberQualifiers>
         </type>
       </content>
-      <content id="69db11ec-e564-4dae-a6d1-cca587f91e3a">
-        <name>ExceedOperatorLiability</name>
-        <description>Сумма рассчитанных в отношении каждого туроператора превышений совокупного объема ответственности нетто-перестрахования по всем действующим на отчетну</description>
+      <content id="fa9a58ce-ffc4-4e67-9dd6-ec3eb7964121">
+        <name>ReinsuranceShareIncurredButNotReportedReserve</name>
+        <description>Доля перестраховщиков в резерве произошедших, но незаявленных убытков на отчетную дату</description>
         <code>18</code>
         <type>
           <types>Number</types>
@@ -1563,9 +1584,9 @@
           </numberQualifiers>
         </type>
       </content>
-      <content id="fa9a58ce-ffc4-4e67-9dd6-ec3eb7964121">
-        <name>ReinsuranceShareIncurredButNotReportedReserve</name>
-        <description>Доля перестраховщиков в резерве произошедших, но незаявленных убытков на отчетную дату</description>
+      <content id="69db11ec-e564-4dae-a6d1-cca587f91e3a">
+        <name>ExceedOperatorLiability</name>
+        <description>Сумма рассчитанных в отношении каждого туроператора превышений совокупного объема ответственности нетто-перестрахования по всем действующим на отчетну</description>
         <code>19</code>
         <type>
           <types>Number</types>

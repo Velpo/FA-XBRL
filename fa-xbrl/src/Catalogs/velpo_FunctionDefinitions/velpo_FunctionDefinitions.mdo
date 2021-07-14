@@ -212,16 +212,16 @@
     </producedTypes>
     <name>Inputs</name>
     <synonym>
-      <key>ru</key>
-      <value>Ввод</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Inputs</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Inputs</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод</value>
     </synonym>
     <attributes uuid="092973fa-4b12-4eed-b18b-75b219a3bdd1">
       <name>Input</name>

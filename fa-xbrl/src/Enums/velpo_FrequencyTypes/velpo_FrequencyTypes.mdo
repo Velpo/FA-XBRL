@@ -36,20 +36,16 @@
   <enumValues uuid="30d7847b-ad0a-42f2-95e9-034a90369d1b">
     <name>Month</name>
     <synonym>
+      <key>ro</key>
+      <value>Lună</value>
+    </synonym>
+    <synonym>
       <key>en</key>
       <value>Month</value>
     </synonym>
     <synonym>
       <key>tr</key>
       <value>Ay</value>
-    </synonym>
-    <synonym>
-      <key>ro</key>
-      <value>Lună</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Miesiąc</value>
     </synonym>
     <synonym>
       <key>ru</key>
@@ -60,6 +56,10 @@
       <value>Monat</value>
     </synonym>
     <synonym>
+      <key>pl</key>
+      <value>Miesiąc</value>
+    </synonym>
+    <synonym>
       <key>es_ES</key>
       <value>Mes</value>
     </synonym>
@@ -67,20 +67,16 @@
   <enumValues uuid="054eb66e-a48a-40ca-b916-a82af5e54c6f">
     <name>Quarter</name>
     <synonym>
+      <key>ro</key>
+      <value>Trimestru</value>
+    </synonym>
+    <synonym>
       <key>en</key>
       <value>Quarter</value>
     </synonym>
     <synonym>
       <key>tr</key>
       <value>Çeyrek yıl</value>
-    </synonym>
-    <synonym>
-      <key>ro</key>
-      <value>Trimestru</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Kwartał</value>
     </synonym>
     <synonym>
       <key>ru</key>
@@ -91,6 +87,10 @@
       <value>Quartal</value>
     </synonym>
     <synonym>
+      <key>pl</key>
+      <value>Kwartał</value>
+    </synonym>
+    <synonym>
       <key>es_ES</key>
       <value>Trimestre</value>
     </synonym>
@@ -98,20 +98,16 @@
   <enumValues uuid="039c6285-575f-4cfc-bb31-5d1cc0d65659">
     <name>HalfYear</name>
     <synonym>
+      <key>ro</key>
+      <value>Jumătate de an</value>
+    </synonym>
+    <synonym>
       <key>en</key>
       <value>Half-year</value>
     </synonym>
     <synonym>
       <key>tr</key>
       <value>Yarıyıl</value>
-    </synonym>
-    <synonym>
-      <key>ro</key>
-      <value>Jumătate de an</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Półrocze</value>
     </synonym>
     <synonym>
       <key>ru</key>
@@ -122,12 +118,20 @@
       <value>Halbjahr</value>
     </synonym>
     <synonym>
+      <key>pl</key>
+      <value>Półrocze</value>
+    </synonym>
+    <synonym>
       <key>es_ES</key>
       <value>Medio año</value>
     </synonym>
   </enumValues>
   <enumValues uuid="d4fe5660-5b02-42bc-bd38-a01ca8a4c834">
     <name>Year</name>
+    <synonym>
+      <key>ro</key>
+      <value>An</value>
+    </synonym>
     <synonym>
       <key>en</key>
       <value>Year</value>
@@ -137,20 +141,16 @@
       <value>Yıl</value>
     </synonym>
     <synonym>
-      <key>ro</key>
-      <value>An</value>
-    </synonym>
-    <synonym>
-      <key>pl</key>
-      <value>Rok</value>
-    </synonym>
-    <synonym>
       <key>ru</key>
       <value>Год</value>
     </synonym>
     <synonym>
       <key>de</key>
       <value>Planung des Grundgesamtheitsergebnisses</value>
+    </synonym>
+    <synonym>
+      <key>pl</key>
+      <value>Rok</value>
     </synonym>
     <synonym>
       <key>es_ES</key>

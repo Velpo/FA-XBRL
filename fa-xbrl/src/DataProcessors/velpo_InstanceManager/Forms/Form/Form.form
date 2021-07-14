@@ -1261,16 +1261,16 @@ WHERE
     </title>
     <id>1</id>
     <toolTip>
-      <key>ru</key>
-      <value>Add month</value>
-    </toolTip>
-    <toolTip>
       <key>en</key>
       <value>Предыдущий месяц</value>
     </toolTip>
     <toolTip>
       <key></key>
       <value>Command next month</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Add month</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -1294,16 +1294,16 @@ WHERE
     </title>
     <id>2</id>
     <toolTip>
-      <key>ru</key>
-      <value>Add month</value>
-    </toolTip>
-    <toolTip>
       <key>en</key>
       <value>Предыдущий месяц</value>
     </toolTip>
     <toolTip>
       <key></key>
       <value>Command previous month</value>
+    </toolTip>
+    <toolTip>
+      <key>ru</key>
+      <value>Add month</value>
     </toolTip>
     <use>
       <common>true</common>

@@ -117,16 +117,16 @@
   <attributes uuid="8c213505-f3b8-4bc4-91ae-032a7b10477b">
     <name>TreeNodeType</name>
     <synonym>
-      <key>ru</key>
-      <value>Тип презентации</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Tree node type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Tree node type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип презентации</value>
     </synonym>
     <type>
       <types>EnumRef.velpo_TreeNodeTypes</types>
@@ -196,16 +196,16 @@
   <attributes uuid="acac5b77-608a-4d47-88f2-0ef213aef3d3">
     <name>Domain</name>
     <synonym>
-      <key>ru</key>
-      <value>Домен (значение)</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Domain</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Domain</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Домен (значение)</value>
     </synonym>
     <type>
       <types>CatalogRef.velpo_MemberValues</types>

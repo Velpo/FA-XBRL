@@ -64,4 +64,5 @@
   <content>StyleItem.velpo_InformationText</content>
   <subsystems>velpo_BusinessReporting</subsystems>
   <subsystems>velpo_SolvencyCalculation</subsystems>
+  <subsystems>velpo_StandardSubsystems</subsystems>
 </mdclass:Subsystem>

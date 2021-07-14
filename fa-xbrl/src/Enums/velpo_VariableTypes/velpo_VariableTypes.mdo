@@ -35,31 +35,31 @@
   <enumValues uuid="0083f7b9-69b1-4806-80bb-948d655c78d7">
     <name>General</name>
     <synonym>
-      <key>ru</key>
-      <value>Общая</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>General</value>
     </synonym>
     <synonym>
       <key></key>
       <value>General</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Общая</value>
     </synonym>
   </enumValues>
   <enumValues uuid="1fd25689-3c7c-48b0-931b-3d2aa6a508d2">
     <name>Fact</name>
     <synonym>
-      <key>ru</key>
-      <value>Фактическая</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Fact</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Fact</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

@@ -21,7 +21,7 @@
   <usePurposes>PersonalComputer</usePurposes>
   <defaultRoles>Role.velpo_FullAccess</defaultRoles>
   <vendor>Paul Tarasov (Velpo)</vendor>
-  <version>1.0.210630</version>
+  <version>1.0.210714</version>
   <help>
     <pages>
       <lang>en</lang>
@@ -78,7 +78,6 @@
     </synonym>
     <languageCode>en</languageCode>
   </languages>
-  <subsystems>Subsystem.StandardSubsystems</subsystems>
   <subsystems>Subsystem.velpo_FA_XBRL</subsystems>
   <styleItems>StyleItem.velpo_InformationText</styleItems>
   <commonPictures>CommonPicture.velpo_RightArrow</commonPictures>
@@ -216,6 +215,7 @@
   <enums>Enum.velpo_CreditQualityGroups</enums>
   <enums>Enum.velpo_CurrencyCodes</enums>
   <enums>Enum.velpo_DefinitionNodeTypes</enums>
+  <enums>Enum.velpo_DepositTypes</enums>
   <enums>Enum.velpo_DerivativeTypes</enums>
   <enums>Enum.velpo_ExpertRA</enums>
   <enums>Enum.velpo_FieldQueryLinkTypes</enums>

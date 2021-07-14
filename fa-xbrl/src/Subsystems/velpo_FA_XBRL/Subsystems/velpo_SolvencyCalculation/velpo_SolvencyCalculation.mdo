@@ -67,5 +67,6 @@
   <content>InformationRegister.velpo_ConcentrationData</content>
   <content>Enum.velpo_ConcentrationTypes</content>
   <content>Enum.velpo_ItemLinkTypes</content>
+  <content>Enum.velpo_DepositTypes</content>
   <parentSubsystem>Subsystem.velpo_FA_XBRL</parentSubsystem>
 </mdclass:Subsystem>

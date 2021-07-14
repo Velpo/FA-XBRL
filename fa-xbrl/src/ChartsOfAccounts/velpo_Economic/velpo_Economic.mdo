@@ -58,6 +58,7 @@
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsInfrastructureOrganization</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsLloydSyndicates</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsMedicalOrganization</accountingFlags>
+      <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsMemberOECD</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsNationalReinsuranceCompany</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsReinsurerPaymentTransferred</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsRussianFederation</accountingFlags>
@@ -68,7 +69,6 @@
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.OGRNIP</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Patronymic</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.RatingAgency</accountingFlags>
-      <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.IsMemberOECD</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.RelatedParty</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Risk2Category</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.StandardAndPoors</accountingFlags>
@@ -90,6 +90,7 @@
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AssetLiabilityClause_1</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AssetValueChangeClause_1_3_2</accountingFlags>
+      <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BondClause_3_7</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashDepositClause_3_1_15</accountingFlags>
@@ -111,6 +112,7 @@
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditRating</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
+      <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DepositType</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DerivativeType</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
       <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EstimationReportDate</accountingFlags>
@@ -233,6 +235,7 @@
         <description>Активы</description>
         <code>003</code>
         <order>003</order>
+        <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
         <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
         <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
         <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -256,6 +259,7 @@
           <description>Наличные деньги</description>
           <code>01</code>
           <order>01</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ItemValue</accountingFlags>
           <extDimensionTypes>
@@ -273,6 +277,7 @@
           <code>02</code>
           <order>02</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashDepositClause_3_1_15</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -314,6 +319,7 @@
           <code>03</code>
           <order>03</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashDepositClause_3_1_15</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashFlow</accountingFlags>
@@ -321,6 +327,7 @@
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DepositType</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateReductionImpact</accountingFlags>
@@ -375,6 +382,7 @@
           <code>04</code>
           <order>04</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -444,6 +452,7 @@
           <description>Доли, иное участие в уставных капиталах юридических лиц</description>
           <code>05</code>
           <order>05</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -478,6 +487,7 @@
           <code>06</code>
           <order>06</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -552,6 +562,7 @@
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ACRA</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AM_Best</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BondClause_3_7</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashFlow</accountingFlags>
@@ -587,6 +598,7 @@
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.RatingAgency</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ReservesCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.RiskClause_1_2_2</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ScheduleDate</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.StandardAndPoors</accountingFlags>
           <extDimensionTypes>
             <characteristicType>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.BondID</characteristicType>
@@ -644,6 +656,7 @@
           <code>08</code>
           <order>08</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BondClause_3_7</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -697,8 +710,8 @@
           <description>Ипотечные сертификаты участия</description>
           <code>09</code>
           <order>09</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
-          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ConcentrationRiskAssetValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.FinancialInstrumentClause_3_1_24</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ItemValue</accountingFlags>
@@ -747,6 +760,7 @@
           <description>Векселя</description>
           <code>10</code>
           <order>10</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.FinancialInstrumentClause_3_1_24</accountingFlags>
@@ -790,6 +804,7 @@
           <code>11</code>
           <order>11</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
@@ -847,6 +862,7 @@
           <code>12</code>
           <order>12</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashFlow</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -898,6 +914,7 @@
           <code>13</code>
           <order>13</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_2</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -940,6 +957,7 @@
           <code>14</code>
           <order>14</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_3</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -983,6 +1001,7 @@
           <code>15</code>
           <order>15</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_3</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -1026,6 +1045,7 @@
           <code>16</code>
           <order>16</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_4</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -1074,6 +1094,7 @@
           <code>17</code>
           <order>17</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_5</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -1118,6 +1139,7 @@
           <code>18</code>
           <order>18</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_6</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -1162,6 +1184,7 @@
           <code>19</code>
           <order>19</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -1199,6 +1222,7 @@
           <code>20</code>
           <order>20</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CashFlow</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -1238,6 +1262,7 @@
           <code>21</code>
           <order>21</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_9</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
@@ -1286,6 +1311,7 @@
           <code>22</code>
           <order>22</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -1325,6 +1351,7 @@
           <code>23</code>
           <order>23</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1345,6 +1372,7 @@
           <description>Права требования по суброгациям и регрессам</description>
           <code>24</code>
           <order>24</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CourtDecisionClause_3_1_12_11_3</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -1385,6 +1413,7 @@
           <code>25</code>
           <order>25</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -1411,6 +1440,7 @@
           <description>Права требования по возврату излишне уплаченных (взысканных) страховых взносов по обязательному социальному страхованию</description>
           <code>26</code>
           <order>26</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1433,6 +1463,7 @@
           <description>Права требования по авансовым платежам по налогам, задолженности бюджетов по налогам и сборам</description>
           <code>27</code>
           <order>27</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1459,6 +1490,7 @@
           <code>28</code>
           <order>28</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1489,6 +1521,7 @@
           <code>29</code>
           <order>29</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_14</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ClaimRightClause_3_1_12_15</accountingFlags>
@@ -1527,6 +1560,7 @@
           <code>30</code>
           <order>30</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CloseDate</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
@@ -1572,6 +1606,7 @@
           <code>31</code>
           <order>31</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -1611,6 +1646,7 @@
           <description>Корректировка доли перестраховщиков до наилучшей оценки</description>
           <code>32</code>
           <order>32</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -1644,6 +1680,7 @@
           <description>Средства обязательного медицинского страхования</description>
           <code>33</code>
           <order>33</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CompulsoryHealthInsuranceClause_1_2_1</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
@@ -1666,6 +1703,7 @@
           <code>34</code>
           <order>33</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -1710,6 +1748,7 @@
           <code>35</code>
           <order>35</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EstimationReportDate</accountingFlags>
@@ -1749,6 +1788,7 @@
           <description>Вещи, кроме недвижимого имущества и товаров</description>
           <code>36</code>
           <order>36</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1772,6 +1812,7 @@
           <description>Права пользования по договору аренды</description>
           <code>37</code>
           <order>37</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1796,6 +1837,7 @@
           <description>Отложенные налоговые активы</description>
           <code>38</code>
           <order>38</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1816,6 +1858,7 @@
           <description>Нематериальные активы</description>
           <code>39</code>
           <order>39</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
@@ -1837,6 +1880,7 @@
           <description>Отложенные аквизиционные расходы</description>
           <code>40</code>
           <order>40</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.EquityCover</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -1857,6 +1901,7 @@
           <description>Оценка будущих поступлений</description>
           <code>41</code>
           <order>41</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <extDimensionTypes>
             <characteristicType>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.EstimatesOfFutureCashFlowID</characteristicType>
@@ -1874,6 +1919,7 @@
           <code>42</code>
           <order>42</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ArrestClause_3_1_23</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditQualityGroup</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -2554,6 +2600,24 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </accountingFlags>
+  <accountingFlags uuid="e6683e7c-819a-4eef-9848-9cd4811c28c3">
+    <name>Balance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Balance</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
   <accountingFlags uuid="dc94da69-47e4-4332-88fb-5153e8db3281">
     <name>BondClause_3_7</name>
     <synonym>
@@ -3121,6 +3185,24 @@
     <synonym>
       <key>en</key>
       <value>Default refund price</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="d920ee30-9c7f-4157-9342-770676e2ba01">
+    <name>DepositType</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид депозита</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Deposit type</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -3751,6 +3833,24 @@
     <synonym>
       <key>en</key>
       <value>Medical organization</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </accountingFlags>
+  <accountingFlags uuid="6ba5c207-8d51-4b7c-809f-afb1c2d902dc">
+    <name>IsMemberOECD</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перестраховщик, является членом ОЭСР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Is member OECD</value>
     </synonym>
     <type>
       <types>Boolean</types>
@@ -4581,24 +4681,6 @@
     <synonym>
       <key>en</key>
       <value>Clause 3.1.12.16 par. 1</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:UndefinedValue"/>
-  </accountingFlags>
-  <accountingFlags uuid="6ba5c207-8d51-4b7c-809f-afb1c2d902dc">
-    <name>IsMemberOECD</name>
-    <synonym>
-      <key>ru</key>
-      <value>Перестраховщик, является членом ОЭСР</value>
-    </synonym>
-    <synonym>
-      <key>en</key>
-      <value>Is member OECD</value>
     </synonym>
     <type>
       <types>Boolean</types>

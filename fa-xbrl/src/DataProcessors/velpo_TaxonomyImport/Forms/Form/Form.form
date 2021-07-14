@@ -135,20 +135,20 @@
           <common>true</common>
         </userVisible>
         <title>
-          <key>ru</key>
-          <value>Group file commends</value>
+          <key></key>
+          <value>Group file commands</value>
         </title>
         <title>
+          <key>ru</key>
+          <value>Group file commends</value>
+        </title>
+        <toolTip>
           <key></key>
           <value>Group file commands</value>
-        </title>
+        </toolTip>
         <toolTip>
           <key>ru</key>
           <value>Group file commends</value>
-        </toolTip>
-        <toolTip>
-          <key></key>
-          <value>Group file commands</value>
         </toolTip>
         <extendedTooltip>
           <name>GroupFileCommandsExtendedTooltip</name>

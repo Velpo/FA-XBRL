@@ -46,70 +46,66 @@
   <enumValues uuid="f8ad4a4f-3204-4fcb-9eee-107354f92e7b">
     <name>ConceptAspect</name>
     <synonym>
-      <key>ru</key>
-      <value>Аспект показатель</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Concept aspect</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Concept aspect</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аспект показатель</value>
     </synonym>
   </enumValues>
   <enumValues uuid="5a9ede17-1c2d-4e5a-8793-1c9e3edac4dc">
     <name>EntityIdentifierAspect</name>
     <synonym>
-      <key>ru</key>
-      <value>Аспект идентификатора</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Entity identifier aspect</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Entity identifier aspect</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аспект идентификатора</value>
     </synonym>
   </enumValues>
   <enumValues uuid="8a271d57-110a-4159-ab15-3e5b002b9703">
     <name>PeriodAspect</name>
     <synonym>
-      <key>ru</key>
-      <value>Аспект периода</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Period aspect</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Period aspect</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аспект периода</value>
     </synonym>
   </enumValues>
   <enumValues uuid="fd9d37cb-d0ae-4947-91fe-aba0e40c28d6">
     <name>DimensionAspect</name>
     <synonym>
-      <key>ru</key>
-      <value>Аспект измерение</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Dimension aspect</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Dimension aspect</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аспект измерение</value>
     </synonym>
   </enumValues>
   <enumValues uuid="0f6f8ffe-597a-465f-8e89-0a9618b24848">
     <name>UnitAspect</name>
     <synonym>
-      <key>ru</key>
-      <value>Аспект единицы измерения</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Unit aspect</value>
     </synonym>
@@ -117,13 +113,13 @@
       <key></key>
       <value>Unit aspect</value>
     </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Аспект единицы измерения</value>
+    </synonym>
   </enumValues>
   <enumValues uuid="784c3679-c7f9-4e41-a264-d94877416ac9">
     <name>ConceptRelationship</name>
-    <synonym>
-      <key>ru</key>
-      <value>Отношение показателей</value>
-    </synonym>
     <synonym>
       <key>en</key>
       <value>Concept Relationship</value>
@@ -131,6 +127,10 @@
     <synonym>
       <key></key>
       <value>Concept relationship</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение показателей</value>
     </synonym>
   </enumValues>
   <enumValues uuid="9be8f06c-21a5-4158-b853-ba783ee811ab">

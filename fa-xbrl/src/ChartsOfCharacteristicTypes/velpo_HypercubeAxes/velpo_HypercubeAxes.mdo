@@ -241,16 +241,16 @@
   <attributes uuid="91658b91-caed-46cb-9af5-d6b4eb259f85">
     <name>NamespaceURI</name>
     <synonym>
-      <key>ru</key>
-      <value>QName</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>QName</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Namespace URI</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>QName</value>
     </synonym>
     <type>
       <types>String</types>

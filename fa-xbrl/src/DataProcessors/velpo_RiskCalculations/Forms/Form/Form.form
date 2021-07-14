@@ -5453,6 +5453,7 @@ WHERE
 	OwnFundData.BusinessUnit,
 	OwnFundData.Account,
 	OwnFundData.Account.Parent AS Parent,
+	SUM(OwnFundData.Balance) AS Balance,
 	SUM(OwnFundData.BookValue) AS BookValue,
 	SUM(OwnFundData.CreditSpreadImpact) AS CreditSpreadImpact,
 	SUM(OwnFundData.DefaultRefundPrice) AS DefaultRefundPrice,

@@ -138,16 +138,16 @@
   <attributes uuid="6a6058fe-357d-458c-aeaf-cbfb1478f437">
     <name>NamespaceURI</name>
     <synonym>
-      <key>ru</key>
-      <value>QName</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>QName</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Namespace URI</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>QName</value>
     </synonym>
     <type>
       <types>String</types>

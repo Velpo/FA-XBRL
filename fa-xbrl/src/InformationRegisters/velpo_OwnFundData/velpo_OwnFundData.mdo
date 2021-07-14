@@ -23,11 +23,34 @@
   <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
   <mainFilterOnPeriod>true</mainFilterOnPeriod>
   <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="b55fdfca-0faf-4134-a216-ebdd8f4a333d">
+    <name>Balance</name>
+    <synonym>
+      <key>ru</key>
+      <value>Остаток</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Balance</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>17</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
   <resources uuid="b0fd8414-c21b-4e4d-ba42-2ae75ba39103">
     <name>BookValue</name>
     <synonym>
       <key>ru</key>
-      <value>Балансовая стоимость</value>
+      <value>Стоимость по БУ</value>
     </synonym>
     <synonym>
       <key>en</key>

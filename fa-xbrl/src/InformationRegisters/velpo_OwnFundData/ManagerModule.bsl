@@ -45,6 +45,7 @@ Function GetQueryText(AccountStructure, OnlyData = False) Export
 	|	OwnFundData.RowNumber AS RowNumber,
 	|	OwnFundData.ObjectID AS ObjectID,
 	|	OwnFundData.MarketRate AS MarketRate,
+	|	OwnFundData.Balance AS Balance,
 	|	OwnFundData.BookValue AS BookValue,
 	|	OwnFundData.ConsolidatedRating AS ConsolidatedRating,
 	|	OwnFundData.CreditQualityGroup AS CreditQualityGroup,

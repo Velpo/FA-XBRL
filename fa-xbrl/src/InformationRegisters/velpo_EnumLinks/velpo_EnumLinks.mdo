@@ -97,16 +97,16 @@
   <dimensions uuid="792fa30b-781a-4e53-a01e-c0349e4b04e9">
     <name>Owner</name>
     <synonym>
-      <key>ru</key>
-      <value>Объект</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Owner</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Owner</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
     </synonym>
     <type>
       <types>ChartOfCharacteristicTypesRef.velpo_ValueDataTypes</types>
@@ -124,16 +124,16 @@
   <dimensions uuid="a8489ffd-ba66-485e-b46a-9018031e73f2">
     <name>RoleType</name>
     <synonym>
-      <key>ru</key>
-      <value>Роль</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Role type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Role type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
     </synonym>
     <type>
       <types>CatalogRef.velpo_RoleTypes</types>

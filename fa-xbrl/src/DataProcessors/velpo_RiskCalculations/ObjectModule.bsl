@@ -624,7 +624,7 @@ Function GetObligatoryEntities()
 			Continue;
 		EndIf;
 		
-		If  RowConterparty.IsLloydSyndicates Then
+		If  RowConterparty.IsLloydSyndicates = True  Then
 			If  LloydEntity = Undefined Then
 				LloydEntity = RowConterparty.ObjectID;
 			EndIf;
@@ -1015,11 +1015,11 @@ Procedure FillRegisterData(RegisterName, AccountStructure)
 		
 	BeginTransaction();
 	
-	MainSet = InitializeRegisterSet(RegisterMain, True);
+	MainSet = InitializeRegisterSet(RegisterMain, True, AccountStructure.Ref);
 	
 	If IsOwnFunds Then
-		DimensionSet = InitializeRegisterSet(RegisterDimensionData, True);
-		CalculationSet = InitializeRegisterSet(RegisterCalculationData, True);
+		DimensionSet = InitializeRegisterSet(RegisterDimensionData, True, AccountStructure.Ref);
+		CalculationSet = InitializeRegisterSet(RegisterCalculationData, True, AccountStructure.Ref);
 		CashFlowSet = InitializeRegisterSet(RegisterCashFlows);
 	EndIf;
 	
@@ -1148,11 +1148,15 @@ EndProcedure
 
 Procedure AddConcentrationRecord(TableConcentrationSet, TableDimensionSet, TableObligatoryEntities, MainStructure, TotalAssets)
 
+	// check
+	If MainStructure.ItemValue = 0 Then
+		Return;
+	EndIf;
+
    	// import
 	ServerCache = velpo_ServerCache;
 	Economic = ChartsOfAccounts.velpo_Economic;
 	ConcentrationTypes = Enums.velpo_ConcentrationTypes;
-	
 	
 	// vars
 	If  MainStructure.ObjectID = ConcentrationTypes.ObligatoryEntity
@@ -1424,8 +1428,9 @@ Procedure CalculateBonds(RowData, AccountStructure, TableCounterparty, TableCalc
 	YesNoNone = Enums.velpo_YesNoNone;
 	
 	// 3.1.8
-	If Not ApprovedConsolidatedRatings[RowData.ConsolidatedRating] 
-		And  Not CheckCounterpartyGuarantorСonditions(RowData, AccountStructure, TableCounterparty) Then
+	If ValueIsFilled(RowData.ConsolidatedRating)
+		And Not ApprovedConsolidatedRatings[RowData.ConsolidatedRating] 
+		And Not CheckCounterpartyGuarantorСonditions(RowData, AccountStructure, TableCounterparty) Then
 		SetZeroItemValue(RowData, ChartResourceIndicators.Clause_3_1_8, TableCalculationSet);	
 		Return;	
 	EndIf;
@@ -1925,7 +1930,7 @@ Procedure CalculateOwnFundRowItemValue(RowData, AccountStructure, TableData, Tab
 
 EndProcedure
  
-Procedure CalculateRowCreditQuility(RowData, TableRatingSettings)
+Procedure CalculateRowCreditQuility(RowData, TableRatingSettings, ConterpartyList = True)
 	
 	// import
 	CreditQualityGroups = Enums.velpo_CreditQualityGroups;
@@ -1956,11 +1961,13 @@ Procedure CalculateRowCreditQuility(RowData, TableRatingSettings)
 		RowData.CreditRating = String(CurrentRating);
 		RowData.RatingAgency = CurrentAgency;
 	EndIf;
-	If RowData.CounterpartyType = Enums.velpo_CounterpartyTypes.FlMember Then
-		RowData.CreditQualityGroup = CreditQualityGroups.GruppaKredKach15Member;
-	EndIf;
-	If Not ValueIsFilled(RowData.CreditQualityGroup) Then
-		RowData.CreditQualityGroup = CreditQualityGroups.GruppaKredKach18Member;
+	If ConterpartyList Then
+		If RowData.CounterpartyType = Enums.velpo_CounterpartyTypes.FlMember Then
+			RowData.CreditQualityGroup = CreditQualityGroups.GruppaKredKach15Member;
+		EndIf;
+		If Not ValueIsFilled(RowData.CreditQualityGroup) Then
+			RowData.CreditQualityGroup = CreditQualityGroups.GruppaKredKach18Member;
+		EndIf;
 	EndIf;
 
 EndProcedure
@@ -2169,7 +2176,7 @@ Procedure CalculateOwnFundCreditQuility(AccountRef, RowArray = Undefined) Export
 		
 		For Each RowData In TableData Do
 			
-			CalculateRowCreditQuility(RowData, TableRatingSettings);
+			CalculateRowCreditQuility(RowData, TableRatingSettings, False);
 			
 			Record = TableOwnFundSet.Add();
 			FillPropertyValues(Record, RowData); 
@@ -2362,7 +2369,7 @@ Procedure CalculateOwnFunds(AccountRef, RowArray = Undefined) Export
 			
 			// credit rating
 			If (Flags.CreditRating And Flags.CreditQualityGroup And Flags.ConsolidatedRating And Flags.RatingAgency) Then
-				CalculateRowCreditQuility(RowData, TableRatingSettings);	
+				CalculateRowCreditQuility(RowData, TableRatingSettings, False);	
 			EndIf;
 
 			// market rate
@@ -2566,7 +2573,8 @@ Procedure CalculateSolvencyIndicators() Export
 		// N1
 		
 		LineData.FirstIndicator = 0.16 * (LineData.Premium_12Month + LineData.IncomingReinsurancePremium_12Month - LineData.ReinsurancePremium_12Month - LineData.Deduction_12Month);
-		
+		LineData.FirstIndicator = Max(LineData.FirstIndicator, 0);
+
 		// N2
 		
 		If IsLess36Month Then
@@ -2578,6 +2586,8 @@ Procedure CalculateSolvencyIndicators() Export
 			+ (LineData.IncurredButNotReportedReserve - LineData.IncurredButNotReportedReserve_36Month));
 		EndIf;
 		
+		LineData.SecondIndicator = Max(LineData.SecondIndicator, 0);
+
 	EndDo;
 	
 	BeginTransaction();

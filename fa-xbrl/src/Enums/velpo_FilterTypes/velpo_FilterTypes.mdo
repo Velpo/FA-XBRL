@@ -35,16 +35,16 @@
   <enumValues uuid="a34bb589-322e-43ea-994d-f61a33493396">
     <name>AndFilter</name>
     <synonym>
-      <key>ru</key>
-      <value>Фактическая</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>And filter</value>
     </synonym>
     <synonym>
       <key></key>
       <value>And filter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая</value>
     </synonym>
   </enumValues>
   <enumValues uuid="2ed942c5-bd0f-44ec-ab52-6e2bb8e59c37">
@@ -215,16 +215,16 @@
   <enumValues uuid="020100db-f431-4fe0-a7ee-24ec46b21679">
     <name>MatchConcept</name>
     <synonym>
-      <key>ru</key>
-      <value>Соответствие показателя</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Match concept</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Match concept</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие показателя</value>
     </synonym>
   </enumValues>
   <enumValues uuid="ea213719-9f5e-4de5-8909-2c91fc79071a">
@@ -307,16 +307,16 @@
   <enumValues uuid="bd05496b-19fa-4a7f-be16-a01322049a46">
     <name>OrFilter</name>
     <synonym>
-      <key>ru</key>
-      <value>Фактическая</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Or filter</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Or filter</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Фактическая</value>
     </synonym>
   </enumValues>
   <enumValues uuid="17bd56f9-bdad-4c60-bd2c-6dc87e83b6b9">

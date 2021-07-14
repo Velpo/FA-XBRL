@@ -169,16 +169,16 @@
   <dimensions uuid="0feaa580-68b4-4164-9508-cc733f1e9ed7">
     <name>Owner</name>
     <synonym>
-      <key>ru</key>
-      <value>Объект</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Owner</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Owner</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
     </synonym>
     <type>
       <types>CatalogRef.velpo_AssertionFormulaDefinitions</types>
@@ -219,16 +219,16 @@
   <dimensions uuid="86cbe955-dbf1-46a1-a16e-ecca5dcbc077">
     <name>RoleType</name>
     <synonym>
-      <key>ru</key>
-      <value>Роль</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Role type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Role type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
     </synonym>
     <type>
       <types>CatalogRef.velpo_RoleTypes</types>
@@ -250,16 +250,16 @@
   <dimensions uuid="d90d1529-d7cc-45e3-967e-31e2c6c4fe5e">
     <name>MessageType</name>
     <synonym>
-      <key>ru</key>
-      <value>Тип сообщения</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Message type</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Message type</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип сообщения</value>
     </synonym>
     <type>
       <types>EnumRef.velpo_MessageTypes</types>

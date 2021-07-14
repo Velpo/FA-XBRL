@@ -258,16 +258,16 @@
     </producedTypes>
     <name>ConceptRelationshipNode</name>
     <synonym>
-      <key>ru</key>
-      <value>Отношение показателей</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Concept Relationship</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Concept relationship node</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение показателей</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -285,16 +285,16 @@
     </producedTypes>
     <name>DimensionRelationshipNode</name>
     <synonym>
-      <key>ru</key>
-      <value>Отношение измерений</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Dimension relationship node</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Dimension relationship node</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Отношение измерений</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -355,16 +355,16 @@
     <attributes uuid="1527304a-6e65-4e0c-b044-761ae3b5251e">
       <name>NamespaceURI</name>
       <synonym>
-        <key>ru</key>
-        <value>QName</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>QName</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Namespace URI</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>QName</value>
       </synonym>
       <type>
         <types>String</types>

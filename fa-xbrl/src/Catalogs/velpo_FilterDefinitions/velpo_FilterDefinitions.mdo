@@ -280,16 +280,16 @@
     </producedTypes>
     <name>AspectCover</name>
     <synonym>
-      <key>ru</key>
-      <value>Покрытие аспектов</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Aspect cover</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Aspect cover</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Покрытие аспектов</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -651,16 +651,16 @@
     </producedTypes>
     <name>ConceptName</name>
     <synonym>
-      <key>ru</key>
-      <value>Имя показателя</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Concept name</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Concept name</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Имя показателя</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -792,16 +792,16 @@
     </producedTypes>
     <name>ConceptRelation</name>
     <synonym>
-      <key>ru</key>
-      <value>Связь показателя</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Concept relation</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Concept relation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Связь показателя</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -1314,16 +1314,16 @@
     </producedTypes>
     <name>ExplicitDimension</name>
     <synonym>
-      <key>ru</key>
-      <value>Явное измерение</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Explicit dimension</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Explicit dimension</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Явное измерение</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -1559,16 +1559,16 @@
     <attributes uuid="10e51f5d-9ff0-4296-b892-2992af0e09ac">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -1587,16 +1587,16 @@
     </producedTypes>
     <name>General</name>
     <synonym>
-      <key>ru</key>
-      <value>Общий</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>General</value>
     </synonym>
     <synonym>
       <key></key>
       <value>General</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Общий</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -1651,16 +1651,16 @@
     <attributes uuid="045aaf5a-a703-42cc-96b3-0dcd66945284">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -1733,16 +1733,16 @@
     <attributes uuid="b3765f6b-9106-4e65-8648-bd031e43114a">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -1797,16 +1797,16 @@
     <attributes uuid="8e10a0ef-199b-47cb-9ade-00ea800d7d8d">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -1825,16 +1825,16 @@
     </producedTypes>
     <name>MatchConcept</name>
     <synonym>
-      <key>ru</key>
-      <value>Соответствие показателя</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Match concept</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Match concept</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие показателя</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -1865,16 +1865,16 @@
     <attributes uuid="48633d3e-29ba-4b29-9cb8-b769454bdd5f">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -1893,16 +1893,16 @@
     </producedTypes>
     <name>MatchDimension</name>
     <synonym>
-      <key>ru</key>
-      <value>Соответствие измерения</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Match dimension</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Match dimension</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Соответствие измерения</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -1968,16 +1968,16 @@
     <attributes uuid="9687aa8f-cef2-4274-8706-dc502fd953c6">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2032,16 +2032,16 @@
     <attributes uuid="66c4044c-69b0-412c-a534-eb9d7709e1a4">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2096,16 +2096,16 @@
     <attributes uuid="36e1cef7-a6c4-4301-81d0-8af3d51b00fd">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2160,16 +2160,16 @@
     <attributes uuid="3010f6f0-e687-48fc-a1cd-ffc43c722f8e">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2224,16 +2224,16 @@
     <attributes uuid="2b1dcaac-2279-4da8-82c5-268046e81a4b">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2288,16 +2288,16 @@
     <attributes uuid="82076256-307a-407f-8485-309e9669a16e">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2352,16 +2352,16 @@
     <attributes uuid="7ff07a50-457e-45ca-9c2f-8c9b24a1d162">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -2380,16 +2380,16 @@
     </producedTypes>
     <name>Period</name>
     <synonym>
-      <key>ru</key>
-      <value>Период</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Period</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Period</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -2426,16 +2426,16 @@
     </producedTypes>
     <name>PeriodEnd</name>
     <synonym>
-      <key>ru</key>
-      <value>Конец периода</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Period end</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Period end</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -2491,16 +2491,16 @@
     </producedTypes>
     <name>PeriodInstant</name>
     <synonym>
-      <key>ru</key>
-      <value>Период &quot;Момент&quot;</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Period instant</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Period instant</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Период &quot;Момент&quot;</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -2556,16 +2556,16 @@
     </producedTypes>
     <name>PeriodStart</name>
     <synonym>
-      <key>ru</key>
-      <value>Начало периода</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Period start</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Period start</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -2723,16 +2723,16 @@
     <attributes uuid="36c0374a-6a61-44e5-beca-8c2405c82d0d">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -3052,16 +3052,16 @@
     <attributes uuid="b4a4d83e-5fd7-4df9-95dd-877752e3a94d">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -3213,16 +3213,16 @@
     <attributes uuid="478786ca-6b2b-4a5d-aaee-f0d187b85fb7">
       <name>Variable</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Variable</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Variable</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -3241,16 +3241,16 @@
     </producedTypes>
     <name>TypedDimension</name>
     <synonym>
-      <key>ru</key>
-      <value>Открытое измерение</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Typed dimension</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Typed dimension</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Открытое измерение</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>

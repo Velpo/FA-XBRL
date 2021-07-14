@@ -144,16 +144,16 @@
     </producedTypes>
     <name>Concept</name>
     <synonym>
-      <key>ru</key>
-      <value>Правила концептов</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Concept</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Concept</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила концептов</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -220,16 +220,16 @@
     <attributes uuid="f488724b-db62-4879-a4cf-382dcfefbcd0">
       <name>QnameExpression</name>
       <synonym>
-        <key>ru</key>
-        <value>Выражение</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Qname expression</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Qname expression</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Выражение</value>
       </synonym>
       <type>
         <types>String</types>
@@ -248,16 +248,16 @@
     </producedTypes>
     <name>EntityIdentifier</name>
     <synonym>
-      <key>ru</key>
-      <value>Правила идентификатора объекта</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Entity identifier</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Entity identifier</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила идентификатора объекта</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -313,16 +313,16 @@
     </producedTypes>
     <name>Period</name>
     <synonym>
-      <key>ru</key>
-      <value>Правила периодов</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Period</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Period</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила периодов</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -353,16 +353,16 @@
     <attributes uuid="8fc70b99-7290-43e6-8dd7-21abfdd3bc43">
       <name>Instant</name>
       <synonym>
-        <key>ru</key>
-        <value>Период</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Instant</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Instant</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
       </synonym>
       <type>
         <types>String</types>
@@ -374,16 +374,16 @@
     <attributes uuid="5ca38574-c77c-4f88-9cd1-366afbd1075e">
       <name>Start</name>
       <synonym>
-        <key>ru</key>
-        <value>Период</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Start</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Start</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
       </synonym>
       <type>
         <types>String</types>
@@ -395,16 +395,16 @@
     <attributes uuid="4e0a4dcb-cf39-477c-b2ea-d9ca2b27ed31">
       <name>End</name>
       <synonym>
-        <key>ru</key>
-        <value>Период</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>End</value>
       </synonym>
       <synonym>
         <key></key>
         <value>End</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Период</value>
       </synonym>
       <type>
         <types>String</types>
@@ -421,16 +421,16 @@
     </producedTypes>
     <name>ExplicitDimension</name>
     <synonym>
-      <key>ru</key>
-      <value>Правила измерения</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Explicit dimension</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Explicit dimension</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила измерения</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -477,16 +477,16 @@
     <attributes uuid="5d17ebce-4627-429e-a90b-d246fe591843">
       <name>Member</name>
       <synonym>
-        <key>ru</key>
-        <value>Ось</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Member</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Member</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
       </synonym>
       <type>
         <types>CatalogRef.velpo_MemberValues</types>
@@ -562,16 +562,16 @@
     </producedTypes>
     <name>Segment</name>
     <synonym>
-      <key>ru</key>
-      <value>ОКК правила</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>OCC segment</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Segment</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ОКК правила</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -645,16 +645,16 @@
     </producedTypes>
     <name>Scenario</name>
     <synonym>
-      <key>ru</key>
-      <value>ОКК правила</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>OCC scenario</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Scenario</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ОКК правила</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -728,16 +728,16 @@
     </producedTypes>
     <name>Unit</name>
     <synonym>
-      <key>ru</key>
-      <value>Правила единиц измерений</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Unit</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Unit</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила единиц измерений</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -811,16 +811,16 @@
     </producedTypes>
     <name>TypedDimension</name>
     <synonym>
-      <key>ru</key>
-      <value>Правила измерения</value>
-    </synonym>
-    <synonym>
       <key>en</key>
       <value>Typed dimension</value>
     </synonym>
     <synonym>
       <key></key>
       <value>Typed dimension</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Правила измерения</value>
     </synonym>
     <standardAttributes>
       <dataHistory>Use</dataHistory>
@@ -888,16 +888,16 @@
     <attributes uuid="d61a8688-f9b6-4b3e-82b0-19b3045f69ec">
       <name>Member</name>
       <synonym>
-        <key>ru</key>
-        <value>Ось</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Member</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Member</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Ось</value>
       </synonym>
       <type>
         <types>CatalogRef.velpo_MemberValues</types>

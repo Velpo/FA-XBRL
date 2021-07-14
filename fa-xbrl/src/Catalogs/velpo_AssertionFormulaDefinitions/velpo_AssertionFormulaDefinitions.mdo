@@ -409,16 +409,16 @@
     <attributes uuid="b7bb916f-4aa5-45ce-bcb4-1261f9b6abf3">
       <name>Precision</name>
       <synonym>
-        <key>ru</key>
-        <value>Точность</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Precision</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Precision</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Точность</value>
       </synonym>
       <type>
         <types>String</types>
@@ -534,16 +534,16 @@
     <attributes uuid="202b0e6d-cfc0-4ba6-883f-53a76f5606da">
       <name>AbsoluteAcceptanceRadius</name>
       <synonym>
-        <key>ru</key>
-        <value>Абсолютный радиус</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Absolute acceptance radius</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Absolute acceptance radius</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Абсолютный радиус</value>
       </synonym>
       <type>
         <types>String</types>
@@ -557,16 +557,16 @@
     <attributes uuid="0a5ccefd-dc7c-4ec6-9e7c-16fa522a7cad">
       <name>ProportionalAcceptanceRadius</name>
       <synonym>
-        <key>ru</key>
-        <value>Пропорциональный радиус</value>
-      </synonym>
-      <synonym>
         <key>en</key>
         <value>Proportional acceptance radius</value>
       </synonym>
       <synonym>
         <key></key>
         <value>Proportional acceptance radius</value>
+      </synonym>
+      <synonym>
+        <key>ru</key>
+        <value>Пропорциональный радиус</value>
       </synonym>
       <type>
         <types>String</types>

@@ -80,27 +80,36 @@ Procedure ChooseDynamicListColumnValue(Form, RegisterName, RowStructure, FieldNa
 	AdditionalParameters.Insert("Item", Item);
 		
 	CompletionNotifyDescription = New NotifyDescription("ChooseDynamicListColumnValueCompletionNotify", Form, AdditionalParameters);
+	UseAnyType = False;	
 	
 	// different types
-	If ValueType.ContainsType(Type("Boolean")) Then
-		SetFieldValue(?(CurrentValue = Null Or CurrentValue = Undefined, True, Not CurrentValue), AdditionalParameters);
-		NotifyChanged(Item.CurrentRow);
-	ElsIf ValueType.ContainsType(Type("Date")) Then
-		ShowInputDate(CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType.DateQualifiers.DateFractions);
-	ElsIf ValueType.ContainsType(Type("String")) Then
-		ShowInputString(CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType.StringQualifiers.Length, False);
-	ElsIf ValueType.ContainsType(Type("Number")) Then
-		ShowInputNumber(	CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType.NumberQualifiers.Digits, ValueType.NumberQualifiers.FractionDigits);
-	ElsIf ValueType.ContainsType(Type("CatalogRef.velpo_CategoryIDs")) Then
-		FormParameters = New Structure;
-		FormParameters.Insert("AllowRootChoice", False);
-		FormParameters.Insert("ChoiceFoldersAndItems",  FoldersAndItems.Items);
-		FormParameters.Insert("ChoiceMode", True);
-		FormParameters.Insert("CloseOnOwnerClose", True);
-		FormParameters.Insert("CurrentRow", CurrentValue);
-		FormParameters.Insert("Filter", New Structure("Owner", Attribute.Ref)); 
-		OpenForm("Catalog.velpo_CategoryIDs.ChoiceForm", FormParameters, Form,,,,CompletionNotifyDescription,);
+	If ValueType.Types().Count() = 1 Then
+		If ValueType.ContainsType(Type("Boolean")) Then
+			SetFieldValue(?(CurrentValue = Null Or CurrentValue = Undefined, True, Not CurrentValue), AdditionalParameters);
+			NotifyChanged(Item.CurrentRow);
+		ElsIf ValueType.ContainsType(Type("Date")) Then
+			ShowInputDate(CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType.DateQualifiers.DateFractions);
+		ElsIf ValueType.ContainsType(Type("String")) Then
+			ShowInputString(CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType.StringQualifiers.Length, False);
+		ElsIf ValueType.ContainsType(Type("Number")) Then
+			ShowInputNumber(	CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType.NumberQualifiers.Digits, ValueType.NumberQualifiers.FractionDigits);
+		ElsIf ValueType.ContainsType(Type("CatalogRef.velpo_CategoryIDs")) Then
+			FormParameters = New Structure;
+			FormParameters.Insert("AllowRootChoice", False);
+			FormParameters.Insert("ChoiceFoldersAndItems",  FoldersAndItems.Items);
+			FormParameters.Insert("ChoiceMode", True);
+			FormParameters.Insert("CloseOnOwnerClose", True);
+			FormParameters.Insert("CurrentRow", CurrentValue);
+			FormParameters.Insert("Filter", New Structure("Owner", Attribute.Ref)); 
+			OpenForm("Catalog.velpo_CategoryIDs.ChoiceForm", FormParameters, Form,,,,CompletionNotifyDescription,);
+		Else
+			UseAnyType = True;
+		EndIf;
 	Else
+		UseAnyType = True;
+	EndIf;
+	
+	If UseAnyType Then
 		ShowInputValue(CompletionNotifyDescription, CurrentValue, Attribute.Description, ValueType);
 	EndIf;
 	
