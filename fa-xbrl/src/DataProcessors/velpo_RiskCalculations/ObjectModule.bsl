@@ -844,7 +844,7 @@ Procedure AddProperties(RegisterSet, MainStructure, Elements, Table)
 			EndIf;
 		Else
 			CurrentRow = RowArray[0];
-			If CurrentRow.Value <> Element.Value Then
+			If Not ValueIsFilled(CurrentRow.Value) Then
 				FillPropertyValues(RowStructure, CurrentRow);
 				RegisterObjectProperties.SetFieldValue(RowStructure, "Value", MainStructure.Period,  Element.Value);
 			EndIf;

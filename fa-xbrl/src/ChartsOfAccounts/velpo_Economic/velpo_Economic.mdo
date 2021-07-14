@@ -1966,6 +1966,7 @@
         <code>004</code>
         <accountType>Passive</accountType>
         <order>004</order>
+        <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
         <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
         <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
         <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -1982,6 +1983,7 @@
           <code>43</code>
           <accountType>Passive</accountType>
           <order>43</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2010,6 +2012,7 @@
           <code>44</code>
           <accountType>Passive</accountType>
           <order>44</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2039,6 +2042,7 @@
           <accountType>Passive</accountType>
           <order>45</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AssetLiabilityClause_1</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2065,6 +2069,7 @@
           <code>46</code>
           <accountType>Passive</accountType>
           <order>46</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <extDimensionTypes>
             <characteristicType>ChartOfCharacteristicTypes.velpo_DimensionIDTypes.DeferredAcquisitionIncomeID</characteristicType>
@@ -2082,6 +2087,7 @@
           <code>47</code>
           <accountType>Passive</accountType>
           <order>47</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -2122,6 +2128,7 @@
           <code>48</code>
           <accountType>Passive</accountType>
           <order>48</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2144,6 +2151,7 @@
           <code>49</code>
           <accountType>Passive</accountType>
           <order>49</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2170,6 +2178,7 @@
           <code>50</code>
           <accountType>Passive</accountType>
           <order>50</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2197,6 +2206,7 @@
           <code>51</code>
           <accountType>Passive</accountType>
           <order>51</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ImpairmentAllowance</accountingFlags>
@@ -2217,6 +2227,7 @@
           <code>52</code>
           <accountType>Passive</accountType>
           <order>52</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2243,6 +2254,7 @@
           <code>53</code>
           <accountType>Passive</accountType>
           <order>53</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2269,6 +2281,7 @@
           <code>54</code>
           <accountType>Passive</accountType>
           <order>54</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2291,6 +2304,7 @@
           <code>55</code>
           <accountType>Passive</accountType>
           <order>55</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.CreditSpreadImpact</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
@@ -2319,6 +2333,7 @@
           <code>56</code>
           <accountType>Passive</accountType>
           <order>56</order>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2346,6 +2361,7 @@
           <accountType>Passive</accountType>
           <order>57</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AssetValueChangeClause_1_3_2</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ItemValue</accountingFlags>
@@ -2366,6 +2382,7 @@
           <accountType>Passive</accountType>
           <order>58</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AssetLiabilityClause_1</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
@@ -2389,6 +2406,7 @@
           <accountType>Passive</accountType>
           <order>59</order>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.AssetLiabilityClause_1</accountingFlags>
+          <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.Balance</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.BookValue</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.DefaultRefundPrice</accountingFlags>
           <accountingFlags>ChartOfAccounts.velpo_Economic.AccountingFlag.ExchangeRateGrowthImpact</accountingFlags>
